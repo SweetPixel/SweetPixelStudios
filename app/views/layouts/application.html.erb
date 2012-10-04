@@ -67,11 +67,10 @@
                                 <div class="nav-collapse">
 
                                     <ul class="nav">
-                                        <li class="active"><a title="Main" href="/"> Main</a></li>
-                                        <li><a title="Services" href="/en/services">Services</a></li>
+                                        <li class="active"><a title="Main" href="/">Home</a></li>
                                         <li><a title="Projects" href="/en/projects">Projects</a></li>
-                                        <li><a title="Company" href="/en/about">Company</a></li>
-                                        <li><a title="Contact" href="/en/contacts">Contact</a></li>
+                                        <li><a title="About" href="/en/about">About</a></li>
+                                        <li><%= link_to "contact", :controller=>"index", :action => "contact" %></li>
                                     </ul>
                                   <!--   <ul class="nav nav-pills pull-right language">
                                         <li class="dropdown">
@@ -110,29 +109,44 @@
       </div>
     </div> -->
 
+
+    
+
     <div class="container">
       <div class="content">
         <div class="row">
            <div class="span9">
-              <%= yield %>
+              <div class="well sidebar-nav">
+                <%= yield %>
+              </div>
             </div>
             <div class="span3">
               <div class="well sidebar-nav">
-                <h3>Sidebar</h3>
+                <h3>Member's Tweets</h3>
                 <ul class="nav nav-list">
-                  <li class="nav-header">Sidebar</li>
-                  <li><%= link_to "Home", "/path1"  %></li>
-                  <li><%= link_to "About", "/path2"  %></li>
-                  <li><%= link_to "Contact", "/path3"  %></li>
+                  <!-- <li class="nav-header">Tweet</li> -->
+                  <li><%= link_to "Ali", "http://aliirz.com"  %></li>
+                  <li><%= link_to "Mateen", "/path2"  %></li>
+                  <li><%= link_to "Sayyam", "/path3"  %></li>
                 </ul>
               </div><!--/.well -->
             </div><!--/span-->
         </div><!--/row-->
       </div><!--/content-->
 
-      <footer>
-        <p>&copy; Company 2012</p>
-      </footer>
+      <footer class="line-margin-top">
+        <p> @ Company 2012</p>
+        <!-- <div class="container">
+            <table style="width:100%;"><tr><td style="text-align:center;width:100%;">
+            <ul id="nav-bottom">
+                <li><a href="/" title="Main">Home</a></li>
+                <li><a href="/en/projects" title="Projects">Projects</a></li>
+                <li><a href="/en/about" title="About">About</a></li>
+                <li><a href="/en/contacts" title="Contact"> Contact</a></li>
+            </ul>
+            </td></tr></table>
+        </div> -->
+    </footer>
 
     </div> <!-- /container -->
 

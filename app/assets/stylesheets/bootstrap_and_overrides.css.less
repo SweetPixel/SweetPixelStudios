@@ -1,7 +1,68 @@
 @import "twitter/bootstrap/bootstrap";
 body { 
-	
+	width: 100%;
+    font-family: Tahoma, Helvetica;
+    color: #1A1E1C;
+    line-height: 1.3;
+    overflow-x: hidden;
+    background-color: #f2f2f2;
 }
+
+h2, h3 {
+    color: #1A1E1C;
+}
+
+#totem a {
+    background: url("/assets/sweetpixlttwfb.png") no-repeat;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+.navbar {
+    min-height: 7px;
+}
+
+
+.totem {
+    margin-top: 60px;
+    margin-left: -60px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    height: 43px;
+    border-top: 1px solid #ffffff;
+}
+
+nav {
+    background-image: -moz-linear-gradient(top, #f2f2f2, #02A1DD);
+    background-image: -ms-linear-gradient(top, #f2f2f2, #02A1DD);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#02A1DD));
+    background-image: -webkit-linear-gradient(top, #f2f2f2, #02A1DD);
+    background-image: -o-linear-gradient(top, #f2f2f2, #02A1DD);
+    background-image: linear-gradient(top, #f2f2f2, #02A1DD);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#333333', endColorstr = '#222222', GradientType = 0);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    background-color: #2C2C2C;
+    border-bottom: 1px solid #fff;
+}
+
+#slogan {
+    color: #fff;
+    font-size: 1.0em;//0.9em;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 12px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px #000000;
+}
+
 
 @import "twitter/bootstrap/responsive";
 
@@ -65,7 +126,7 @@ body {
 @purple:                #7a43b6;
 
 // Mycolors
-@coolgrey:				#757C82;
+@coolwhite:				#f2f2f2;
 
 
 // Scaffolding
@@ -76,8 +137,8 @@ body {
 
 // Links
 // -------------------------
-@linkColor:             @white;
-@linkColorHover:        @white;
+@linkColor:             @grayDarker;
+@linkColorHover:        @blue;
 
 
 // Typography
@@ -187,7 +248,7 @@ body {
 
 // Wells
 // -------------------------
-@wellBackground:                  darken(@grayDarker, 3%);
+@wellBackground:                  @coolwhite;//darken(@grayDarker, 3%);
 
 
 // Navbar
@@ -195,15 +256,15 @@ body {
 @navbarCollapseWidth:             979px;
 
 @navbarHeight:                    40px;
-@navbarBackground:                @grayDarker;
-@navbarBackgroundHighlight:       @grayDark;
+@navbarBackground:                #f2f2f2;
+@navbarBackgroundHighlight:       @blue;
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
 @navbarText:                      @grayLight;
-@navbarLinkColor:                 @grayLighter;
-@navbarLinkColorHover:            @grayLighter;
-@navbarLinkColorActive:           @navbarLinkColorHover;
-@navbarLinkBackgroundHover:       @grayDark;
+@navbarLinkColor:                 @grayLight;
+@navbarLinkColorHover:            @white;
+@navbarLinkColorActive:           @grayLight;
+@navbarLinkBackgroundHover:       @blue;
 @navbarLinkBackgroundActive:      @navbarBackground;
 
 @navbarBrandColor:                @grayLighter;

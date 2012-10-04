@@ -6,9 +6,9 @@ CompanyWebsite::Application.routes.draw do
 
   get "index/about"
 
-  get "index/contact"
-
   get "index/projects"
+
+  get "index/contact"
 
   get "index/application"
 

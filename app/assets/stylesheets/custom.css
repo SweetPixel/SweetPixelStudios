@@ -1,4 +1,37 @@
+.circlepic{
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin-left: 50px;
 
+}
+
+
+#ali {
+  
+  background: url("/assets/ali.jpg") no-repeat;
+  }
+
+
+
+#mateen {
+ 
+  background: url("/assets/mateen.jpg") no-repeat;
+ 
+  }
+
+#sayyam{
+    background: url("/assets/sayyam.jpg") no-repeat;
+  
+  }
+
+#usman{
+  
+  background: url("/assets/usman.jpg") no-repeat;
+  
+  }
 
 /*Custom Styles*/
 
@@ -108,13 +141,15 @@ nav.primary ul li a:hover {
 
 .header{ padding:0px;}
 
-.callout{background:#f30; padding:60px 0;}
+/*.callout{background:#363636; padding:60px 0;}*/
+.callout{background: url("/assets/bg.png") repeat scroll 0 0 #ff3; padding:60px 0;}
 .section{padding:4.5% 0; border-bottom: 1px solid #CCC;}
 
 .companycallout{ margin-bottom:20px;}
 .companycallout p{text-align: center;}
-.companycallout h1{text-transform: uppercase; font-size:10em; line-height:2em; color:#fff; text-align: center;}
-.companycallout h2{font-size:47px;line-height:67px; font-weight:300; text-transform: uppercase;}
+.companycallout h1{text-transform: uppercase; font-size:5em; line-height:2em; color:#222222; text-align: center; text-shadow: 0px 1px 1px #4d4d4d}
+/*.companycallout h1{font-family: 'Mystery Quest',"Open Sans", cursive; font-size:55px; line-height:2em; color:#aaa; text-align: center;}*/
+.companycallout h2{font-size:47px;line-height:67px; font-weight:300; text-transform: uppercase;text-align: center; color:#222222; font-size:3em;text-shadow: 0px 1px 1px #4d4d4d}
 
 /*CALLOUT*/
 .calloutleft h2{ margin-top:0; font: 20px/14px "Open Sans",Helvetica,Arial,Sans-serif; color:#9099A3; margin-bottom:18px;text-transform: uppercase; font-weight:200;}
@@ -145,7 +180,7 @@ h2.explain{line-height:34px;}
 /*CONTACT*/
 .contact{}
 #contact{padding-top:80px; padding-bottom:80px;}
-#contact h2,#about h2,#portfolio h2{font-weight:200; text-align: center; font-size:3em; color: #f30; text-transform:uppercase; line-height:2em;}
+#contact h2,#about h2,#team h2,#portfolio h2{font-weight:200; text-align: center; font-size:3em; color: #11B5C5; text-transform:uppercase; line-height:2em;}
 
 
 /*CONTACT Map*/
@@ -172,3 +207,6 @@ h2.explain{line-height:34px;}
 /*ABOUT*/
 #about{padding-top:80px; margin-top:80px; margin-bottom:80px; padding-bottom:80px;}
 .about{background: #121210; color: #CBCBCB; padding:80px 0; }
+
+/*TEAM*/
+#team{padding-top:80px; margin-top:80px; margin-bottom:80px; padding-bottom:80px;}

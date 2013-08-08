@@ -60,7 +60,7 @@
   
 .entry:hover .hover { opacity:1; } 
 
-nav.primary{background:;}
+/*nav.primary{background:;}*/
 
 nav.primary ul li a:active, nav.primary ul li a.selected { 
   background:#000; color:#fff; 
@@ -74,7 +74,7 @@ nav.primary li {
 
 nav.primary ul li a {} 
 
-nav.primary ul li a:active, nav.primary ul li a.selected { background:; text-shadow:none; } 
+nav.primary ul li a:active, nav.primary ul li a.selected { background: none; text-shadow:none; } 
 
 .page { 
   float:left; 

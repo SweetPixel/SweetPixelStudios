@@ -31,21 +31,33 @@
 
 #ali {
   background: url("/assets/ali.jpg") no-repeat;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
 
 
 
 #mateen {
   background: url("/assets/mateen.jpg") no-repeat;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
 
 #sayyam{
-    background: url("/assets/sayyam.jpg") no-repeat;
-  }
+  background: url("/assets/sayyam.jpg") no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
 
 #usman{
   background: url("/assets/usman.jpg") no-repeat;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
 
 /*Custom Styles*/
 
@@ -60,7 +72,7 @@
   -o-transition:all .3s ease-in-out; 
   transition:all .3s ease-in-out; 
 } 
-  
+
 .entry:hover .hover { opacity:1; } 
 
 /*nav.primary{background:;}*/
@@ -88,7 +100,7 @@ nav.primary ul li a:active, nav.primary ul li a.selected { background: none; tex
   padding:20px 20px 0; 
   margin:70px 0 0 0; 
 } 
-  
+
 
 
 .entry { 
@@ -122,28 +134,28 @@ nav.primary ul li a:hover {
 .isotope-item { 
   z-index: 2; 
 } 
-  
-  .isotope-hidden.isotope-item { 
+
+.isotope-hidden.isotope-item { 
   pointer-events: none; 
   z-index: 1; 
-  } 
-  
+} 
+
 .isotope, 
 .isotope .isotope-item { 
--webkit-transition-duration: 0.8s; 
-   -moz-transition-duration: 0.8s; 
-        transition-duration: 0.8s; 
+  -webkit-transition-duration: 0.8s; 
+  -moz-transition-duration: 0.8s; 
+  transition-duration: 0.8s; 
 } 
-  
+
 .isotope { 
--webkit-transition-property: height, width; 
-   -moz-transition-property: height, width; 
-        transition-property: height, width; 
+  -webkit-transition-property: height, width; 
+  -moz-transition-property: height, width; 
+  transition-property: height, width; 
 } 
-  
+
 .isotope .isotope-item img:hover { 
--webkit-transition: all 0.3s ease;
--webkit-transform: perspective(800px) rotateY(0deg);
+  -webkit-transition: all 0.3s ease;
+  -webkit-transform: perspective(800px) rotateY(0deg);
 } 
 
 /*SHARED STYLES*/

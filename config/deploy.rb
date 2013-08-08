@@ -1,4 +1,5 @@
 require "bundler/capistrano"
+require 'new_relic/recipes'
 
 server "sweetpixelstudios.com", :web, :app, :db, primary: true
 
@@ -48,4 +49,5 @@ namespace :deploy do
     end
   end
   before "deploy", "deploy:check_revision"
+  after "deploy:update", "newrelic:notice_deployment"
 end

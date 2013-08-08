@@ -3081,8 +3081,7 @@ button.close {
 .btn:hover {
   color: #333333;
   text-decoration: none;
-  background-color:;
-  *background-color: ;
+/*  background-color: none;*/
   /* Buttons in IE7 don't get borders, so darken on hover */
 
   background-position: 0 -15px;

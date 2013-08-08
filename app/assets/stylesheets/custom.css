@@ -1,3 +1,20 @@
+[class*="span"].centred {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+
+.centertext{
+  text-align: center;
+}
+
+.navbar{
+  opacity: 0.8;
+  border-bottom: 1px outset #363636; 
+}
+
+
 .circlepic{
   width: 150px;
   height: 150px;
@@ -10,27 +27,21 @@
 
 
 #ali {
-  
   background: url("/assets/ali.jpg") no-repeat;
   }
 
 
 
 #mateen {
- 
   background: url("/assets/mateen.jpg") no-repeat;
- 
   }
 
 #sayyam{
     background: url("/assets/sayyam.jpg") no-repeat;
-  
   }
 
 #usman{
-  
   background: url("/assets/usman.jpg") no-repeat;
-  
   }
 
 /*Custom Styles*/
@@ -142,7 +153,7 @@ nav.primary ul li a:hover {
 .header{ padding:0px;}
 
 /*.callout{background:#363636; padding:60px 0;}*/
-.callout{background: url("/assets/bg.png") repeat scroll 0 0 #ff3; padding:60px 0;}
+/*.callout{background: url("/assets/bg.png") repeat scroll 0 0 #ff3; padding:60px 0;}*/
 .section{padding:4.5% 0; border-bottom: 1px solid #CCC;}
 
 .companycallout{ margin-bottom:20px;}

@@ -3,94 +3,133 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>SweetPixel Studios</title>
-        <meta name="description" content="SweetPixel Studios Official Website">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" href="/favicon.ico">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
+<head>
+  <meta charset="utf-8">
+  <title>SweetPixel Studios</title>
+  <meta name="description" content="SweetPixel Studios Official Website">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
 
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="../bower_components/animate.css/animate.css">
-        <!-- endbuild -->
-        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="../bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-        <div class="container">
-          <div class="header">
-            <ul class="nav nav-pills pull-right">
-              <li><a href="#home">home</a></li>
-              <li><a href="#about">about</a></li>
-              <li><a href="#work">our games</a></li>
-              <li><a href="#contact">contact us</a></li>
-            </ul>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="../bower_components/animate.css/animate.css">
+  <!-- endbuild -->
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+  <!--[if lt IE 10]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div class="container">
+    <header class="header header--fixed">
+      <ul class="nav nav-pills pull-right">
+        <li><a id="link" href="#home">home</a></li>
+        <li><a id="link" href="#about">about</a></li>
+        <li><a id="link" href="#work">our games</a></li>
+        <li><a id="link" href="#contact">contact us</a></li>
+      </ul>
+      <img class="logo img-responsive" src="images/SPS_Logo.png"/>
+      <!-- <h3>SweetPixel Studios</h3> -->
+    </header>
+    <div id="home" class="row">
+      <ul id="scene">
+        <li class="layer" data-depth="0.10">
+          <div class="col-md-2">
+            <img src="images/bot4.png">
           </div>
-          <div id="home" class="row text-center">
-<!--             <img src="images/SPS_Logo.png" class="img-responsive"/> -->
-<!--             <h2>Indie Game Development Studio</h2> -->
-            <ul id="scene">
-              <li class="layer" data-depth="0.50"><img class="img-responsive" src="images/bot2.png"></li>
-<!--               <li class="layer" data-depth="0.10"></li> -->
-            </ul>
-            <img class="img-responsive" src="images/SPS_Logo.png"/>
+        </li>
+        <li class="layer" data-depth="0.40">
+          <div class="col-md-2">
+            <img src="images/bot8.png">
           </div>
-          <div id="about" class="row text-center">
-            <h1>What do we do</h1>
-            <p>Why we are an indie game development studio. We develop games for different platforms.</p>
+        </li>
+        <li class="layer" data-depth="0.80">
+          <div class="col-md-2">
+            <img src="images/bot3.png">
           </div>
-          <div id="work" class="row">
+        </li>
+        <li class="layer" data-depth="1.20">
+          <div class="col-md-2">
+            <img src="images/bot5.png">
           </div>
-          <div id="contact" class="row">
-          </div>
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+        </li>
+        <li class="layer" data-depth="1.60">
+          <img src="images/bot6.png">
+        </li>
+        <li class="layer" data-depth="2.00">
+          <img src="images/bot7.png">
+        </li>
+      </ul>
+    </div>
+    <div id="about" class="row text-center">
+      <h1>What do we do</h1>
+      <p>We develop video games for mobile, pc and gaming consoles. We are indepdenent and based in Pakistan.</p>
+      <ul id="scene2">
+        <li class="layer" data-depth="0.20">
+          <canvas id="canvas-demo" width="400" height="200"></canvas>
+        </li>
+        <li class="layer" data-depth="0.30">
+          <canvas id="canvas-demo2" width="400" height="200"></canvas>
+        </li>
+        <li class="layer" data-depth="0.40">
+          <canvas id="canvas-demo3" width="400" height="200"></canvas>
+        </li>
+        <li class="layer" data-depth="0.50">
+          <canvas id="canvas-demo4" width="400" height="200"></canvas>
+        </li>
+      </ul>
+    </div>
+    <div id="work" class="row text-center">
+      <img src="images/website_banner.png" class="img-responsive"/>
+      <!--  Pixel Fall Game Dev here -->
+    </div>
+    <div id="contact" class="row">
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+    </div>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
 
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/bootstrap/js/affix.js"></script>
-        <script src="bower_components/bootstrap/js/alert.js"></script>
-        <script src="bower_components/bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/bootstrap/js/modal.js"></script>
-        <script src="bower_components/bootstrap/js/transition.js"></script>
-        <script src="bower_components/bootstrap/js/button.js"></script>
-        <script src="bower_components/bootstrap/js/popover.js"></script>
-        <script src="bower_components/bootstrap/js/carousel.js"></script>
-        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/bootstrap/js/collapse.js"></script>
-        <script src="bower_components/bootstrap/js/tab.js"></script>
-        <script src="bower_components/parallax/deploy/parallax.js"></script>
-        <!-- endbuild -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-32192037-1');ga('send','pageview');
+      </script>
 
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-</body>
-</html>
+      <!-- build:js scripts/plugins.js -->
+      <script src="bower_components/bootstrap/js/affix.js"></script>
+      <script src="bower_components/bootstrap/js/alert.js"></script>
+      <script src="bower_components/bootstrap/js/dropdown.js"></script>
+      <script src="bower_components/bootstrap/js/tooltip.js"></script>
+      <script src="bower_components/bootstrap/js/modal.js"></script>
+      <script src="bower_components/bootstrap/js/transition.js"></script>
+      <script src="bower_components/bootstrap/js/button.js"></script>
+      <script src="bower_components/bootstrap/js/popover.js"></script>
+      <script src="bower_components/bootstrap/js/carousel.js"></script>
+      <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+      <script src="bower_components/bootstrap/js/collapse.js"></script>
+      <script src="bower_components/bootstrap/js/tab.js"></script>
+      <script src="bower_components/parallax/deploy/parallax.js"></script>
+      <script src="bower_components/headroom.js/dist/headroom.js"></script>
+      <script src="bower_components/obelisk.js/build/obelisk.js"></script>
+      <!-- endbuild -->
+
+      <!-- build:js({app,.tmp}) scripts/main.js -->
+      <script src="scripts/main.js"></script>
+      <!-- endbuild -->
+    </body>
+    </html>

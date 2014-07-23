@@ -2,7 +2,6 @@
 
 /*Custom Styles*/
 
-
 /*EFFECTS*/
 
 .hover {
@@ -101,14 +100,23 @@ nav.primary ul li a:hover {
 
 /*SHARED STYLES*/
 
-.intro{margin: 0 auto 2em; font-weight:100; font-size:200%; line-height:1; color:#6A6A6A; text-align: center;}
+.intro{
+  margin: 0 auto 2em; 
+  font-weight:100; 
+  font-size:200%; 
+  line-height:1; 
+  color:#6A6A6A; 
+  text-align: center;
+}
 
 
 /*HEADER*/
 
 .header{ padding:0px;}
 
-.callout{background:#ffffff; padding:60px 0;}
+.callout{background:#ffffff; 
+  /*padding:60px 0;*/
+}
 .section{padding:4.5% 0; border-bottom: 1px solid #CCC;}
 
 .companycallout{ margin-bottom:20px;}

@@ -93,7 +93,7 @@
 
 @media (min-width: 1200px) {
   .row {
-    margin-left: -30px;
+    /*margin-left: -30px;*/
     *zoom: 1;
   }
   .row:before,
@@ -183,7 +183,7 @@
     margin-left: 330px;
   }
   .offset2 {
-    margin-left: 230px;
+    margin-left: 95px;
   }
   .offset1 {
     margin-left: 130px;

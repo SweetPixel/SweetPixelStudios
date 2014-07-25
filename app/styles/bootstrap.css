@@ -200,7 +200,7 @@ a:hover {
 }
 
 .row {
-  margin-left: -20px;
+  /*margin-left: -20px;*/
   *zoom: 1;
 }
 
@@ -5889,7 +5889,9 @@ nav.primary ul li a:hover {
 .callout{background:#f30; 
   /*padding:60px 0;*/
 }
-.section{padding:4.5% 0; border-bottom: 1px solid #CCC;}
+.section{
+  /*padding:4.5% 0; */
+  border-bottom: 1px solid #CCC;}
 
 .companycallout{ margin-bottom:20px;}
 .companycallout p{text-align: center;}
@@ -5912,7 +5914,7 @@ h2.explain{line-height:34px;}
 
 
 /*PORTFOLIO*/
-#portfolio{padding-top:100px; margin-top: 80px; padding-bottom:80px;}
+/*#portfolio{padding-top:100px; margin-top: 80px; padding-bottom:80px;}*/
 .port{background:#eee; padding:80px 0; color: #000;}
 .portfolio .span4{margin-bottom:12px;}
 
@@ -5950,5 +5952,5 @@ h2.explain{line-height:34px;}
 
 
 /*ABOUT*/
-#about{padding-top:80px; margin-top:80px; margin-bottom:80px; padding-bottom:80px;}
+/*#about{padding-top:80px; margin-top:80px; margin-bottom:80px; padding-bottom:80px;}*/
 .about{background: #121210; color: #CBCBCB; padding:80px 0; }

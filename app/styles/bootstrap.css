@@ -4376,10 +4376,10 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
-  color: #55606E;
+  color: #FF3300;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
-  font:bold 16px/40px "Open Sans",Helvetica,Arial,Sans-serif;
+  font:300 25px/40px "Open Sans",Helvetica,Arial,Sans-serif;
   text-transform:uppercase;
   font-weight:300;
   border-top:11px solid transparent;
@@ -4439,7 +4439,7 @@ width: 5px;
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #555555;
+  color: #FF3300;
   text-decoration: none;
 }
 

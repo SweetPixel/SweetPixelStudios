@@ -4150,6 +4150,8 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
   color: #777777;
   background:#fff;
+  opacity: 0.97;
+
 }
 
 .navbar-inner {
@@ -4376,7 +4378,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
-  color: #FF3300;
+  color: #d91e18;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
   font:300 25px/40px "Open Sans",Helvetica,Arial,Sans-serif;
@@ -4439,7 +4441,7 @@ width: 5px;
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #FF3300;
+  color: #d91e18;
   text-decoration: none;
 }
 

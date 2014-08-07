@@ -2,6 +2,9 @@
 
 /*Custom Styles*/
 
+.navbar .nav > li > a {
+  font:300 25px/40px "Open Sans Condensed",Helvetica,Arial,Sans-serif;
+}
 
 
 /*EFFECTS*/

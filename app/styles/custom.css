@@ -12,13 +12,18 @@
 }
 
 .navbar{
-  opacity: 0.93;
+  opacity: 0.97;
 }
 
 .m-btn.green {
-    width: 320px;
-    height: 40px
+    background-color: #1abc9c;
+    width: 345px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 25px;
 }
+
+
 
 .navbar-default {
   border-color: #ffffff;
@@ -27,6 +32,10 @@
 #arrow-icon {
   font-size: 90px;
   color: #000000;
+}
+
+.m-btn.green:hover {
+  background-color: #16a085;
 }
 
 

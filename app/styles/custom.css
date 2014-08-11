@@ -30,21 +30,13 @@
 }
 
 #arrow-icon {
-<<<<<<< HEAD
   font-size: 120px;
-  color: #000000;
-}
-
-=======
-  font-size: 90px;
   color: #000000;
 }
 
 .m-btn.green:hover {
   background-color: #16a085;
 }
-
->>>>>>> Responsiveness
 
 
 /*EFFECTS*/

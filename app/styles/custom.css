@@ -17,13 +17,11 @@
 
 .m-btn.green {
     background-color: #1abc9c;
-    width: 320px;
+    width: 345px;
     height: 40px;
     text-transform: uppercase;
     font-weight: 25px;
 }
-
-
 
 .navbar-default {
   border-color: #ffffff;
@@ -37,6 +35,7 @@
 .m-btn.green:hover {
   background-color: #16a085;
 }
+
 
 
 /*EFFECTS*/

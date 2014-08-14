@@ -107,40 +107,68 @@ border-radius: 6px;
  /*Custom Cover Page Styles*/
 /*************************/
 
-.head-text-xs {
-	font:300 25px/40px "Open Sans Condensed",Helvetica,Arial,Sans-serif;
-	font-size: 12px;
+.head-text {
+	font:300 25px/40px "Open Sans Condensed", Helvetica, Arial, Sans-serif;
 	position: absolute;
-	top: 40%;
-	left: 20%;
-	color: #FFFFFF;
-	margin-top: 15px;
-}
-.head-text-sm {
-	font:300 25px/40px "Open Sans Condensed",Helvetica,Arial,Sans-serif;
-	font-size: 15px;
-	position: absolute;
-	top: 40%;
-	left: 20%;
-	color: #FFFFFF;
-	margin-top: 15px;
-}
-.head-text-md {
-	font:300 25px/40px "Open Sans Condensed",Helvetica,Arial,Sans-serif;
-	font-size: 40px;
-	position: absolute;
-	top: 230px;
-	left: 13%;
 	color: #FFFFFF;
 }
-.head-text-lg {
-	font:300 25px/40px "Open Sans Condensed",Helvetica,Arial,Sans-serif;
-	font-size: 530%;
-	position: absolute;
-	line-height: 100px;
-	font-family: 'Open Sans Condensed', Helvetica;
-	font-weight: 100;
-	padding-top: 230px;
-	left: 12%;
-	color: #FFFFFF;
+  /*******************/
+ /* Responsive text */
+/*******************/
+@media (max-width: 379px){
+	.head-text {
+		font-size: 140%;
+		margin-top: 18%;
+		line-height: 30px;
+	}
 }
+@media (min-width: 380px) and (max-width: 479px){
+	.head-text {
+		font-size: 200%;
+		margin-top: 18%;
+		line-height: 40px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 589px){
+	.head-text {
+		font-size: 230%;
+		margin-top: 21%;
+		line-height: 50px;
+	}
+}
+
+@media (min-width: 590px) and (max-width: 797px){
+	.head-text {
+		font-size: 300%;
+		margin-top: 21%;
+		line-height: 60px;
+	}
+}
+
+@media (min-width: 798px) and (max-width: 991px){
+	.head-text {
+		font-size: 400%;
+		margin-top: 21%;
+		line-height: 80px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.head-text {
+		font-size: 470%;
+		margin-top: 21%;
+		line-height: 90px;
+	}
+}
+
+@media (min-width: 1200px){
+	.head-text {
+		font-size: 560%;
+		margin-top: 21%;
+		line-height: 100px;
+	}
+}
+  /***************************/
+ /* centered columns styles */
+/***************************/

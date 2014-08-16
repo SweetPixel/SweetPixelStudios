@@ -8,262 +8,153 @@
   <title>SweetPixel Studios</title>
   <meta name="description" content="SweetPixel Studios Official Website">
   <meta name="viewport" content="width=device-width">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="sps.favicon.ico">
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
   <link rel="stylesheet" href="../bower_components/animate.css/animate.css" />
-  <link rel="stylesheet" href="../bower_components/fontawesome/css/font-awesome.css" />
   <!-- endbower -->
   <!-- endbuild -->
-  <!-- build:css(.tmp) styles/main.css -->
-  <link href="styles/bootstrap.css" rel="stylesheet">
-  <link href="styles/bootstrap-responsive.css" rel="stylesheet">
-  <link href="styles/m-styles.min.css" rel="stylesheet">
-  <link href="styles/m-forms.min.css" rel="stylesheet">
-  <link href="styles/m-buttons.css" rel="stylesheet">
-  <link href="styles/custom.css" rel="stylesheet">
-  <link href="styles/main.css" rel="stylesheet">
-  <link href="styles/jquery.fancybox-1.3.4.css" rel="stylesheet">
-  
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <!-- build:css(.tmp) styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/custom.css">
   <!-- endbuild -->
-  <!-- build:js scripts/vendor/modernizr.js -->
   <script src="../bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body id="home" data-spy="scroll" data-target=".navbar">
-
-  <!-- HEADER CONTAINER -->
-
-  <div class="row header">
-
-    <!-- CONTENT -->
-
-    <!-- ORIGINAL NAVBAR CODE 
-  
-    NAVBAR  -->
-
-    <nav class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-
-          <a class="btn btn-navbar m-btn blue" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-
-          <h1 class="brand">
-            <a href="index.html">
-              <img width="200px" height="20px" src="images/SPS_Logo.png" alt="">
-            </a>
-          </h1>
-
-          <div class="nav-collapse">
-            <ul class="nav pull-right">
-              <li><a href="#home" class="anchorLink">Home</a></li>
-              <li><a href="#about" class="anchorLink">Our Games</a></li>
-              <li><a href="#portfolio" class="anchorLink">Team</a></li>
-              <li><a href="#contact" class="anchorLink">Contact Us</a></li>
-            </ul>
-          </div>
-
-        </div>
+  <!-- Start Fixed Header Navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="."><img width="200px" height="auto" src="images/SPS_Logo.png" alt=""></a>
       </div>
-    </nav>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="anchorLink">Home</a></li>
+          <li><a href="#about" class="anchorLink">Our Games</a></li>
+          <li><a href="#portfolio" class="anchorLink">Team</a></li>
+          <li><a href="#contact" class="anchorLink">Contact Us</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
   </div>
+  <!-- End Fixed Header Navbar -->
 
-
-  <!-- Start Callout -->
-  <div class="full callout">
-    <div class="center span8 offset2 columns" id="bg-pic" style="padding-top: 10px;">
-        <h1 class="head-text-mobile visible-phone" align="center">We are an indie game development studio <br>With a private robot army!</h1>
-        <h1 class="head-text-tablet visible-tablet" align="center">We are an indie game development studio  
-        <br>With a private robot army!</h1>
-        <h1 class="head-text-desktop visible-desktop" align="center">We are an indie game development studio  
-        <br>With a private robot army!</h1>
-        </div>
-
-        <img src="/images/Home-Image.png" />
-        <div class="container">
-          <div class="row">
-            <div class="span12 companycallout">
-              <div class="main-image">
-
-                <!-- <h2 class="center">We are an indie game development Studuio</h2> -->
-
+  <!-- Start Of Cover -->
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1" id="big-pic" style="z-index: 1;">
+    <div class="head-text text-center">We are an indie game development studio with a private robot army!</div>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <img src="images/Home-Image.png" class="img-responsive" />
+  </div>
+  <!-- End Of Cover -->
+  
+  <!-- Satrt Of About -->
+  <div class="col-xs-10 col-sm-11 col-md-11 col-lg-11" id="about">
+    <a href="http://pixelfallgame.com"><img src="/images/PixelFall-Image.png" class="img-responsive" /></a>
+  </div>
+  <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 about-redirect">
+    <a href="http://pixelfallgame.com"><i id="arrow-icon" class="fa fa-angle-right fa-5x"></i></a>
+  </div>
+  <!-- End Of About -->
+  
+  <!-- Start of PORTFOLIO -->
+  <div class="col-xs-9 col-sm-9 col-md-9 col-lg-10 col-lg-offset-1 col-md-offset-2 col-sm-offset-2 col-xs-offset-2" id="portfolio" style="z-index: 1;">
+    <h1 class="team-text text-center midnight-blue" align="center">We are a team of awesome developers, genius designers <br> and did we tell you about our private robot army?</h1>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <img src="/images/team_section_background.png" class="img-responsive" />
+  </div>
+  <!-- End of PORTFOLIO -->
+  <hr>
+  <!-- CONTACT -->
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center contact-header red" id="contact">Contact Us</div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-1">
+        <h2 class="red">Send Us a Message</h2>
+        <form role="form">
+          <div class="form-group">
+            <div class="controls">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input type="text" class="form-control" name="name" placeholder="Your Name">
               </div>
             </div>
-            <!-- <p><a class="m-btn big" href="https://wrapbootstrap.com/theme/boot-metro-WB06L327S" target="_new">Purchase Boot Metro <i class="m-icon-big-swapright m-icon-black"></i></a></p> -->
+          </div>
+          <div class="form-group">
+            <div class="controls">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Your Email">
+              </div>
+            </div>  
+          </div>
+          <div class="form-group ">
+            <div class="controls">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                <textarea rows="10" name="msg" class="form-control " rows="4" cols="78" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="controls">
+            <button type="submit" id="mybtn"  class="btn btn-success btn-lg btn-block" >Send Message</button>          
+          </div>
+        </form>
+      </div>
+      <!-- <div class="col-xs-12 col-sm-10 col-md-4 col-lg-3 col-lg-offset-2 col-md-offset-1 col-sm-offset-1">
+        <h2 class="red">Contact info</h2>
+        <p class="address">
+          Basecamp<br> 
+          Arbab Tower<br> 
+          NasirBagh Road, Peshawar<br> 
+          <span class="red">Email:</span> 
+          <a style="text-decoration: none" href="mailto:hello@sweetpixelstudios.com">hello@sweetpixelstudios.com</a><br> 
+          <span class="red">Web:</span> 
+          <a style="text-decoration: none" href="http://sweetpixelstudios.com">sweetpixelstudios.com</a>
+        </p>
+        <div class="row">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <a href="https://www.facebook.com/SweetPixelStudios"><img src="/images/facebookbutton.png" class="img-responsive" onmouseover="this.src='/images/facebookbuttonhighlighted.png'" onmouseout="this.src='/images/facebookbutton.png'" /></a>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <a href="https://twitter.com/sweetpixlstdios"><img src="/images/twitterbutton.png" class="img-responsive" onmouseover="this.src='/images/twitterbuttonhighlighted.png'" onmouseout="this.src='/images/twitterbutton.png'" /></a>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <a href="mailto:hello@sweetpixelstudios.com"><img src="/images/mailbutton.png" class="img-responsive" onmouseover="this.src='/images/mailbuttonhighlighted.png'" onmouseout="this.src='/images/mailbutton.png'" /></a>                
           </div>
         </div>
-      </div>
-    </div> -->
-    <!-- End Callout -->
-
-
-
-    <!-- Start About -->
-    <div class="row-fluid section" id="about">
-      <div class="span11">
-        <a href="http://pixelfallgame.com">
-          <img src="/images/PixelFall-Image.png" />
-          <!-- <img class="forward-link" src= "/images/Arrow-Image.png" style="margin-left: 1110px; margin-top: -750px;" /> -->
-        </a>
-      </div>
-      <div class="span1" style="margin-top:285px; margin-left:0px;">
-        <a href="http://pixelfallgame.com"><i id="arrow-icon" class="fa fa-angle-right fa-5x"></i></a>
-      </div>
-  <!-- <div class="container">
-
-  <div class="explain">
-  <h2>about</h2>
-  <p class="intro">We are a team of highly skilled people that develop games with unique concepts.</p>
-  <div class="row-fluid">
-  <div class="span6">
-  <h3>Who are We</h3>
-  <p>We are dedicated towards bringing unique and fun concepts to your mobile and tv screens.</p>
-</div>
-
-<div class="span6">
-<h3>Our Games</h3>
-<p>Our games are focused towards emotions that make the gameplay more engaging.</p> -->
-</div>
-
-<!-- <div class="span4">
-<h3></h3>
-<p></p>
-</div> -->
-</div>
-</div>
-</div>
-</div>
-
-
-
-<!-- PORTFOLIO -->
-<div class="row section" id="portfolio">
-  <div class="center span12 offset2 columns">
-    <h1 class="team-text-desktop visible-desktop" align="center">We are a team of awesome developers, genius designers <br> and did we tell you about our private robot army?</h1>
-  </div>
-
-  <img src="/images/team_section_background.png" />
-  <!-- <div class="container">
-
-    <h2>Our Games</h2>
-    <a href="http://pixelfallgame.com" target="_blank">
-    <img src="images/website_banner.png" />
-  </a> -->
-  <!-- <h2>portfolio</h2>
-  <p class="intro">Responsive. Dynamic. Awesome. Isotope. Just a few of the words to describe the Portfolio.</p> -->
-  <!-- Start Portfolio Navigation -->
-  <!-- <nav class="primary m-btn-group toggle-buttons clearfix">
-  <ul>
-  <li><a href="#" class="m-btn selected" data-filter="*">All</a></li>
-  <li><a href="#" class="m-btn" data-filter=".web">Web Design</a></li>
-  <li><a href="#" class="m-btn" data-filter=".ill">Illustration</a></li>
-  <li><a href="#" class="m-btn" data-filter=".logo">Logo</a></li>
-  <li><a href="#" class="m-btn" data-filter=".video">Video</a></li>
-  <li><a href="#" class="m-btn" data-filter=".print">Print Design</a></li>
-</ul>
-</nav> -->
-
-
-<!-- START Portfolio items
-
-<section class="main clearfix">
-  <div class="portfolio">
-    <h1>
-      
-    </h1>
-  </div>
-
-
-    <figure class="entry web">
-    <img src="img/portfolio-image.jpg" alt="">
-  </figure>
-
-  <figure class="entry web">
-  <img src="img/portfolio-image2.jpg" alt="">
-</figure>
-
-<figure class="entry logo">
-<img src="img/portfolio-image.jpg" alt="">
-</figure>
-
-<figure class="entry web">
-<img src="img/portfolio-image.jpg" alt="">
-</figure>
-
-<figure class="entry print">
-<img src="img/portfolio-image.jpg" alt="">
-</figure>
-
-<figure class="entry ill">
-<img src="img/portfolio-image2.jpg" alt="">
-</figure>
-
-<figure class="entry web">
-<img src="img/portfolio-image2.jpg" alt="">
-</figure>
-
-<figure class="entry print">
-<img src="img/portfolio-image.jpg" alt="">
-</figure>
-
-<figure class="entry video">
-<img src="img/portfolio-image2.jpg" alt="">
-</figure>
-
-<figure class="entry web">
-<img src="img/portfolio-image2.jpg" alt="">
-</figure>
-
-
-</section>
-
-
-
-</div> -->
-</div>
-<!-- End PORTFOLIO -->
-
-
-
-
-
-
-<!-- CONTACT -->
-
-
-
-<div class="row section" id="contact">
-  <!-- MAP ############################################### -->
-
-  <div>
-    <div class="container">
-      <h2>Contact Us</h2>
-      <!-- <p class="intro"></p> -->
+      </div> -->
     </div>
+  </div>
+</body>
 
-    <!-- <div class="container hidden-phone" id="map"> </div> -->
 
-  </div> <!-- /contact -->
+<!-- <div class="container hidden-phone" id="map"> </div> -->
 
-  <!-- /MAP ############################################### -->
-  <div id="form">
+</div> <!-- /contact -->
 
-    <div class="container">
+<!-- /MAP ############################################### -->
+<div id="form">
 
-      <div class="row">
-        <div class="span12">
+  <div class="container">
+
+    <div class="row">
+      <!-- <div class="span12"> -->
           <!-- <div class="row" align="center" style="margin-right: 40px;">
             <h3>Send us a message</h3>
           </div> -->
 
-          <form id="contact-form">
+          <!-- <form id="contact-form">
 
             <fieldset>
               <div class="row" align="center" style="margin-left: 140px;">
@@ -282,17 +173,29 @@
                     <input type="submit" class="m-btn green" value="Submit" /></div>
                   </div>
                 </fieldset>
-              </form>
-            </div>
+              </form> -->
+            <!-- </div> -->
 
-            <div align="center">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5 col-lg-offset-4 col-md-offset-4 col-sm-offset-3">
               <!-- <h3>Contact info</h3>
               <p>Basecamp<br>
                 Arbab Tower<br>
                 NasirBagh Road, Peshawar<br>
-                Email: hello@sweetpixelstudios.com</p>
+                Email: hello@sweetpixelstudios.com
                 Web: sweetpixelstudios.com</p> -->
-                <a href="https://www.facebook.com/SweetPixelStudios" class="facebook-icon">
+                <p></p>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 col-md-4 col-lg-3">
+                    <a href="https://www.facebook.com/SweetPixelStudios"><img src="/images/facebookbutton.png" class="img-responsive" onmouseover="this.src='/images/facebookbuttonhighlighted.png'" onmouseout="this.src='/images/facebookbutton.png'" /></a>
+                  </div>
+                  <div class="col-xs-4 col-sm-2 col-md-4 col-lg-3">
+                    <a href="https://twitter.com/sweetpixlstdios"><img src="/images/twitterbutton.png" class="img-responsive" onmouseover="this.src='/images/twitterbuttonhighlighted.png'" onmouseout="this.src='/images/twitterbutton.png'" /></a>
+                  </div>
+                  <div class="col-xs-4 col-sm-2 col-md-4 col-lg-3">
+                    <a href="mailto:hello@sweetpixelstudios.com"><img src="/images/mailbutton.png" class="img-responsive" onmouseover="this.src='/images/mailbuttonhighlighted.png'" onmouseout="this.src='/images/mailbutton.png'" /></a>                
+                  </div>
+                </div>
+                <!-- <a href="https://www.facebook.com/SweetPixelStudios" class="facebook-icon">
                   <img src="/images/facebookbutton.png" style="height: 77px; width: 77px;" />
                 </a>
                 <a href="https://twitter.com/sweetpixlstdios" class="twitter-icon">
@@ -301,25 +204,9 @@
                 <a href="mailto:hello@sweetpixelstudios.com" class="email-icon">
                   <img src="/images/mailbutton.png" style="margin-left: 50px; height: 77px;
                   width: 77px;" />
-                </a>                
+                --></a>                
 
-                <!-- RESPONSIVENESS FOR CONTACT DETAILS -->
-                <!-- <div class="contact-detail row">
-                  <div class="span1 col">
-                    Email:
-                  </div>
-                  <div class="span3 col">
-                    hello@sweetpixelstudios.com
-                  </div>
-                  <div class="span1 col">
-                    Address:
-                  </div>
-                  <div class="span3 col">
-                    Basecamp, Arbab Tower<br>
-                    Nasirbagh Road, Peshawar
-                  </div>
-                </div> -->
-                <!-- <img src="/images/facebookbuttonhighlighted.png" class="facebook-icon" id="facebook-icon" /> -->
+                
               </div>
 
             </div>
@@ -370,27 +257,16 @@
     <!-- endbuild -->
 
 
-    <!-- MAP -->
+  <!-- Le javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $("#map").gMap({ controls: false,
-        scrollwheel: false,
-        draggable: true,
-        markers: [{ latitude: 33.999775,
-          longitude: 71.468725,
-          icon: { image: "images/pin.png",
-          iconsize: [32, 47],
-          iconanchor: [32,47],
-          infowindowanchor: [12, 0] } }
-          ],
-          icon: { image: "images/pin.png",
-          iconsize: [26, 46],
-          iconanchor: [12, 46],
-          infowindowanchor: [12, 0] },
-          latitude: 33.999775,
-          longitude: 71.468725,
-          zoom: 15, });
-    });
-    </script>
-    </html>
+
+  <!-- build:js scripts/main.js -->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="scripts/anchor.js"></script>
+  <!-- endbuild -->
+
+  </html>

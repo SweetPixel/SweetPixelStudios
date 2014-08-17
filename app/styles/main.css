@@ -202,7 +202,7 @@ and (max-device-width : 1024px) {
 	}
 	#home-image {
  		padding-top: 30px;
- 		width: auto;
+ 		width: inherit;
  	}
 }
 

@@ -111,7 +111,7 @@ h2, .h2 {
 .navbar-header{
 	margin-right: -15px;
 	margin-left: -15px;
-	height: 75px;
+	height: 0px;
 }
 
 .navbar-toggle {
@@ -165,7 +165,7 @@ border-radius: 6px;
 	}
 
 	.brand-logo {
-		max-width: 10%;
+		max-width: 20%;
 		margin-top: -80px;
 	}
 }
@@ -264,7 +264,7 @@ border-radius: 6px;
 @media (min-width: 1200px){
 	.head-text {
 		font-size: 560%;
-		margin-top: 21%;
+		margin-top: 26%;
 		line-height: 100px;
 	}
 	.team-text {
@@ -278,7 +278,7 @@ border-radius: 6px;
 
 	.brand-logo {
 		max-width: 20%;
-		margin-top: 90px;
+		margin-top: 10px;
 	}
 }
 

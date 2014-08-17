@@ -169,7 +169,7 @@ border-radius: 6px;
 		margin-top: -80px;
 	}
 	.navbar-brand {
-		height: 2px;
+		height: 0px;
 	}
 }
 /*@media (min-width: 380px) and (max-width: 479px){

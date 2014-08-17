@@ -202,7 +202,8 @@ and (max-device-width : 1024px) {
 	}
 	#home-image {
  		padding-top: 30px;
- 		width: 300px;
+ 		width: 1000px;
+ 		height: auto;
  	}
 }
 

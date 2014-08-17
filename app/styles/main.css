@@ -3,6 +3,10 @@ body{
 	font-size: 14px;
 }
 
+h2, .h2 {
+    font-size: 25px;
+}
+
   /*****************************/
  /* Form Control Icon Styling */
 /*****************************/
@@ -138,7 +142,7 @@ border-radius: 6px;
 	color: #FFFFFF;
 }
 .contact-header {
-	font-size: 60px;
+	font-size: 40px;
 	margin-top: 5%;
 	margin-bottom: 3%;
 }
@@ -148,7 +152,7 @@ border-radius: 6px;
 @media (max-width: 379px){
 	.head-text {
 		font-size: 140%;
-		margin-top: 18%;
+		margin-top: 20%;
 		line-height: 30px;
 	}
 	.team-text {
@@ -158,6 +162,11 @@ border-radius: 6px;
 	}
 	.about-redirect{
 		margin-top:13%;
+	}
+
+	.brand-logo {
+		max-width: 10%;
+		margin-top: -80px;
 	}
 }
 @media (min-width: 380px) and (max-width: 479px){
@@ -206,6 +215,10 @@ border-radius: 6px;
 	.about-redirect{
 		margin-top:17%;
 	}
+	.brand-logo {
+		max-width: 20%;
+		margin-top: -80px;
+	}
 }
 
 @media (min-width: 798px) and (max-width: 991px){
@@ -221,6 +234,10 @@ border-radius: 6px;
 	}
 	.about-redirect{
 		margin-top:18%;
+	}
+	.brand-logo {
+		max-width: 20%;
+		margin-top: 90px;
 	}
 }
 
@@ -238,6 +255,10 @@ border-radius: 6px;
 	.about-redirect{
 		margin-top:19%;
 	}
+	.brand-logo {
+		max-width: 20%;
+		margin-top: 90px;
+	}
 }
 
 @media (min-width: 1200px){
@@ -254,7 +275,13 @@ border-radius: 6px;
 	.about-redirect{
 		margin-top:20%;
 	}
+
+	.brand-logo {
+		max-width: 20%;
+		margin-top: 90px;
+	}
 }
+
   /***********/
  /* Colours */
 /***********/
@@ -268,3 +295,10 @@ border-radius: 6px;
  /* Social Icons */
 /****************/
 
+ #home-image {
+ 	padding-top: 40px;
+ }
+
+ .navbar-brand {
+ 	line-height: 10px;
+ }

@@ -173,6 +173,9 @@ border-radius: 6px;
 		padding: 10px;
 		margin-left: 5px;
 	}
+	#home-image {
+ 		padding-top: 30px;
+ 	}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -198,8 +201,8 @@ and (max-device-width : 1024px) {
 		margin-top: 10px;
 	}
 	#home-image {
- 	padding-top: 40px;
- }
+ 		padding-top: 40px;
+ 	}
 }
 
 /* Desktops and laptops ----------- */

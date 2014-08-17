@@ -170,6 +170,7 @@ border-radius: 6px;
 	}
 	.navbar-brand {
 		height: 0px;
+		padding: 10px;
 	}
 }
 /*@media (min-width: 380px) and (max-width: 479px){

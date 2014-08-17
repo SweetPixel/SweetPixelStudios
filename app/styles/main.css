@@ -169,7 +169,7 @@ border-radius: 6px;
 		margin-top: -80px;
 	}
 }
-@media (min-width: 380px) and (max-width: 479px){
+/*@media (min-width: 380px) and (max-width: 479px){
 	.head-text {
 		font-size: 200%;
 		margin-top: 18%;
@@ -280,7 +280,7 @@ border-radius: 6px;
 		max-width: 20%;
 		margin-top: 10px;
 	}
-}
+}*/
 
   /***********/
  /* Colours */

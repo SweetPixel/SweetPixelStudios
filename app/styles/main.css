@@ -313,7 +313,7 @@ and (min-width : 1224px) {
 @media (min-width: 1200px){
 	.head-text {
 		font-size: 530%;
-		margin-top: 22%;
+		margin-top: 25%;
 		line-height: 100px;
 	}
 	.team-text {

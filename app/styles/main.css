@@ -183,12 +183,12 @@ border-radius: 6px;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
-	/*.head-text {
+	.head-text {
 		font-size: 479%;
 		margin-top: 25%;
 		line-height: 90px;
 	}
-	.team-text {
+	/*.team-text {
 		font-size: 270%;
 		margin-top: 27%;
 		line-height: 70px;
@@ -199,12 +199,12 @@ and (max-device-width : 1024px) {
 	.brand-logo {
 		max-width: 20%;
 		margin-top: 10px;
-	}
+	}*/
 	#home-image {
  		padding-top: 30px;
  		height: auto;
  		width: 1000px;
- 	}*/
+ 	}
  	/*.head-text .text-center {
  		margin-left: 28%;
  	}*/

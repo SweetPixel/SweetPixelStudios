@@ -183,11 +183,11 @@ border-radius: 6px;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
-	.head-text {
+	/*.head-text {
 		font-size: 300%;
 		margin-top: 95%;
-		/*line-height: 90px;*/
-	}
+		/*line-height: 90px;
+	}*/
 	/*.team-text {
 		font-size: 270%;
 		margin-top: 27%;
@@ -205,9 +205,11 @@ and (max-device-width : 1024px) {
  		height: auto;
  		width: 1000px;
  	}
- 	/*.head-text .text-center {
+ 	.head-text .text-center {
  		margin-left: 28%;
- 	}*/
+ 		font-size: 300%;
+		margin-top: 95%;
+ 	}
 }
 
 /* Desktops and laptops ----------- */

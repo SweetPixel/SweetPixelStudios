@@ -7,14 +7,6 @@ h2, .h2 {
     font-size: 25px;
 }
 
-a {
-    color: #000000;
-}
-
-.fa.fa-angle-right.fa-5x {
-	margin-top: 30px;
-}
-
   /*****************************/
  /* Form Control Icon Styling */
 /*****************************/
@@ -184,6 +176,10 @@ border-radius: 6px;
 	#home-image {
  		padding-top: 20px;
  	}
+ 	.fa.fa-angle-right.fa-5x {
+		margin-top: 20px;
+		font-size: 20px;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -340,6 +336,9 @@ and (min-width : 1224px) {
 	#home-image {
  		padding-top: 30px;
  	}
+ 	.fa.fa-angle-right.fa-5x {
+		margin-top: 30px;
+	}
 }
 
   /***********/

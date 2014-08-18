@@ -184,9 +184,9 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 /* Styles */
 	.head-text {
-		font-size: 479%;
+		/*font-size: 479%;
 		margin-top: 25%;
-		line-height: 90px;
+		line-height: 90px;*/
 	}
 	/*.team-text {
 		font-size: 270%;

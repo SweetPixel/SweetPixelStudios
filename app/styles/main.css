@@ -179,7 +179,7 @@ border-radius: 6px;
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
+/*@media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
@@ -187,8 +187,8 @@ and (max-device-width : 1024px) {
 		font-size: 300%;
 		margin-top: 95%;
 		/*line-height: 90px;
-	}*/
-	/*.team-text {
+	}
+	.team-text {
 		font-size: 270%;
 		margin-top: 27%;
 		line-height: 70px;
@@ -199,7 +199,7 @@ and (max-device-width : 1024px) {
 	.brand-logo {
 		max-width: 20%;
 		margin-top: 10px;
-	}*/
+	}
 	#home-image {
  		padding-top: 30px;
  		height: auto;
@@ -210,7 +210,7 @@ and (max-device-width : 1024px) {
  		font-size: 300%;
 		margin-top: 95%;
  	}
-}
+}*/
 
 /* Desktops and laptops ----------- */
 @media only screen 
@@ -218,7 +218,7 @@ and (min-width : 1224px) {
 /* Styles */
 }
 
-/*@media (min-width: 380px) and (max-width: 479px){
+@media (min-width: 380px) and (max-width: 479px){
 	.head-text {
 		font-size: 200%;
 		margin-top: 18%;
@@ -329,7 +329,7 @@ and (min-width : 1224px) {
 		max-width: 20%;
 		margin-top: 10px;
 	}
-}*/
+}
 
   /***********/
  /* Colours */

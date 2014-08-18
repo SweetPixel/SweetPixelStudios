@@ -174,7 +174,7 @@ border-radius: 6px;
 		margin-left: 5px;
 	}
 	#home-image {
- 		padding-top: 40px;
+ 		padding-top: 30px;
  	}
 }
 
@@ -329,6 +329,9 @@ and (min-width : 1224px) {
 		max-width: 20%;
 		margin-top: 10px;
 	}
+	#home-image {
+ 		padding-top: 30px;
+ 	}
 }
 
   /***********/

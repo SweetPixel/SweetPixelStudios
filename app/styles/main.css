@@ -205,6 +205,9 @@ and (max-device-width : 1024px) {
  		height: auto;
  		width: 1000px;
  	}
+ 	.head-text .text-center {
+ 		margin-left: 28%;
+ 	}
 }
 
 /* Desktops and laptops ----------- */
@@ -342,3 +345,4 @@ and (min-width : 1224px) {
  .navbar-brand {
  	line-height: 10px;
  }
+

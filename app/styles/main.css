@@ -346,13 +346,13 @@ h2, .h2 {
 @media (max-width: 797px) and (min-width: 768px){
 	.brand-logo {
 		max-width: 20%;
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 }
 @media (max-width: 767px) and (min-width: 590px){
 	.brand-logo {
 	max-width: 20%;
-	margin-top: -30px;
+	margin-top: -35px;
 	}
 }
 @media (max-width: 991px) and (min-width: 798px){
@@ -364,7 +364,7 @@ h2, .h2 {
 @media (max-width: 1199px) and (min-width: 992px){
 	.brand-logo {
 	max-width: 23%;
-	margin-top: 30px;
+	margin-top: 20px;
 	}
 }
 @media (min-width: 1200px){

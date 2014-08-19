@@ -3,6 +3,10 @@ body{
 	font-size: 14px;
 }
 
+h2, .h2 {
+    font-size: 25px;
+}
+
   /*****************************/
  /* Form Control Icon Styling */
 /*****************************/
@@ -49,7 +53,7 @@ body{
 
 .navbar .nav > li > a{
 	background-color: transparent;
-	border-top: 11px solid transparent;	
+	border-top: 0px solid transparent;	
 	color: #D91E18;
 	float: none;
 	padding: 10px 15px;
@@ -107,7 +111,7 @@ body{
 .navbar-header{
 	margin-right: -15px;
 	margin-left: -15px;
-	height: 75px;
+	height: 0px;
 }
 
 .navbar-toggle {
@@ -138,7 +142,7 @@ border-radius: 6px;
 	color: #FFFFFF;
 }
 .contact-header {
-	font-size: 60px;
+	font-size: 40px;
 	margin-top: 5%;
 	margin-bottom: 3%;
 }
@@ -148,7 +152,7 @@ border-radius: 6px;
 @media (max-width: 379px){
 	.head-text {
 		font-size: 140%;
-		margin-top: 18%;
+		margin-top: 20%;
 		line-height: 30px;
 	}
 	.team-text {
@@ -159,7 +163,65 @@ border-radius: 6px;
 	.about-redirect{
 		margin-top:13%;
 	}
+
+	.brand-logo {
+		max-width: 40%;
+		margin-top: -80px;
+	}
+	.navbar-brand {
+		height: 0px;
+		padding: 10px;
+		margin-left: 5px;
+	}
+	#home-image {
+ 		padding-top: 20px;
+ 	}
+ 	.fa.fa-angle-right.fa-5x {
+		margin-top: 0px;
+		font-size: 40px;
+	}
 }
+
+/* iPads (portrait and landscape) ----------- */
+/*@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+	/*.head-text {
+		font-size: 300%;
+		margin-top: 95%;
+		/*line-height: 90px;
+	}
+	.team-text {
+		font-size: 270%;
+		margin-top: 27%;
+		line-height: 70px;
+	}
+	.about-redirect{
+		margin-top:19%;
+	}
+	.brand-logo {
+		max-width: 20%;
+		margin-top: 10px;
+	}
+	#home-image {
+ 		padding-top: 30px;
+ 		height: auto;
+ 		width: 1000px;
+ 	}
+ 	.head-text .text-center {
+ 		margin-left: 28%;
+ 		font-size: 300%;
+		margin-top: 95%;
+ 	}
+}*/
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
 @media (min-width: 380px) and (max-width: 479px){
 	.head-text {
 		font-size: 200%;
@@ -206,6 +268,10 @@ border-radius: 6px;
 	.about-redirect{
 		margin-top:17%;
 	}
+	.brand-logo {
+		max-width: 20%;
+		margin-top: -80px;
+	}
 }
 
 @media (min-width: 798px) and (max-width: 991px){
@@ -221,6 +287,10 @@ border-radius: 6px;
 	}
 	.about-redirect{
 		margin-top:18%;
+	}
+	.brand-logo {
+		max-width: 20%;
+		margin-top: 90px;
 	}
 }
 
@@ -238,12 +308,16 @@ border-radius: 6px;
 	.about-redirect{
 		margin-top:19%;
 	}
+	.brand-logo {
+		max-width: 20%;
+		margin-top: 90px;
+	}
 }
 
 @media (min-width: 1200px){
 	.head-text {
-		font-size: 560%;
-		margin-top: 21%;
+		font-size: 530%;
+		margin-top: 25%;
 		line-height: 100px;
 	}
 	.team-text {
@@ -254,7 +328,19 @@ border-radius: 6px;
 	.about-redirect{
 		margin-top:20%;
 	}
+
+	.brand-logo {
+		max-width: 20%;
+		margin-top: 5px;
+	}
+	#home-image {
+ 		padding-top: 30px;
+ 	}
+ 	.fa.fa-angle-right.fa-5x {
+		margin-top: 30px;
+	}
 }
+
   /***********/
  /* Colours */
 /***********/
@@ -267,4 +353,8 @@ border-radius: 6px;
   /****************/
  /* Social Icons */
 /****************/
+
+ .navbar-brand {
+ 	line-height: 10px;
+ }
 

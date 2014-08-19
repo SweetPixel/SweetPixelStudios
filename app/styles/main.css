@@ -323,23 +323,29 @@ h2, .h2 {
   /***************************/
  /* Brand logo custmization */
 /***************************/
+@media (max-width: 380px) {
+	.brand-logo {
+		max-width: 30%;
+		margin-top: 10px;
+	}
+}
 
 @media (max-width: 590px) and (min-width: 380px) {
 	.brand-logo {
 		max-width: 30%;
-		margin-top: -80px;
+		margin-top: 10px;
 	}
 }
 @media (max-width: 797px) and (min-width: 768px){
 	.brand-logo {
 		max-width: 20%;
-		margin-top: 0px;
+		margin-top: 10px;
 	}
 }
 @media (max-width: 769px) and (min-width: 590px){
 	.brand-logo {
 	max-width: 20%;
-	margin-top: 0px;
+	margin-top: 10px;
 	}
 }
 @media (max-width: 991px) and (min-width: 798px){
@@ -351,6 +357,6 @@ h2, .h2 {
 @media (max-width: 1199px) and (min-width: 992px){
 	.brand-logo {
 	max-width: 20%;
-	margin-top: 0px;
+	margin-top: 10px;
 	}
 }

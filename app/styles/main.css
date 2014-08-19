@@ -42,7 +42,7 @@ h2, .h2 {
 	transition: opacity 0.15s linear 0s;
 }
 
-.navbar .nav > li.active, .navbar .nav > li.hover, .navbar .nav > li.focus{
+.navbar .nav > li.active, .navbar .nav > li:hover, .navbar .nav > li.focus{
 	background-color: transparent;
 	border-top: 11px solid #D91E18;
 	color: #333333;
@@ -53,7 +53,7 @@ h2, .h2 {
 
 .navbar .nav > li > a{
 	background-color: transparent;
-	border-top: 0px solid transparent;	
+	border-top: 11px solid transparent;	
 	color: #D91E18;
 	float: none;
 	padding: 10px 15px;

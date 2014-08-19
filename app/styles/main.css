@@ -1,7 +1,6 @@
 body{
 	font-family: "Open Sans Condensed",Helvetica,Arial,Sans-serif;
 	font-size: 14px;
-	padding-top: 70px;
 }
 
 h2, .h2 {
@@ -170,67 +169,10 @@ h2, .h2 {
 	.about-redirect{
 		margin-top:13%;
 	}
-
-	.brand-logo {
-		max-width: 40%;
-		margin-top: -80px;
-	}
-	.navbar-brand {
-		float: left;
-		height: 0px;
-		padding: 15px 15px;
-		font-size: 18px;
-	}
-
-	#home-image {
- 		padding-top: 20px;
- 	}
- 	.fa.fa-angle-right.fa-5x {
-		margin-top: 0px;
-		font-size: 40px;
+	body {
+		padding-top: 75px;
 	}
 }
-
-/* iPads (portrait and landscape) ----------- */
-/*@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-	/*.head-text {
-		font-size: 300%;
-		margin-top: 95%;
-		/*line-height: 90px;
-	}
-	.team-text {
-		font-size: 270%;
-		margin-top: 27%;
-		line-height: 70px;
-	}
-	.about-redirect{
-		margin-top:19%;
-	}
-	.brand-logo {
-		max-width: 20%;
-		margin-top: 10px;
-	}
-	#home-image {
- 		padding-top: 30px;
- 		height: auto;
- 		width: 1000px;
- 	}
- 	.head-text .text-center {
- 		margin-left: 28%;
- 		font-size: 300%;
-		margin-top: 95%;
- 	}
-}*/
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-
 @media (min-width: 380px) and (max-width: 479px){
 	.head-text {
 		font-size: 200%;
@@ -244,6 +186,9 @@ and (min-width : 1224px) {
 	}
 	.about-redirect{
 		margin-top:14%;
+	}
+	body {
+		padding-top: 75px;
 	}
 }
 
@@ -260,6 +205,9 @@ and (min-width : 1224px) {
 	}
 	.about-redirect{
 		margin-top:15%;
+	}
+	body {
+		padding-top: 75px;
 	}
 }
 
@@ -281,6 +229,9 @@ and (min-width : 1224px) {
 		max-width: 20%;
 		margin-top: -80px;
 	}
+	body {
+		padding-top: 80px;
+	}
 }
 
 @media (min-width: 798px) and (max-width: 991px){
@@ -301,6 +252,9 @@ and (min-width : 1224px) {
 		max-width: 20%;
 		margin-top: 90px;
 	}
+	body {
+		padding-top: 80px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
@@ -320,6 +274,10 @@ and (min-width : 1224px) {
 	.brand-logo {
 		max-width: 20%;
 		margin-top: 90px;
+	}
+
+	body {
+		padding-top: 80px;
 	}
 }
 
@@ -347,6 +305,9 @@ and (min-width : 1224px) {
  	}
  	.fa.fa-angle-right.fa-5x {
 		margin-top: 30px;
+	}
+	body {
+		padding-top: 50px;
 	}
 }
 

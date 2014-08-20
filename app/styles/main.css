@@ -174,7 +174,7 @@ h2, .h2 {
 		line-height: 20px;
 	}
 	.about-redirect{
-		margin-top:13%;
+		margin-top:0px;
 	}
 	body {
 		padding-top: 50px;
@@ -192,7 +192,7 @@ h2, .h2 {
 		line-height: 20px;
 	}
 	.about-redirect{
-		margin-top:14%;
+		margin-top:100px;
 	}
 	body {
 		padding-top: 75px;
@@ -211,7 +211,7 @@ h2, .h2 {
 		line-height: 30px;
 	}
 	.about-redirect{
-		margin-top:15%;
+		margin-top:120px;
 	}
 	body {
 		padding-top: 75px;
@@ -230,7 +230,7 @@ h2, .h2 {
 		line-height: 40px;
 	}
 	.about-redirect{
-		margin-top:17%;
+		margin-top:160px;
 	}
 	.brand-logo {
 		max-width: 20%;
@@ -253,7 +253,7 @@ h2, .h2 {
 		line-height: 50px;
 	}
 	.about-redirect{
-		margin-top:18%;
+		margin-top:200px;
 	}
 	.brand-logo {
 		max-width: 20%;
@@ -276,7 +276,7 @@ h2, .h2 {
 		line-height: 70px;
 	}
 	.about-redirect{
-		margin-top:19%;
+		margin-top:260px;
 	}
 	.brand-logo {
 		max-width: 20%;
@@ -300,7 +300,7 @@ h2, .h2 {
 		line-height: 90px;
 	}
 	.about-redirect{
-		margin-top:20%;
+		margin-top:330px;
 	}
 
 	.brand-logo {

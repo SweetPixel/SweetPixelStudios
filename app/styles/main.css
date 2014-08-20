@@ -156,12 +156,6 @@ h2, .h2 {
 .address{
 	font-size: 20px;
 }
-.about-redirect a{
-	color: #666666;
-}
-.about-redirect a:hover{
-	color: #95a5a6;
-}
 @media (max-width: 379px){
 	.head-text {
 		font-size: 18px;
@@ -169,12 +163,9 @@ h2, .h2 {
 		line-height: 25px;
 	}
 	.team-text {
-		font-size: 90%;
-		margin-top: 25%;
+		font-size: 13px;
+		margin-top: 60px;
 		line-height: 20px;
-	}
-	.about-redirect{
-		margin-top:0px;
 	}
 	body {
 		padding-top: 50px;
@@ -187,12 +178,9 @@ h2, .h2 {
 		line-height: 25px;
 	}
 	.team-text {
-		font-size: 100%;
-		margin-top: 25%;
+		font-size: 16px;
+		margin-top: 80px;
 		line-height: 20px;
-	}
-	.about-redirect{
-		margin-top:100px;
 	}
 	body {
 		padding-top: 75px;
@@ -206,12 +194,9 @@ h2, .h2 {
 		line-height: 30px;
 	}
 	.team-text {
-		font-size: 120%;
-		margin-top: 25%;
+		font-size: 20px;
+		margin-top: 100px;
 		line-height: 30px;
-	}
-	.about-redirect{
-		margin-top:120px;
 	}
 	body {
 		padding-top: 75px;
@@ -225,12 +210,9 @@ h2, .h2 {
 		line-height: 40px;
 	}
 	.team-text {
-		font-size: 140%;
-		margin-top: 25%;
+		font-size: 25px;
+		margin-top: 130px;
 		line-height: 40px;
-	}
-	.about-redirect{
-		margin-top:160px;
 	}
 	.brand-logo {
 		max-width: 20%;
@@ -248,12 +230,9 @@ h2, .h2 {
 		line-height: 60px;
 	}
 	.team-text {
-		font-size: 220%;
-		margin-top: 24%;
+		font-size: 35px;
+		margin-top: 160px;
 		line-height: 50px;
-	}
-	.about-redirect{
-		margin-top:200px;
 	}
 	.brand-logo {
 		max-width: 20%;
@@ -271,12 +250,9 @@ h2, .h2 {
 		line-height: 80px;
 	}
 	.team-text {
-		font-size: 270%;
-		margin-top: 27%;
+		font-size: 43px;
+		margin-top: 180px;
 		line-height: 70px;
-	}
-	.about-redirect{
-		margin-top:260px;
 	}
 	.brand-logo {
 		max-width: 20%;
@@ -295,14 +271,10 @@ h2, .h2 {
 		line-height: 90px;
 	}
 	.team-text {
-		font-size: 370%;
-		margin-top: 21%;
+		font-size: 50px;
+		margin-top: 220px;
 		line-height: 90px;
 	}
-	.about-redirect{
-		margin-top:330px;
-	}
-
 	.brand-logo {
 		max-width: 20%;
 		margin-top: 5px;

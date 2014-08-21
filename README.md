@@ -19,13 +19,13 @@ The website is based on [Yeoman][yo].
 
 ## Useful Tools
 
-* `grunt watch`: Unit test our javascript and less css on file change.
+* `grunt watch`: Unit test our javascript and css on file change.
 * `grunt jshint`: Weird problem? Lint it before you bug hunt it.
 
 ## Release
 
 For the moment, the release looks like this:
-`fab dev nominate`
+`dploy production`
 
 ## Code Style
 

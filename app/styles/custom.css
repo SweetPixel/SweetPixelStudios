@@ -1,5 +1,6 @@
 #fbimg {
-  background: url('/images/facebookbutton.png');
+  background: url('/images/facebook200x200.png');
+  background-size: 50px 50px;
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
@@ -8,16 +9,19 @@
 }
 
 #fbimg:hover {
-  background: url('/images/facebookbuttonhighlighted.png');
+  background: url('/images/facebook_highlighted200x200.png');
+  background-size: 50px 50px;
 }
 
 #fbimg:active {
-  background: url('/images/facebookbuttonhighlighted.png');
+  background: url('/images/facebook_highlighted200x200.png');
+  background-size: 50px 50px;
 }
 
 
 #twimg {
-  background: url('/images/twitterbutton.png');
+  background: url('/images/twitter200x200.png');
+  background-size: 50px 50px;
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
@@ -26,16 +30,19 @@
 }
 
 #twimg:hover {
-  background: url('/images/twitterbuttonhighlighted.png');
+  background: url('/images/twitter_highlighted200x200.png');
+  background-size: 50px 50px;
 }
 
 
 #twimg:active {
-  background: url('/images/twitterbuttonhighlighted.png');
+  background: url('/images/twitter_highlighted200x200.png');
+  background-size: 50px 50px;
 }
 
 #gplusimg {
-  background: url('/images/googleplusbutton.png');
+  background: url('/images/googleplus200x200.png');
+  background-size: 50px 50px;
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
@@ -44,9 +51,11 @@
 }
 
 #gplusimg:hover {
-  background: url('/images/googleplusbuttonhighlighted.png');
+  background: url('/images/googleplus_highlighted200x200.png');
+  background-size: 50px 50px;
 }
 
 #gplusimg:active {
-  background: url('/images/googleplusbuttonhighlighted.png');
+  background: url('/images/googleplus_highlighted200x200.png');
+  background-size: 50px 50px;
 }

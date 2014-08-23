@@ -28,7 +28,6 @@ h2, .h2 {
 	font:300 25px/40px "Open Sans Condensed",Helvetica,Arial,Sans-serif;
 }
 .navbar{
-	opacity: 0.95;
 	background-color: #ffffff;
 	text-transform: uppercase;
 }
@@ -37,7 +36,7 @@ h2, .h2 {
 	background-color: transparent;
 	border-top: 11px solid transparent;	
 	color: #333333;
-	opacity: 0.95;
+	
 	text-decoration: none;
 	transition: opacity 0.15s linear 0s;
 }
@@ -65,7 +64,7 @@ h2, .h2 {
 	background-color: transparent;
 	border-top: 11px solid transparent;
 	color: #333333;
-	opacity: 0.95;
+	
 	text-decoration: none;
 	transition: opacity 0.15s linear 0s;
 }
@@ -96,12 +95,12 @@ h2, .h2 {
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #E95C65;
 	background-color: #ffffff;
-	opacity: 0.95;
+	
 }
 
 .navbar-default {
 	background-color: #ffffff;
-	opacity: 0.95;
+	
 	border-color: #e7e7e7;
 }
 

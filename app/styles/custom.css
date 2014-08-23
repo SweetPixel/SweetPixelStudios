@@ -9,10 +9,10 @@
 }
 
 #fbimg:hover {
-  /*background: url('/images/facebook_highlighted200x200.png');*/
+  background: url('/images/facebook_highlighted200x200.png');
   background-size: 50px 50px;
-  opacity: 0.5;
-  -webkit-filter: grayscale(100%) sepia(100%);;
+  /*opacity: 0.5;
+  -webkit-filter: grayscale(100%) sepia(100%);;*/
 }
 
 #fbimg:active {

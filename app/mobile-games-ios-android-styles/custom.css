@@ -1,5 +1,5 @@
 #fbimg {
-  background: url('/sweet-pixel-studios-images/facebookbutton.png');
+  background: url('/sweet-pixel-studios-images/pakistani-startup-facebook.png');
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
@@ -8,16 +8,16 @@
 }
 
 #fbimg:hover {
-  background: url('/sweet-pixel-studios-images/facebookbuttonhighlighted.png');
+  background: url('/sweet-pixel-studios-images/peshawar-gaming-startup-facebook-highlighted.png');
 }
 
 #fbimg:active {
-  background: url('/sweet-pixel-studios-images/facebookbuttonhighlighted.png');
+  background: url('/sweet-pixel-studios-images/peshawar-gaming-startup-facebook-highlighted.png');
 }
 
 
 #twimg {
-  background: url('/sweet-pixel-studios-images/twitterbutton.png');
+  background: url('/sweet-pixel-studios-images/indie-game-development-pakistan-twitter.png');
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
@@ -26,16 +26,16 @@
 }
 
 #twimg:hover {
-  background: url('/sweet-pixel-studios-images/twitterbuttonhighlighted.png');
+  background: url('/sweet-pixel-studios-images/game-studio-pakistan-twitter-highlighted.png');
 }
 
 
 #twimg:active {
-  background: url('/sweet-pixel-studios-images/twitterbuttonhighlighted.png');
+  background: url('/sweet-pixel-studios-images/game-studio-pakistan-twitter-highlighted.png');
 }
 
 #gplusimg {
-  background: url('/sweet-pixel-studios-images/googleplusbutton.png');
+  background: url('/sweet-pixel-studios-images/ios-game-development-startup-google-plus.png');
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
@@ -44,9 +44,9 @@
 }
 
 #gplusimg:hover {
-  background: url('/sweet-pixel-studios-images/googleplusbuttonhighlighted.png');
+  background: url('/sweet-pixel-studios-images/android-game-development-startup-google-plus-highlighted.png');
 }
 
 #gplusimg:active {
-  background: url('/sweet-pixel-studios-images/googleplusbuttonhighlighted.png');
+  background: url('/sweet-pixel-studios-images/android-game-development-startup-google-plus-highlighted.png');
 }

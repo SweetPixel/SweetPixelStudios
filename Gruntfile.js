@@ -48,11 +48,11 @@ module.exports = function (grunt) {
                 files: ['Gruntfile.js']
             },
             less: {
-                files: ['<%= config.app %>/styles/{,*/}*.less'],
+                files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.less'],
                 tasks: ['less:server', 'autoprefixer']
             },
             styles: {
-                files: ['<%= config.app %>/styles/{,*/}*.css'],
+              files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
             },
             livereload: {
@@ -61,7 +61,7 @@ module.exports = function (grunt) {
                 },
                 files: [
                     '<%= config.app %>/{,*/}*.html',
-                    '.tmp/styles/{,*/}*.css',
+                  '.tmp/mobile-games-ios-android-styles/{,*/}*.css',
                     '<%= config.app %>/images/{,*/}*'
                 ]
             }
@@ -190,9 +190,9 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '.tmp/styles/',
+                    cwd: '.tmp/mobile-games-ios-android-styles/',
                     src: '{,*/}*.css',
-                    dest: '.tmp/styles/'
+                    dest: '.tmp/mobile-games-ios-android-styles/'
                 }]
             }
         },
@@ -205,7 +205,7 @@ module.exports = function (grunt) {
                 exclude: ['bower_components/bootstrap/dist/js/bootstrap.js']
             },
             less: {
-                src: ['<%= config.app %>/styles/{,*/}*.less'],
+                src: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.less'],
                 ignorePath: '<%= config.app %>/bower_components/'
             }
         },
@@ -216,9 +216,9 @@ module.exports = function (grunt) {
                 files: {
                     src: [
                         '<%= config.dist %>/scripts/{,*/}*.js',
-                        '<%= config.dist %>/styles/{,*/}*.css',
+                        '<%= config.dist %>/mobile-games-ios-android-styles/{,*/}*.css',
                         '<%= config.dist %>/images/{,*/}*.*',
-                        '<%= config.dist %>/styles/fonts/{,*/}*.*',
+                        '<%= config.dist %>/mobile-games-ios-android-styles/fonts/{,*/}*.*',
                         '<%= config.dist %>/*.{ico,png}'
                     ]
                 }
@@ -341,7 +341,7 @@ module.exports = function (grunt) {
                 expand: true,
                 dot: true,
                 cwd: '<%= config.app %>/mobile-games-ios-android-styles',
-                dest: '.tmp/styles/',
+                dest: '.tmp/mobile-games-ios-android-styles/',
                 src: '{,*/}*.css'
             }
         },

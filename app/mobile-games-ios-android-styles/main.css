@@ -36,7 +36,6 @@ h2, .h2 {
 	background-color: transparent;
 	border-top: 11px solid transparent;	
 	color: #333333;
-	
 	text-decoration: none;
 	transition: opacity 0.15s linear 0s;
 }
@@ -64,7 +63,6 @@ h2, .h2 {
 	background-color: transparent;
 	border-top: 11px solid transparent;
 	color: #333333;
-	
 	text-decoration: none;
 	transition: opacity 0.15s linear 0s;
 }
@@ -95,12 +93,10 @@ h2, .h2 {
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #E95C65;
 	background-color: #ffffff;
-	
 }
 
 .navbar-default {
 	background-color: #ffffff;
-	
 	border-color: #e7e7e7;
 }
 

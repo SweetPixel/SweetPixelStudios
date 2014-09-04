@@ -52,7 +52,7 @@ module.exports = function (grunt) {
                 tasks: ['less:server', 'autoprefixer']
             },
             styles: {
-              files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
+                files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
             },
             livereload: {
@@ -61,7 +61,7 @@ module.exports = function (grunt) {
                 },
                 files: [
                     '<%= config.app %>/{,*/}*.html',
-                  '.tmp/mobile-games-ios-android-styles/{,*/}*.css',
+                    '.tmp/mobile-games-ios-android-styles/{,*/}*.css',
                     '<%= config.app %>/images/{,*/}*'
                 ]
             }
@@ -350,15 +350,16 @@ module.exports = function (grunt) {
         // reference in your app
         modernizr: {
             dist: {
-              devFile: 'bower_components/modernizr/modernizr.js',
-              outputFile: '<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/modernizr.js',
-              files: {
-                "src":[
-                  '<%= config.dist %>/indie-gaming-pakistan-scripts/{,*/}*.js',
-                  '<%= config.dist %>/mobile-games-ios-android-styles/{,*/}*.css',
-                  '!<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/*']
-              },
-              uglify: true
+                devFile: 'bower_components/modernizr/modernizr.js',
+                outputFile: '<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/modernizr.js',
+                files: {
+                    'src':[
+                        '<%= config.dist %>/indie-gaming-pakistan-scripts/{,*/}*.js',
+                        '<%= config.dist %>/mobile-games-ios-android-styles/{,*/}*.css',
+                        '!<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/*'
+                    ]
+                },
+                uglify: true
             }
 
         },

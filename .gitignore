@@ -5,3 +5,4 @@ test/bower_components
 test
 dploy.yaml
 npm-debug.log
+dist/.rev

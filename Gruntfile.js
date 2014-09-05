@@ -315,7 +315,7 @@ module.exports = function (grunt) {
         slack: {
             options: {
                 token: 'uVprS3ru0zhP2kJdTuwSd5id', // get one from here: https://typekit.slack.com/services
-                domain: 'sweetpixelstudios.slack.com', // https://domain.slack.com
+                domain: 'sweetpixelstudios', // https://domain.slack.com
                 channel: '#general',
                 username: 'Grunt',
                 icon_url: 'http://i.imgur.com/nWZI4IX.png' // if icon_emoji not specified

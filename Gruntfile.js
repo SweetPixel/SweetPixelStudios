@@ -302,7 +302,7 @@ module.exports = function (grunt) {
         },
 
         gitcommit: {
-            your_target: {
+            SpsTarget: {
                 options: {
                     message: 'Deploying'
                 },

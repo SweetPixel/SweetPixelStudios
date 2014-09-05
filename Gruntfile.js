@@ -312,6 +312,19 @@ module.exports = function (grunt) {
             }
         },
 
+        slack: {
+            options: {
+                token: 'uVprS3ru0zhP2kJdTuwSd5id', // get one from here: https://typekit.slack.com/services
+                domain: 'sweetpixelstudios.slack.com', // https://domain.slack.com
+                channel: '#general',
+                username: 'Grunt',
+                icon_url: 'http://i.imgur.com/nWZI4IX.png' // if icon_emoji not specified
+            },
+            your_target: {
+                text: 'http://www.sweetpixelstudios.com was just deployed {{message}}' // {{message}} can be replaced with --message='some text' option from command line
+            },
+        },
+
         // By default, your `index.html`'s <!-- Usemin block --> will take care of
         // minification. These next options are pre-configured if you do not wish
         // to use the Usemin blocks.
@@ -467,6 +480,7 @@ module.exports = function (grunt) {
         'test',
         'build',
         'gitcommit',
-        'dploy'
+        'dploy',
+        'slack'
     ]);
 };

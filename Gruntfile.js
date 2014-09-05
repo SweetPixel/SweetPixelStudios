@@ -288,15 +288,15 @@ module.exports = function (grunt) {
             }
         },
         dploy: {                                    // Task
-            stage: {                                // Target
-                host: 'aliirz.com',            // Your FTP host
+            live: {                                // Target
+                host: 'sweetpixelstudios.com',            // Your FTP host
                 user: 'deployer',
                 scheme: 'sftp',
                 privateKey: '~/.ssh/id_rsa',
                 publicKey: '~/.ssh/id_rsa.pub',
                 path: {
                     local: 'dist/',               // The local folder that you want to upload
-                    remote: '/var/www/stagingsps'          // Where the files from the local file will be uploaded at in your remote server
+                    remote: '/var/www/sweetpixelstudios'          // Where the files from the local file will be uploaded at in your remote server
                 }
             }
         },

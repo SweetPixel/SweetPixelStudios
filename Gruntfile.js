@@ -287,6 +287,30 @@ module.exports = function (grunt) {
                 }]
             }
         },
+        dploy: {                                    // Task
+            stage: {                                // Target
+                host: 'aliirz.com',            // Your FTP host
+                user: 'deployer',
+                scheme: 'sftp',
+                privateKey: '~/.ssh/id_rsa',
+                publicKey: '~/.ssh/id_rsa.pub',
+                path: {
+                    local: 'dist/',               // The local folder that you want to upload
+                    remote: '/var/www/stagingsps'          // Where the files from the local file will be uploaded at in your remote server
+                }
+            }
+        },
+
+        gitcommit: {
+            your_target: {
+                options: {
+                    message: 'Deploying'
+                },
+                files: {
+                    src: ['.']
+                }
+            }
+        },
 
         // By default, your `index.html`'s <!-- Usemin block --> will take care of
         // minification. These next options are pre-configured if you do not wish
@@ -436,5 +460,13 @@ module.exports = function (grunt) {
         'newer:jshint',
         'test',
         'build'
+    ]);
+
+    grunt.registerTask('deploy',[
+        'newer:jshint',
+        'test',
+        'build',
+        'gitcommit',
+        'dploy'
     ]);
 };

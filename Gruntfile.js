@@ -52,7 +52,7 @@ module.exports = function (grunt) {
                 tasks: ['less:server', 'autoprefixer']
             },
             styles: {
-              files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
+                files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
             },
             livereload: {
@@ -61,7 +61,7 @@ module.exports = function (grunt) {
                 },
                 files: [
                     '<%= config.app %>/{,*/}*.html',
-                  '.tmp/mobile-games-ios-android-styles/{,*/}*.css',
+                    '.tmp/mobile-games-ios-android-styles/{,*/}*.css',
                     '<%= config.app %>/images/{,*/}*'
                 ]
             }
@@ -287,6 +287,43 @@ module.exports = function (grunt) {
                 }]
             }
         },
+        dploy: {                                    // Task
+            live: {                                // Target
+                host: 'sweetpixelstudios.com',            // Your FTP host
+                user: 'deployer',
+                scheme: 'sftp',
+                privateKey: '~/.ssh/id_rsa',
+                publicKey: '~/.ssh/id_rsa.pub',
+                path: {
+                    local: 'dist/',               // The local folder that you want to upload
+                    remote: '/var/www/sweetpixelstudios'          // Where the files from the local file will be uploaded at in your remote server
+                }
+            }
+        },
+
+        gitcommit: {
+            SpsTarget: {
+                options: {
+                    message: 'Deploying'
+                },
+                files: {
+                    src: ['.']
+                }
+            }
+        },
+
+        slack: {
+            options: {
+                token: 'uVprS3ru0zhP2kJdTuwSd5id', // get one from here: https://typekit.slack.com/services
+                domain: 'sweetpixelstudios', // https://domain.slack.com
+                channel: '#general',
+                username: 'Grunt',
+                icon_url: 'http://i.imgur.com/nWZI4IX.png' // if icon_emoji not specified
+            },
+            your_target: {
+                text: 'http://www.sweetpixelstudios.com was just deployed {{message}}' // {{message}} can be replaced with --message='some text' option from command line
+            },
+        },
 
         // By default, your `index.html`'s <!-- Usemin block --> will take care of
         // minification. These next options are pre-configured if you do not wish
@@ -350,15 +387,16 @@ module.exports = function (grunt) {
         // reference in your app
         modernizr: {
             dist: {
-              devFile: 'bower_components/modernizr/modernizr.js',
-              outputFile: '<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/modernizr.js',
-              files: {
-                "src":[
-                  '<%= config.dist %>/indie-gaming-pakistan-scripts/{,*/}*.js',
-                  '<%= config.dist %>/mobile-games-ios-android-styles/{,*/}*.css',
-                  '!<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/*']
-              },
-              uglify: true
+                devFile: 'bower_components/modernizr/modernizr.js',
+                outputFile: '<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/modernizr.js',
+                files: {
+                    'src':[
+                        '<%= config.dist %>/indie-gaming-pakistan-scripts/{,*/}*.js',
+                        '<%= config.dist %>/mobile-games-ios-android-styles/{,*/}*.css',
+                        '!<%= config.dist %>/indie-gaming-pakistan-scripts/vendor/*'
+                    ]
+                },
+                uglify: true
             }
 
         },
@@ -435,5 +473,14 @@ module.exports = function (grunt) {
         'newer:jshint',
         'test',
         'build'
+    ]);
+
+    grunt.registerTask('deploy',[
+        'newer:jshint',
+        'test',
+        'build',
+        'gitcommit',
+        'dploy',
+        'slack'
     ]);
 };

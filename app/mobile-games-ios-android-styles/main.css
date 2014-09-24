@@ -7,8 +7,8 @@ h2, .h2 {
     font-size: 25px;
 }
 
-/*****************************/
-/* 	Our Team Button Settings */
+  /*****************************/
+ /*  Our Team Button Settings */
 /*****************************/
 .TeamButton {
 	height: 58px;
@@ -22,6 +22,20 @@ h2, .h2 {
 	font-size:28px;
 	line-height: 1;
 }
+
+
+  /*****************/
+ /* Toggle Button */
+/*****************/
+.btn-primary:hover, .btn-primary:focus,
+.btn-primary:active, .btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+ color: #fff;
+ background-color: #E95C65;
+ border-color: #E95C65; 
+}
+
+
 
 
   /*****************************/

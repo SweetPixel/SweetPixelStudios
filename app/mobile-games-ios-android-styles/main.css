@@ -13,13 +13,17 @@ h2, .h2 {
 	font-weight: bold;
 	line-height: 1;
 	color: white;
-	text-shadow: 0 1px 0 #fff;
+	/*text-shadow: 0 1px 0 #fff;*/
 	filter: alpha(opacity=20);
 	opacity: 1;
 }
 
 .close:hover {
 	color: white;
+}
+
+.modal-header {
+	border-bottom-width: 0px;
 }
 
   /*****************************/
@@ -362,6 +366,7 @@ h2, .h2 {
 	  height: 100%;
 	  border-radius: 18px;
 		background-color: black;
+		opacity: 0.9;
 	}
 }
 

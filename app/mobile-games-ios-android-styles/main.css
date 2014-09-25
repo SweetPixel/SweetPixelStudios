@@ -7,6 +7,21 @@ h2, .h2 {
     font-size: 25px;
 }
 
+.close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1;
+	color: white;
+	text-shadow: 0 1px 0 #fff;
+	filter: alpha(opacity=20);
+	opacity: 1;
+}
+
+.close:hover {
+	color: white;
+}
+
   /*****************************/
  /*  Our Team Button Settings */
 /*****************************/
@@ -32,7 +47,7 @@ h2, .h2 {
 .open > .dropdown-toggle.btn-primary {
  color: #fff;
  background-color: #E95C65;
- border-color: #E95C65; 
+ border-color: #E95C65;
 }
 
 
@@ -336,6 +351,17 @@ h2, .h2 {
 	}
 	body {
 		padding-top: 50px;
+	}
+	.modal-dialog {
+	  width: 100%;
+	  height: 90%;
+	  /*padding: 0;*/
+	}
+
+	.modal-content {
+	  height: 100%;
+	  border-radius: 18px;
+		background-color: black;
 	}
 }
 

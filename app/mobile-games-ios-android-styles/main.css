@@ -7,8 +7,32 @@ h2, .h2 {
     font-size: 25px;
 }
 
+<<<<<<< HEAD
 /*****************************/
 /* 	Our Team Button Settings */
+=======
+.close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1;
+	color: white;
+	/*text-shadow: 0 1px 0 #fff;*/
+	filter: alpha(opacity=20);
+	opacity: 1;
+}
+
+.close:hover {
+	color: white;
+}
+
+.modal-header {
+	border-bottom-width: 0px;
+}
+
+  /*****************************/
+ /*  Our Team Button Settings */
+>>>>>>> TeamSection
 /*****************************/
 .TeamButton {
 	height: 58px;
@@ -24,6 +48,23 @@ h2, .h2 {
 }
 
 
+<<<<<<< HEAD
+=======
+  /*****************/
+ /* Toggle Button */
+/*****************/
+.btn-primary:hover, .btn-primary:focus,
+.btn-primary:active, .btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+ color: #fff;
+ background-color: #E95C65;
+ border-color: #E95C65;
+}
+
+
+
+
+>>>>>>> TeamSection
   /*****************************/
  /* Form Control Icon Styling */
 /*****************************/
@@ -322,6 +363,18 @@ h2, .h2 {
 	}
 	body {
 		padding-top: 50px;
+	}
+	.modal-dialog {
+	  width: 100%;
+	  height: 90%;
+	  /*padding: 0;*/
+	}
+
+	.modal-content {
+	  height: 100%;
+	  border-radius: 18px;
+		background-color: black;
+		opacity: 0.9;
 	}
 }
 

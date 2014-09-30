@@ -7,10 +7,6 @@ h2, .h2 {
     font-size: 25px;
 }
 
-<<<<<<< HEAD
-/*****************************/
-/* 	Our Team Button Settings */
-=======
 .close {
 	float: right;
 	font-size: 30px;
@@ -32,7 +28,6 @@ h2, .h2 {
 
   /*****************************/
  /*  Our Team Button Settings */
->>>>>>> TeamSection
 /*****************************/
 .TeamButton {
 	height: 58px;
@@ -48,8 +43,6 @@ h2, .h2 {
 }
 
 
-<<<<<<< HEAD
-=======
   /*****************/
  /* Toggle Button */
 /*****************/
@@ -64,7 +57,6 @@ h2, .h2 {
 
 
 
->>>>>>> TeamSection
   /*****************************/
  /* Form Control Icon Styling */
 /*****************************/

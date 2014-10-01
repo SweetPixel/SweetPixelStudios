@@ -7,30 +7,6 @@ h2, .h2 {
     font-size: 25px;
 }
 
-.img-circle {
-	border-radius: 50%;
-	width: 130px;
-	height: 122px;
-}
-
-.col-md-offset-2 {
-	margin-left: 10.66666667%;
-	margin-top: 10px;
-	width: 12%;
-}
-
-.col-md-offset-3 {
-	margin-left: 0%;
-	margin-top: 0px;
-	font-size: 25px;
-}
-
-.description {
-	margin-top: 45px;
-	margin-left: -334px;
-	font-size: 20px;
-}
-
 .close {
 	float: right;
 	font-size: 30px;
@@ -52,7 +28,6 @@ h2, .h2 {
 
 .modal-body{
 		color: #FFF;
-		margin-top: 30px;
 }
 
 .modal-dialog {
@@ -267,7 +242,6 @@ h2, .h2 {
 		border-radius: 6px;
 	}
 }
-
 @media (min-width: 380px) and (max-width: 479px){
 	.head-text {
 		font-size: 21px;
@@ -376,10 +350,10 @@ h2, .h2 {
 		max-width: 20%;
 		margin-top: 90px;
 	}
+
 	body {
 		padding-top: 80px;
 	}
-
 }
 
 @media (min-width: 1200px){

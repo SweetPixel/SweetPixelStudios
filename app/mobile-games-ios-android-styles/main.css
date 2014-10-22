@@ -354,6 +354,13 @@ h2, .h2 {
 	body {
 		padding-top: 80px;
 	}
+	.col-md-offset-3 {
+		margin-left: 15%;
+	}
+	.col-md-4 {
+		width: 6%;
+	}
+
 }
 
 @media (min-width: 1200px){

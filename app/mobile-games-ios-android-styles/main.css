@@ -384,14 +384,12 @@ h2, .h2 {
 	body {
 		padding-top: 50px;
 	}
-	.col-md-offset-3 {
+	.first-last-name{
 		margin-left: 0%;
 	}
-	.col-md-4 {
+	.profile-pic{
 		width: 6%;
-	}
-	.col-md-offset-2 {
-		margin-left: 14%;
+		margin-left: 18%;
 	}
 	.secondrow {
 		margin-top: 10%;

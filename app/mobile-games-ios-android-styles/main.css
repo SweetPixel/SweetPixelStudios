@@ -7,6 +7,44 @@ h2, .h2 {
     font-size: 25px;
 }
 
+.span4 {
+	width: 8%;
+	margin-left: 12%;
+}
+
+.offset2 {
+	margin-left: 27%;
+	margin-top: -13%;
+}
+
+.offset4 {
+	margin-left: 72%;
+	margin-top: -12.6%;
+}
+
+.offset3 {
+	margin-top: -12.1%;
+	margin-left: 57%;
+}
+
+.secondrow {
+	margin-top: 3.33%;
+	/*margin-left: 0%;*/
+}
+
+.thirdrow {
+	margin-top: 3.37%;
+	/*margin-left: 2%;*/
+}
+
+.firstrow {
+	margin-top: -1%;
+}
+
+.modal-body {
+	font-size: 25px;
+}
+
 .close {
 	float: right;
 	font-size: 30px;
@@ -354,16 +392,6 @@ h2, .h2 {
 	body {
 		padding-top: 80px;
 	}
-	.col-md-offset-3 {
-		margin-left: 0%;
-	}
-	.col-md-4 {
-		width: 6%;
-	}
-	.col-md-offset-2 {
-		margin-left: 14%;
-	}
-
 }
 
 @media (min-width: 1200px){
@@ -384,26 +412,7 @@ h2, .h2 {
 	body {
 		padding-top: 50px;
 	}
-	.first-last-name{
-		margin-left: 0%;
-	}
-	.profile-pic{
-		width: 6%;
-		margin-left: 18%;
-	}
-	.secondrow {
-		margin-top: 10%;
-	}
-	.thirdrow {
-		margin-top: 20%;
-	}
-	.fourthrow {
-		margin-top: 30%;
-	}
 
-	.firstrow .secondrow .thirdrow .fourthrow {
-			font-size: large;
-	}
 }
 
   /***********/

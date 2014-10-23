@@ -1,1 +1,0 @@
-"use strict";var anchor={init:function(){$("a.anchorLink").click(function(){var a=$(this).attr("href"),b=$(a).offset().top;return $("html:not(:animated),body:not(:animated)").animate({scrollTop:b},1100),!1})}};$(document).ready(function(){anchor.init()});

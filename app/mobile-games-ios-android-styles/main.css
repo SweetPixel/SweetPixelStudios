@@ -289,6 +289,9 @@ h2, .h2 {
 		border-width: 1px;
 		border-radius: 6px;
 	}
+	.btn-lg, .btn-group-lg > .btn {
+		padding: 3px 7px;
+	}
 }
 @media (min-width: 380px) and (max-width: 479px){
 	.head-text {

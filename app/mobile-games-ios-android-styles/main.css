@@ -482,8 +482,8 @@ h2, .h2 {
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border: 0;
   border-top: 1px solid #e74c3c;
   opacity: 0.5;

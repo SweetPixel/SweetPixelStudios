@@ -313,6 +313,34 @@ h2, .h2 {
 		width: 100px;
 		font-size: 24px;
 	}
+	.modal-body {
+		font-size: 13px;
+	}
+	.detail-text {
+		width: 35%;
+		margin-left: -3%;
+	}
+	.detail-text-second {
+		margin-left: -3%;
+		width: 35%;
+	}
+	.close {
+		margin-top: -4%;
+	}
+	.first-row {
+		margin-top: 2%;
+	}
+	.second-row {
+		/*margin-left: -1%;*/
+		margin-top: 2%;
+	}
+	.third-row {
+		margin-top: 2%;
+	}
+	.four-row {
+		/*margin-left: -1%;*/
+		margin-top: 2%;
+	}
 }
 
 @media (min-width: 798px) and (max-width: 991px){

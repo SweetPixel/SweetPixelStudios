@@ -266,6 +266,26 @@ h2, .h2 {
 		font-size: 16px;
 		border-radius: 8px;
 	}
+	.close {
+		margin-top: -5%;
+	}
+	.profile-pic {
+		width: 25%;
+	}
+	.modal-body {
+		font-size: 17px;
+	}
+	.detail-text {
+		width: 70%;
+		margin-left: -5%;
+	}
+	.profile-pic-second {
+		width: 25%;
+	}
+	.detail-text-second {
+		width: 70%;
+		margin-left: -5%;
+	}
 }
 
 @media (min-width: 480px) and (max-width: 589px){

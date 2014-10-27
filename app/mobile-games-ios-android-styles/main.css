@@ -201,6 +201,10 @@ h2, .h2 {
 	font-size: 18px;
 }
 
+	.btn-lg, .btn-group-lg > .btn {
+		padding: 3px 7px;
+}
+
   /*******************/
  /* Responsive text */
 /*******************/
@@ -245,8 +249,22 @@ h2, .h2 {
 		border-width: 1px;
 		border-radius: 6px;
 	}
-	.btn-lg, .btn-group-lg > .btn {
-		padding: 3px 7px;
+	.profile-pic {
+		width: 26%;
+	}
+	.modal-body {
+		font-size: 15px;
+	}
+	.profile-pic-second {
+		width: 26%;
+	}
+	.detail-text {
+		width: 65%;
+		margin-left: -5%;
+	}
+	.detail-text-second {
+		width: 65%;
+		margin-left: -5%;
 	}
 }
 @media (min-width: 380px) and (max-width: 479px){

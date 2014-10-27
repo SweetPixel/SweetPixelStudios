@@ -337,6 +337,36 @@ h2, .h2 {
 		height: 48px;
 		width: 110px;
 	}
+	.modal-body {
+		font-size: 17px;
+	}
+	.detail-text {
+		margin-left: -1%;
+	}
+	.detail-text-second {
+		width: 33%;
+	}
+	.profile-pic-second {
+		margin-left: -1%;
+	}
+	.close {
+		/*margin-top: -3%;*/
+		font-size: 24px;
+	}
+	.first-row {
+		margin-top: 2%;
+	}
+	.second-row {
+		/*margin-left: -1%;*/
+		margin-top: 2%;
+	}
+	.third-row {
+		margin-top: 2%;
+	}
+	.four-row {
+		/*margin-left: -1%;*/
+		margin-top: 2%;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px){

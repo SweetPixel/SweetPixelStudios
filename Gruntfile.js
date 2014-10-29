@@ -261,8 +261,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.app %>/sweet-pixel-studios-images',
-                    // src: '{,*/}*.svg',
-                    src: 'dist/Social Media Icons.svg' : 'app/Social Media Icons.svg',
+                    src: '{,*/}*.svg',
                     dest: '<%= config.dist %>/sweet-pixel-studios-images'
                 }]
             }

@@ -1,5 +1,5 @@
 #fbimg {
-  background: url('/sweet-pixel-studios-images/pakistani-gaming-startup-facebook.png');
+  background: url('/sweet-pixel-studios-images/Social Media Icons.svg');
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
@@ -7,46 +7,54 @@
   height: 50px;
 }
 
+#nav li a {background-image:url('../img/image_nav.gif')}
+#nav li a.item1 {background-position:0px 0px}
+#nav li a:hover.item1 {background-position:0px -72px}
+#nav li a.item2 {background-position:0px -143px;}
+#nav li a:hover.item2 {background-position:0px -215px;}
+
 #fbimg:hover {
-  background: url('/sweet-pixel-studios-images/peshawar-gaming-startup-facebook-highlighted.png');
+  background-position: 0px -50px;
 }
 
 #fbimg:active {
-  background: url('/sweet-pixel-studios-images/peshawar-gaming-startup-facebook-highlighted.png');
+  background-position: 0px -50px;
 }
 
 
 #twimg {
-  background: url('/sweet-pixel-studios-images/indie-game-development-pakistan-twitter.png');
+  background: url('/sweet-pixel-studios-images/Social Media Icons.svg');
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
   width: 50px;
   height: 50px;
+  background-position: 100px 100px;
 }
 
 #twimg:hover {
-  background: url('/sweet-pixel-studios-images/game-studio-pakistan-twitter-highlighted.png');
+  background-position: -50px 50px;
 }
 
 
 #twimg:active {
-  background: url('/sweet-pixel-studios-images/game-studio-pakistan-twitter-highlighted.png');
+  background-position: -50px 50px;
 }
 
 #gplusimg {
-  background: url('/sweet-pixel-studios-images/ios-game-development-startup-google-plus.png');
+  background: url('/sweet-pixel-studios-images/Social Media Icons.svg');
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
   width: 50px;
   height: 50px;
+  background-position: 200px 200px;
 }
 
 #gplusimg:hover {
-  background: url('/sweet-pixel-studios-images/android-game-development-startup-google-plus-highlighted.png');
+  background-position: -100px 150px;
 }
 
 #gplusimg:active {
-  background: url('/sweet-pixel-studios-images/android-game-development-startup-google-plus-highlighted.png');
+  background-position: -100px -150px;
 }

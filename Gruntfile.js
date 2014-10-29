@@ -261,7 +261,8 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.app %>/sweet-pixel-studios-images',
-                    src: '{,*/}*.svg',
+                    // src: '{,*/}*.svg',
+                    src: 'dest/svg-defs.svg': ['svgs/*.svg'],
                     dest: '<%= config.dist %>/sweet-pixel-studios-images'
                 }]
             }

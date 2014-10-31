@@ -258,13 +258,14 @@ module.exports = function (grunt) {
 
         svgmin: {
             dist: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= config.app %>/sweet-pixel-studios-images',
+                files: {
+                    // expand: true,
+                    // cwd: '<%= config.app %>/sweet-pixel-studios-images',
                     // src: '{,*/}*.svg',
-                    src: ['svgs/*.svg'],
-                    dest: '<%= config.dist %>/sweet-pixel-studios-images'
-                }]
+                    // src: ['svgs/*.svg'],
+                    // dest: '<%= config.dist %>/sweet-pixel-studios-images'
+                    // 'dist/sweet-pixel-studios-images/Social Media Icons.svg' : 'app/sweet-pixel-studios-images/Social Media Icons.svg'
+                }
             }
         },
 
@@ -402,6 +403,7 @@ module.exports = function (grunt) {
 
         },
 
+
         // Run some tasks in parallel to speed up build process
         concurrent: {
             server: [
@@ -440,6 +442,11 @@ module.exports = function (grunt) {
         grunt.task.run([target ? ('serve:' + target) : 'serve']);
     });
 
+    grunt.registerTask('copySVG', function (target) {
+      grunt.file.copy('app/sweet-pixel-studios-images/Social-Media-Icons.svg',
+      'dist/sweet-pixel-studios-images/Social-Media-Icons.svg');
+    });
+
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {
             grunt.task.run([
@@ -467,7 +474,8 @@ module.exports = function (grunt) {
         'modernizr',
         'rev',
         'usemin',
-        'htmlmin'
+        'htmlmin',
+        'copySVG'
     ]);
 
     grunt.registerTask('default', [

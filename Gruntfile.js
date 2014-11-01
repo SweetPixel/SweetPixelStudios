@@ -403,6 +403,13 @@ module.exports = function (grunt) {
 
         },
 
+        sitemap: {
+          dist: {
+            siteRoot: 'dist/',
+            homepage: 'http://www.sweetpixelstudios.com'
+          }
+        },
+
 
         // Run some tasks in parallel to speed up build process
         concurrent: {
@@ -475,7 +482,8 @@ module.exports = function (grunt) {
         'rev',
         'usemin',
         'htmlmin',
-        'copySVG'
+        'copySVG',
+        'sitemap'
     ]);
 
     grunt.registerTask('default', [

@@ -7,6 +7,13 @@ h2, .h2 {
     font-size: 25px;
 }
 
+/* SLIDE DOWN of modal stops and it fades in/ out */
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -.5%);
+  -ms-transform: translate(0, -.5%);
+  transform: translate(0, -.5%);
+}
+
 .col-xs-1, .col-sm-1, .col-md-1, 
 .col-lg-1, .col-xs-2, .col-sm-2, 
 .col-md-2, .col-lg-2, .col-xs-3, 

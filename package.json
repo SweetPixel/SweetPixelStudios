@@ -31,7 +31,8 @@
     "grunt-dploy": "0.0.2",
     "grunt-git": "0.2.14",
     "grunt-githooks": "0.3.1",
-    "grunt-sitemap": "^1.2.0"
+    "grunt-sitemap": "^1.2.0",
+    "benchmark-pages": "*"
   },
   "engines": {
     "node": ">=0.10.0"

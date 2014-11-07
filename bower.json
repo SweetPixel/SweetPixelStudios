@@ -5,7 +5,8 @@
     "jquery": "*",
 	"bootstrap": "*",
     "modernizr": "*",
-    "animate.css": "*"
+    "animate.css": "*",
+    "onepage-scroll": "1.3.1"
   },
   "devDependencies": {}
 }

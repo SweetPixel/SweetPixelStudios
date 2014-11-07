@@ -13,20 +13,20 @@ still go to destination with the normal html anchor
 Don't forget to put an id to your anchor !
 
 *****/
-'use strict';
-
-var anchor = {
-	init : function()  {
-		$('a.anchorLink').click(function () {
-			var elementClick = $(this).attr('href');
-			var destination = $(elementClick).offset().top;
-			$('html:not(:animated),body:not(:animated)').animate({ scrollTop: destination}, 1100 );
-			return false;
-		});
-	}
-};
-
-
-$(document).ready(function() {
-	anchor.init();
-});
+// 'use strict';
+//
+// var anchor = {
+// 	init : function()  {
+// 		$('a.anchorLink').click(function () {
+// 			var elementClick = $(this).attr('href');
+// 			var destination = $(elementClick).offset().top;
+// 			$('html:not(:animated),body:not(:animated)').animate({ scrollTop: destination}, 1100 );
+// 			return false;
+// 		});
+// 	}
+// };
+//
+//
+// $(document).ready(function() {
+// 	anchor.init();
+// });

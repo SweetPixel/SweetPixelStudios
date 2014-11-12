@@ -7,13 +7,10 @@ h2, .h2 {
     font-size: 25px;
 }
 
-/* SLIDE DOWN of modal stops and it fades in/ out */
-/*.modal.fade .modal-dialog {
-  -webkit-transform: translate(0, -.5%);
-  -ms-transform: translate(0, -.5%);
-  transform: translate(0, -.5%);
+#fbimg:hover {
+	-webkit-transition: 1s;
+	transition: 1s;
 }
-*/
 
 .modal {
     /*! adjust transition time */

@@ -1,6 +1,6 @@
 
 
-<<<<<<< HEAD
+
   $(".main").onepage_scroll({
     sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
     easing: "cubic-bezier(0.175, 0.885, 0.420, 1.310)",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
@@ -17,7 +17,7 @@
     // the browser's width is less than 600, the fallback will kick in.
     direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
    });
-=======
+
   // $(".main").onepage_scroll({
   //   sectionContainer: "cat",     // sectionContainer accepts any kind of selector in case you don't want to use section
   //   easing: "cubic-bezier(0.175, 0.885, 0.420, 1.310)",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
@@ -34,4 +34,4 @@
   //   // the browser's width is less than 600, the fallback will kick in.
   //   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
   //  });
->>>>>>> f07a11a0cc7dc7336882cbfdf3a9cbd688e199f9
+

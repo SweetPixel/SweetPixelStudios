@@ -454,11 +454,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('copySVG', function (target) {
       grunt.file.copy('app/sweet-pixel-studios-images/Social-Media-Icons.svg',
-      'dist/sweet-pixel-studios-images/Social-Media-Icons.svg');
-    });
-
-    grunt.registerTask('copySVG', function (target) {
-      grunt.file.copy('app/sweet-pixel-studios-images/Android_Store.svg',
+      'dist/sweet-pixel-studios-images/Social-Media-Icons.svg','app/sweet-pixel-studios-images/Android_Store.svg',
       'dist/sweet-pixel-studios-images/Android_Store.svg');
     });
 

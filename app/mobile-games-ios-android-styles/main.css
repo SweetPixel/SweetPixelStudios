@@ -551,6 +551,8 @@ padding-left: 0px;
 
 @media (min-width: 1200px){
 	.head-text {
+		color: black;
+		padding-left: 24%;
 		font-size: 68px;
 		margin-top: 220px;
 		line-height: 90px;

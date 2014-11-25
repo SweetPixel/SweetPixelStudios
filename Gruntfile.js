@@ -457,6 +457,11 @@ module.exports = function (grunt) {
       'dist/sweet-pixel-studios-images/Social-Media-Icons.svg');
     });
 
+    grunt.registerTask('copySVG', function (target) {
+      grunt.file.copy('app/sweet-pixel-studios-images/Android_Store.svg',
+      'dist/sweet-pixel-studios-images/Android_Store.svg');
+    });
+
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {
             grunt.task.run([

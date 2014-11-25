@@ -467,6 +467,11 @@ module.exports = function (grunt) {
             'dist/sweet-pixel-studios-images/be_back_soon.svg');
     });
 
+    grunt.registerTask('copyFacebookSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/facebook.svg',
+            'dist/sweet-pixel-studios-images/facebook.svg');
+    });
+
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {
             grunt.task.run([
@@ -497,6 +502,8 @@ module.exports = function (grunt) {
         'htmlmin',
         'copySVG',
         'copyAndroidStoreSVG',
+        'copyBeBackSoonSVG',
+        'copyFacebookSVG',
         'sitemap'
     ]);
 

@@ -1,6 +1,7 @@
 body{
 	font-family: "Open Sans Condensed",Helvetica,Arial,Sans-serif;
 	font-size: 14px;
+	background-color: #E9E29D;
 }
 
 h2, .h2 {
@@ -551,8 +552,7 @@ padding-left: 0px;
 
 @media (min-width: 1200px){
 	.head-text {
-		color: black;
-		padding-left: 24%;
+		padding-left: 27%;
 		font-size: 68px;
 		margin-top: 0%;
 		line-height: 90px;
@@ -568,18 +568,53 @@ padding-left: 0px;
 	}
 	body {
 		padding-top: 0px;
-		background-color: #E9E29D;
+	}
+	.container {
+		width: 1300px;
 	}
 	.robot-icon {
 		margin-left: 9%;
-		padding-top: 12%;
-		width: 40%;
+		padding-top: 10%;
+		width: 37%;
 	}
 	.meanwhile-icon {
 		margin-top: -39%;
-		margin-left: 61%;
+		margin-left: 58%;
 	}
-	.detail-text {
+	.ios-store-icon {
+		margin-left: 73%
+	}
+	.android-store-icon {
+		margin-top: -12.8%;
+		margin-left: 58.2%;
+	}
+	.facebook-icon {
+		padding-left: 96%;
+		margin-top: 4.1%;
+	}
+	ul, ol {
+		margin-top: 0.6%;
+		margin-bottom: 0px;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.list-inline {
+		padding-left: 0;
+		margin-left: 18%;
+		list-style: none;
+	}
+	.footer {
+		margin-top: -4.4%;
+		margin-left: 85%;
+	}
+	.follow-us-icon {
+		margin-left: 76%;
+		margin-top: 4%;
+	}
+	/*.detail-text {
 		width: 31%;
 		margin-left: -5%;
 	}
@@ -606,7 +641,7 @@ padding-left: 0px;
 	}
 	button.close {
 		margin-right: 5px;
-	}
+	}*/
 }
 
 .modal-header {

@@ -462,6 +462,11 @@ module.exports = function (grunt) {
       'dist/sweet-pixel-studios-images/Android_Store.svg');
     });
 
+    grunt.registerTask('copyBeBackSoonSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/be_back_soon.svg',
+            'dist/sweet-pixel-studios-images/be_back_soon.svg');
+    });
+
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {
             grunt.task.run([

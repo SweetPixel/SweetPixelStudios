@@ -554,7 +554,7 @@ padding-left: 0px;
 		color: black;
 		padding-left: 24%;
 		font-size: 68px;
-		margin-top: 220px;
+		margin-top: 0%;
 		line-height: 90px;
 	}
 	.team-text {
@@ -569,6 +569,15 @@ padding-left: 0px;
 	body {
 		padding-top: 0px;
 		background-color: #E9E29D;
+	}
+	.robot-icon {
+		margin-left: 9%;
+		padding-top: 12%;
+		width: 40%;
+	}
+	.meanwhile-icon {
+		margin-top: -39%;
+		margin-left: 61%;
 	}
 	.detail-text {
 		width: 31%;

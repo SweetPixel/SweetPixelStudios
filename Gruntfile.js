@@ -504,7 +504,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('copyRobotMobileSVG', function (target) {
         grunt.file.copy('app/sweet-pixel-studios-images/Robot_Mobile.svg',
-            'dist/sweet-pixel-studios-images/Robot_Mobile.svg');
+            'app/sweet-pixel-studios-images/Robot_Mobile.svg');
     });
 
     grunt.registerTask('test', function (target) {

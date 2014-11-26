@@ -287,6 +287,7 @@ padding-left: 0px;
 		margin-left: 11%;
 	}
 	.robot-icon {
+		background-image: url('sweet-pixel-studios-images/Robot_Mobile.svg');
 		margin-left: 12%;
 	}
 	.meanwhile-icon {
@@ -668,6 +669,9 @@ padding-left: 0px;
 }
 
 @media (min-width: 1200px){
+	.robot-icon {
+		background-image: url('/sweet-pixel-studios-images/Robot_Web.svg');
+	}
 	.head-text {
 		padding-left: 27%;
 		font-size: 68px;

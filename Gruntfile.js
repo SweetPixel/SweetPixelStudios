@@ -472,6 +472,36 @@ module.exports = function (grunt) {
             'dist/sweet-pixel-studios-images/facebook.svg');
     });
 
+    grunt.registerTask('copyFollowusSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/Follow_us_on.svg',
+            'dist/sweet-pixel-studios-images/Follow_us_on.svg');
+    });
+
+    grunt.registerTask('copyGPlusSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/G+.svg',
+            'dist/sweet-pixel-studios-images/G+.svg');
+    });
+
+    grunt.registerTask('copyiOSStoreSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/iOS_Store.svg',
+            'dist/sweet-pixel-studios-images/iOS_Store.svg');
+    });
+
+    grunt.registerTask('copyPlayThisOutSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/play_this_out.svg',
+            'dist/sweet-pixel-studios-images/play_this_out.svg');
+    });
+
+    grunt.registerTask('copyRobotWebSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/Robot_Web.svg',
+            'dist/sweet-pixel-studios-images/Robot_Web.svg');
+    });
+
+    grunt.registerTask('copyTwitterSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/twitter.svg',
+            'dist/sweet-pixel-studios-images/twitter.svg');
+    });
+
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {
             grunt.task.run([
@@ -504,6 +534,12 @@ module.exports = function (grunt) {
         'copyAndroidStoreSVG',
         'copyBeBackSoonSVG',
         'copyFacebookSVG',
+        'copyFollowusSVG',
+        'copyGPlusSVG',
+        'copyiOSStoreSVG',
+        'copyPlayThisOutSVG',
+        'copyRobotWebSVG',
+        'copyTwitterSVG',
         'sitemap'
     ]);
 

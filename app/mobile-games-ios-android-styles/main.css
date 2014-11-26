@@ -407,11 +407,48 @@ padding-left: 0px;
 
 @media (min-width: 590px) and (max-width: 797px){
 	.head-text {
-		font-size: 32px;
-		margin-top: 130px;
+		width: 40%;
+		margin-top: -10%;
 		line-height: 40px;
+		margin-left: 28%;
 	}
-	.team-text {
+	.container {
+		width: 780px;
+		padding-right: 6%;
+	}
+	.robot-icon {
+		width: 67%;
+	}
+	.meanwhile-icon {
+		margin-top: -64%;
+		margin-left: 62%;
+		width: 34%;
+	}
+	.download-link {
+		margin-left: 64%;
+		width: 43%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 26%;
+	}
+	.follow-us-icon {
+		margin-left: 60%;
+		margin-top: 18%;
+	}
+	.footer {
+		margin-left: 80%;
+		margin-top: -6%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 30%;
+	}
+	/*.team-text {
 		font-size: 23px;
 		margin-top: 130px;
 		line-height: 40px;
@@ -419,11 +456,11 @@ padding-left: 0px;
 	.brand-logo {
 		max-width: 20%;
 		margin-top: -80px;
-	}
+	}*/
 	body {
 		padding-top: 80px;
 	}
-	.TeamButton {
+	/*.TeamButton {
 		height: 45px;
 		width: 100px;
 		font-size: 24px;
@@ -445,17 +482,17 @@ padding-left: 0px;
 	.first-row {
 		margin-top: 2%;
 	}
-	.second-row {
+	.second-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
+		/*margin-top: 2%;
 	}
 	.third-row {
 		margin-top: 2%;
 	}
-	.four-row {
+	.four-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
-	}
+		/*margin-top: 2%;
+	}*/
 }
 
 @media (min-width: 798px) and (max-width: 991px){

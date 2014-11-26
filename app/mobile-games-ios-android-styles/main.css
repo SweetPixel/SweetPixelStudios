@@ -459,12 +459,42 @@ padding-left: 0px;
 }
 
 @media (min-width: 798px) and (max-width: 991px){
-	.head-text {
-		font-size: 44px;
-		margin-top: 160px;
-		line-height: 60px;
+	.container {
+		width: 970px;
 	}
-	.team-text {
+	.head-text {
+		width: 44%;
+		margin-top: -8%;
+		line-height: 60px;
+		margin-left: 28%;
+	}
+	.robot-icon {
+		width: 48%;
+		margin-top: 4%;
+		margin-left: 8%;
+	}
+	.meanwhile-icon {
+		margin-top: -50%;
+		margin-left: 58%;
+	}
+	.list-inline {
+		padding-left: 0;
+		margin-left: 59%;
+		list-style: none;
+	}
+	.footer {
+		margin-top: -5%;
+		margin-left: 59%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.follow-us-icon {
+		margin-left: 67%;
+	}
+	/*.team-text {
 		font-size: 33px;
 		margin-top: 170px;
 		line-height: 50px;
@@ -472,11 +502,11 @@ padding-left: 0px;
 	.brand-logo {
 		max-width: 20%;
 		margin-top: 90px;
-	}
+	}*/
 	body {
 		padding-top: 80px;
 	}
-	.TeamButton {
+	/*.TeamButton {
 		height: 48px;
 		width: 110px;
 	}
@@ -491,25 +521,25 @@ padding-left: 0px;
 	}
 	.profile-pic-second {
 		margin-left: -1%;
-	}
-	.close {
+	}*/
+	/*.close {*/
 		/*margin-top: -3%;*/
-		font-size: 24px;
+		/*font-size: 24px;
 	}
 	.first-row {
 		margin-top: 2%;
 	}
-	.second-row {
+	.second-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
+		/*margin-top: 2%;
 	}
 	.third-row {
 		margin-top: 2%;
 	}
-	.four-row {
+	.four-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
-	}
+	/*	margin-top: 2%;
+	}*/
 }
 
 @media (min-width: 992px) and (max-width: 1199px){

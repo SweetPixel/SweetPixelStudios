@@ -287,8 +287,7 @@ padding-left: 0px;
 		margin-left: 11%;
 	}
 	.robot-icon {
-		background-image: url('sweet-pixel-studios-images/Robot_Mobile.svg');
-		margin-left: 12%;
+		margin-left: 15%;
 	}
 	.meanwhile-icon {
 		width: 88%;
@@ -301,7 +300,12 @@ padding-left: 0px;
 		width: 15%;
 	}
 	.download-link {
-		width: 100%;
+		width: 230%;
+	}
+	.footer {
+		width: 80%;
+		margin-top: -13%;
+		margin-left: 58%;
 	}
 	/*.team-text {
 		font-size: 13px;
@@ -669,9 +673,6 @@ padding-left: 0px;
 }
 
 @media (min-width: 1200px){
-	.robot-icon {
-		background-image: url('/sweet-pixel-studios-images/Robot_Web.svg');
-	}
 	.head-text {
 		padding-left: 27%;
 		font-size: 68px;

@@ -502,6 +502,11 @@ module.exports = function (grunt) {
             'dist/sweet-pixel-studios-images/twitter.svg');
     });
 
+    grunt.registerTask('copyRobotMobileSVG', function (target) {
+        grunt.file.copy('app/sweet-pixel-studios-images/Robot_Mobile.svg',
+            'dist/sweet-pixel-studios-images/Robot_Mobile.svg');
+    });
+
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {
             grunt.task.run([
@@ -540,6 +545,7 @@ module.exports = function (grunt) {
         'copyPlayThisOutSVG',
         'copyRobotWebSVG',
         'copyTwitterSVG',
+        'copyRobotMobileSVG',
         'sitemap'
     ]);
 

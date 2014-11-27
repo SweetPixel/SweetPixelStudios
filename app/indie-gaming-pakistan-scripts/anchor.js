@@ -28,9 +28,4 @@ Don't forget to put an id to your anchor !
 
 
 // $(document).ready(function() {
-<<<<<<< HEAD
 // 	//anchor.init();
-=======
-// 	anchor.init();
->>>>>>> e3222c61b3cd68ec37595057e1b1e68e7d934634
-// });

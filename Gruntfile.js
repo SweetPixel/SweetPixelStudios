@@ -271,7 +271,7 @@ module.exports = function (grunt) {
                 }
             }
         },
-        
+
         htmlmin: {
             dist: {
                 options: {
@@ -303,6 +303,17 @@ module.exports = function (grunt) {
                     local: 'dist/',               // The local folder that you want to upload
                     remote: '/var/www/sweetpixelstudios'          // Where the files from the local file will be uploaded at in your remote server
                 }
+            },
+            stage: {
+                host: 'sweetpixelstudios.com',            // Your FTP host
+                user: 'deployer',
+                scheme: 'sftp',
+                privateKey: '~/.ssh/id_rsa',
+                publicKey: '~/.ssh/id_rsa.pub',
+                path: {
+                    local: 'dist/',               // The local folder that you want to upload
+                    remote: '/var/www/stagingsps'          // Where the files from the local file will be uploaded at in your remote server
+                  }
             }
         },
 
@@ -560,7 +571,7 @@ module.exports = function (grunt) {
         'test',
         'build',
         'gitcommit',
-        'dploy',
+        'dploy:stage',
         'slack'
     ]);
 };

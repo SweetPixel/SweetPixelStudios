@@ -287,10 +287,11 @@ padding-left: 0px;
 		margin-left: 11%;
 	}
 	.robot-icon {
-		margin-left: 15%;
+		margin-left: 10%;
+		width: 82%;
 	}
 	.meanwhile-icon {
-		width: 88%;
+		width: 80%;
 		margin-left: 7%;
 	}
 	.list-inline > li {
@@ -301,6 +302,7 @@ padding-left: 0px;
 	}
 	.download-link {
 		width: 230%;
+		margin-left: -5%;
 	}
 	.footer {
 		width: 80%;
@@ -313,7 +315,7 @@ padding-left: 0px;
 		line-height: 20px;
 	}*/
 	body {
-		padding-top: 50px;
+		padding-top: 0%;
 	}
 	/*.TeamButton {
 		height: 19px;
@@ -353,7 +355,7 @@ padding-left: 0px;
 		line-height: 20px;
 	}*/
 	body {
-		padding-top: 75px;
+		padding-top: 0%;
 	}
 	/*.TeamButton {
 		height: 27px;
@@ -395,7 +397,7 @@ padding-left: 0px;
 		line-height: 30px;
 	}*/
 	body {
-		padding-top: 75px;
+		padding-top: 0%;
 	}
 	/*.TeamButton {
 		height: 27px;
@@ -470,6 +472,9 @@ padding-left: 0px;
 		padding-left: 0px;
 		width: 30%;
 	}
+	.col-xs-12, .col-sm-6, .col-lg-8 {
+		margin-left: 30%;
+	}
 	/*.team-text {
 		font-size: 23px;
 		margin-top: 130px;
@@ -480,7 +485,7 @@ padding-left: 0px;
 		margin-top: -80px;
 	}*/
 	body {
-		padding-top: 80px;
+		padding-top: 0%;
 	}
 	/*.TeamButton {
 		height: 45px;
@@ -553,6 +558,9 @@ padding-left: 0px;
 	.follow-us-icon {
 		margin-left: 67%;
 	}
+	.col-xs-12, .col-sm-6, .col-lg-8 {
+		margin-left: 26%;
+	}
 	/*.team-text {
 		font-size: 33px;
 		margin-top: 170px;
@@ -563,7 +571,7 @@ padding-left: 0px;
 		margin-top: 90px;
 	}*/
 	body {
-		padding-top: 80px;
+		padding-top: 0%;
 	}
 	/*.TeamButton {
 		height: 48px;
@@ -640,6 +648,9 @@ padding-left: 0px;
 		margin-top: -4.8%;
 		margin-left: 83%;
 	}
+	.col-xs-12, .col-sm-6, .col-lg-8 {
+		margin-left: 25%;
+	}
 	/*.team-text {
 		font-size: 43px;
 		margin-top: 220px;
@@ -651,7 +662,7 @@ padding-left: 0px;
 	}*/
 
 	body {
-		padding-top: 80px;
+		padding-top: 0%;
 	}
 	/*.modal-body {
 		font-size: 20px;

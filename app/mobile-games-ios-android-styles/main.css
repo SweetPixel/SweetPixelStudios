@@ -1,6 +1,7 @@
 body{
 	font-family: "Open Sans Condensed",Helvetica,Arial,Sans-serif;
 	font-size: 14px;
+	background-color: #E9E29D;
 }
 
 h2, .h2 {
@@ -280,19 +281,41 @@ padding-left: 0px;
 }
 @media (max-width: 379px){
 	.head-text {
-		font-size: 18px;
-		margin-top: 60px;
+		width: 70%;
+		margin-top: -15%;
 		line-height: 25px;
+		margin-left: 11%;
 	}
-	.team-text {
+	.robot-icon {
+		margin-left: 15%;
+	}
+	.meanwhile-icon {
+		width: 88%;
+		margin-left: 7%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 15%;
+	}
+	.download-link {
+		width: 230%;
+	}
+	.footer {
+		width: 80%;
+		margin-top: -13%;
+		margin-left: 58%;
+	}
+	/*.team-text {
 		font-size: 13px;
 		margin-top: 60px;
 		line-height: 20px;
-	}
+	}*/
 	body {
 		padding-top: 50px;
 	}
-	.TeamButton {
+	/*.TeamButton {
 		height: 19px;
 		width: 49px;
 		font-size: 11px;
@@ -316,7 +339,7 @@ padding-left: 0px;
 	.detail-text-second {
 		width: 65%;
 		margin-left: -5%;
-	}
+	}*/
 }
 @media (min-width: 380px) and (max-width: 479px){
 	.head-text {
@@ -324,15 +347,15 @@ padding-left: 0px;
 		margin-top: 70px;
 		line-height: 25px;
 	}
-	.team-text {
+	/*.team-text {
 		font-size: 16px;
 		margin-top: 80px;
 		line-height: 20px;
-	}
+	}*/
 	body {
 		padding-top: 75px;
 	}
-	.TeamButton {
+	/*.TeamButton {
 		height: 27px;
 		width: 70px;
 		font-size: 16px;
@@ -357,7 +380,7 @@ padding-left: 0px;
 	.detail-text-second {
 		width: 70%;
 		margin-left: -5%;
-	}
+	}*/
 }
 
 @media (min-width: 480px) and (max-width: 589px){
@@ -366,15 +389,15 @@ padding-left: 0px;
 		margin-top: 90px;
 		line-height: 30px;
 	}
-	.team-text {
+	/*.team-text {
 		font-size: 20px;
 		margin-top: 100px;
 		line-height: 30px;
-	}
+	}*/
 	body {
 		padding-top: 75px;
 	}
-	.TeamButton {
+	/*.TeamButton {
 		height: 27px;
 		width: 70px;
 		font-size: 16px;
@@ -401,16 +424,53 @@ padding-left: 0px;
 	.detail-text-second {
 		width: 63%;
 		margin-left: -3%;
-	}
+	}*/
 }
 
 @media (min-width: 590px) and (max-width: 797px){
 	.head-text {
-		font-size: 32px;
-		margin-top: 130px;
+		width: 40%;
+		margin-top: -10%;
 		line-height: 40px;
+		margin-left: 28%;
 	}
-	.team-text {
+	.container {
+		width: 780px;
+		padding-right: 6%;
+	}
+	.robot-icon {
+		width: 67%;
+	}
+	.meanwhile-icon {
+		margin-top: -64%;
+		margin-left: 62%;
+		width: 34%;
+	}
+	.download-link {
+		margin-left: 64%;
+		width: 43%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 26%;
+	}
+	.follow-us-icon {
+		margin-left: 60%;
+		margin-top: 18%;
+	}
+	.footer {
+		margin-left: 80%;
+		margin-top: -6%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 30%;
+	}
+	/*.team-text {
 		font-size: 23px;
 		margin-top: 130px;
 		line-height: 40px;
@@ -418,11 +478,11 @@ padding-left: 0px;
 	.brand-logo {
 		max-width: 20%;
 		margin-top: -80px;
-	}
+	}*/
 	body {
 		padding-top: 80px;
 	}
-	.TeamButton {
+	/*.TeamButton {
 		height: 45px;
 		width: 100px;
 		font-size: 24px;
@@ -444,26 +504,56 @@ padding-left: 0px;
 	.first-row {
 		margin-top: 2%;
 	}
-	.second-row {
+	.second-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
+		/*margin-top: 2%;
 	}
 	.third-row {
 		margin-top: 2%;
 	}
-	.four-row {
+	.four-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
-	}
+		/*margin-top: 2%;
+	}*/
 }
 
 @media (min-width: 798px) and (max-width: 991px){
-	.head-text {
-		font-size: 44px;
-		margin-top: 160px;
-		line-height: 60px;
+	.container {
+		width: 970px;
 	}
-	.team-text {
+	.head-text {
+		width: 44%;
+		margin-top: -8%;
+		line-height: 60px;
+		margin-left: 28%;
+	}
+	.robot-icon {
+		width: 48%;
+		margin-top: 4%;
+		margin-left: 8%;
+	}
+	.meanwhile-icon {
+		margin-top: -50%;
+		margin-left: 58%;
+	}
+	.list-inline {
+		padding-left: 0;
+		margin-left: 59%;
+		list-style: none;
+	}
+	.footer {
+		margin-top: -5%;
+		margin-left: 59%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.follow-us-icon {
+		margin-left: 67%;
+	}
+	/*.team-text {
 		font-size: 33px;
 		margin-top: 170px;
 		line-height: 50px;
@@ -471,11 +561,11 @@ padding-left: 0px;
 	.brand-logo {
 		max-width: 20%;
 		margin-top: 90px;
-	}
+	}*/
 	body {
 		padding-top: 80px;
 	}
-	.TeamButton {
+	/*.TeamButton {
 		height: 48px;
 		width: 110px;
 	}
@@ -490,34 +580,67 @@ padding-left: 0px;
 	}
 	.profile-pic-second {
 		margin-left: -1%;
-	}
-	.close {
+	}*/
+	/*.close {*/
 		/*margin-top: -3%;*/
-		font-size: 24px;
+		/*font-size: 24px;
 	}
 	.first-row {
 		margin-top: 2%;
 	}
-	.second-row {
+	.second-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
+		/*margin-top: 2%;
 	}
 	.third-row {
 		margin-top: 2%;
 	}
-	.four-row {
+	.four-row {*/
 		/*margin-left: -1%;*/
-		margin-top: 2%;
-	}
+	/*	margin-top: 2%;
+	}*/
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
 	.head-text {
 		font-size: 58px;
-		margin-top: 210px;
+		margin-top: -7%;
 		line-height: 80px;
+		margin-left: 25%;
 	}
-	.team-text {
+	.robot-icon {
+		width: 41%;
+		margin-top: 4%;
+		margin-left: 8%;
+	}
+	.meanwhile-icon {
+		margin-top: -47%;
+		margin-left: 60%;
+	}
+	.download-link {
+		margin-left: 61%;
+	}
+	.follow-us-icon {
+		margin-top: -2%;
+		margin-left: 79%;
+	}
+	.container {
+		width: 1120px;
+	}
+	.follow-us-icon {
+		margin-top: 0%;
+		margin-left: 70%;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.footer {
+		margin-top: -4.8%;
+		margin-left: 83%;
+	}
+	/*.team-text {
 		font-size: 43px;
 		margin-top: 220px;
 		line-height: 70px;
@@ -525,12 +648,12 @@ padding-left: 0px;
 	.brand-logo {
 		max-width: 20%;
 		margin-top: 90px;
-	}
+	}*/
 
 	body {
 		padding-top: 80px;
 	}
-	.modal-body {
+	/*.modal-body {
 		font-size: 20px;
 	}
 	.detail-text-second {
@@ -538,21 +661,22 @@ padding-left: 0px;
 	}
 	.second-row {
 		/*margin-left: -1%;*/
-		margin-top: 0.5%;
+		/*margin-top: 0.5%;
 	}
 	.third-row {
 		margin-top: 0.5%;
 	}
 	.four-row {
 		/*margin-left: -1%;*/
-		margin-top: 0.5%;
-	}
+	/*	margin-top: 0.5%;
+	}*/
 }
 
 @media (min-width: 1200px){
 	.head-text {
+		padding-left: 27%;
 		font-size: 68px;
-		margin-top: 220px;
+		margin-top: 0%;
 		line-height: 90px;
 	}
 	.team-text {
@@ -567,7 +691,55 @@ padding-left: 0px;
 	body {
 		padding-top: 0px;
 	}
-	.detail-text {
+	.container {
+		width: 1300px;
+	}
+	.robot-icon {
+		margin-left: 9%;
+		padding-top: 9%;
+		width: 37%;
+	}
+	.meanwhile-icon {
+		margin-top: -39%;
+		margin-left: 58%;
+	}
+	.ios-store-icon {
+		margin-left: 73%
+	}
+	.android-store-icon {
+		margin-top: -12.8%;
+		margin-left: 58.2%;
+	}
+	.facebook-icon {
+		padding-left: 96%;
+		margin-top: 4.1%;
+	}
+	.download-link {
+		padding-left: 50%;
+	}
+	ul, ol {
+		margin-top: 0.6%;
+		margin-bottom: 0px;
+	}
+	.list-inline > li {
+		display: inline-block;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.list-inline {
+		padding-left: 0;
+		margin-left: 18%;
+		list-style: none;
+	}
+	.footer {
+		margin-top: -4.4%;
+		margin-left: 85%;
+	}
+	.follow-us-icon {
+		margin-left: 76%;
+		margin-top: 4%;
+	}
+	/*.detail-text {
 		width: 31%;
 		margin-left: -5%;
 	}
@@ -594,7 +766,7 @@ padding-left: 0px;
 	}
 	button.close {
 		margin-right: 5px;
-	}
+	}*/
 }
 
 .modal-header {

@@ -7,17 +7,17 @@ h2, .h2 {
     font-size: 25px;
 }
 
-#fbimg:hover {
+/*#fbimg:hover {
 	-webkit-transition: 1s;
 	transition: 1s;
-}
+}*/
 
 .modal {
     /*! adjust transition time */
     -webkit-transition: all ease-out !important;
-    -moz-transition: all 0.8s ease-out !important;
-    -o-transition: all 0.8s ease-out !important;
-    transition: all 0.8s ease-out !important;
+    -moz-transition: all 0.5s ease-out !important;
+    -o-transition: all 0.5s ease-out !important;
+    transition: all 0.5s ease-out !important;
 }
 .modal.in .modal-dialog {
     /*! editthis transform to any transform you want */
@@ -565,7 +565,7 @@ padding-left: 0px;
 		margin-top: 5px;
 	}
 	body {
-		padding-top: 50px;
+		padding-top: 0px;
 	}
 	.detail-text {
 		width: 31%;

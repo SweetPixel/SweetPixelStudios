@@ -1,3 +1,18 @@
+body {
+  background-color: #E9E29D;
+}
+
+@media (min-width: 1200px){
+  .robot-icon {
+    width: 40%;
+  }
+  .meanwhile-icon {
+    width: 37%;
+  }
+  .col-md-6 {
+    width: 15%;
+  }
+}
 
 #fbimg {
   background: url('/sweet-pixel-studios-images/Social-Media-Icons.svg');

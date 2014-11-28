@@ -4,7 +4,17 @@ body {
 
 @media (min-width: 1200px){
   .robot-icon {
-    width: 40%;
+    width: 36%;
+  }
+  .footer {
+    margin-top: 20%;
+    /*margin-left: 42%;*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-md-1 {
+    padding-left: 0px; 
+    padding-right: 0px;
   }
 }
 

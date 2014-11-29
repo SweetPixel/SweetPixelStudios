@@ -2,6 +2,7 @@ body {
   background-color: #E9E29D;
 }
 
+ /*Media Quries*/
 @media (min-width: 1200px){
   .robot-icon {
     width: 36%;

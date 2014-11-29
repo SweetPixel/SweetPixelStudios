@@ -25,10 +25,16 @@ body {
   }
 }
 
-@media screen and (min-width : 480px){
-  /*.android-link {
-    width: 48%;
-  }*/
+@media screen and (min-width : 320px){
+  .android-link {
+    width: 46%;
+  }
+  .ios-link {
+    width: 46%;
+  }
+  .footer {
+    margin-left: 35%;
+  }
 }
 
 #fbimg {

@@ -7,14 +7,21 @@ body {
     width: 36%;
   }
   .footer {
-    margin-top: 20%;
-    /*margin-left: 42%;*/
+    margin-top: -6%;
+    margin-left: 28%;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .follow-us-link {
+    margin-top: 4%;
   }
   .col-md-1 {
     padding-left: 0px; 
     padding-right: 0px;
+  }
+  .meanwhile-icon {
+    width: 49%;
+    margin-top: 10%;
   }
 }
 

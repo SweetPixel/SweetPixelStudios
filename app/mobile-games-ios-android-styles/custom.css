@@ -15,7 +15,7 @@ body {
   }
   .follow-us-link {
     margin-top: 4%;
-    margin-left: 47%;
+    margin-left: 63%;
   }
   .col-md-1 {
     padding-left: 0px; 
@@ -24,6 +24,12 @@ body {
   .meanwhile-icon {
     width: 49%;
     margin-top: 10%;
+  }
+  .col-md-offset-3 {
+    margin-left: 24%;
+  }
+  .col-md-offset-2 {
+    margin-left: 0%;
   }
 }
 

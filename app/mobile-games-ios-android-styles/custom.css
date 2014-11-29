@@ -2,18 +2,15 @@ body {
   background-color: #E9E29D;
 }
 
-@media screen and (min-width : 1224px){
+@media (min-width: 1200px){
   .robot-icon {
     width: 36%;
   }
   .footer {
-    margin-top: -6%;
-    margin-left: 28%;
+    margin-top: 6%;
+    /*margin-left: 42%;*/
     padding-left: 0px;
     padding-right: 0px;
-  }
-  .follow-us-link {
-    margin-top: 4%;
   }
   .col-md-1 {
     padding-left: 0px; 
@@ -25,16 +22,10 @@ body {
   }
 }
 
-@media screen and (min-width : 320px){
-  .android-link {
-    width: 46%;
-  }
-  .ios-link {
-    width: 46%;
-  }
-  .footer {
-    margin-left: 35%;
-  }
+@media screen and (min-width : 480px){
+  /*.android-link {
+    width: 48%;
+  }*/
 }
 
 #fbimg {

@@ -1,0 +1,81 @@
+
+.title h1,
+.second .btn-primary:hover,
+.pricing-box .btn-primary,
+.join-des .btn-primary:hover,
+.h1-line,
+.feat-icon,
+.feature-box:hover .feat-icon,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.serv-icon,
+.nav-tabs>li>a,.nav-tabs>li>a:hover,
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.team-social li a,
+.progress .bar,
+.inner-filters li a,
+.inner-filters li:hover a, .inner-filters li.active a,
+.client,
+.create .btn-primary:hover,
+.map-holder,
+.btn-block, .btn-block:hover,
+.social ul li:hover a,
+.social ul li.active a{
+	background: #2dabf0;
+}
+.clients-title{
+	background: rgba(45, 171, 240, 0.5)
+}
+.filterable-item figcaption{
+	background: rgba(45, 171, 240, 0.8)
+}
+a,
+.color,
+.counters i,
+.pricing-box li h1,
+.pricing-box .btn-primary:hover,
+.team-icon,.team-social li a:hover,
+.look:hover,
+.social ul li a span,
+.copyright{
+	color: #2dabf0;
+}
+.second .btn-primary:hover,
+.h1-line-left,
+.h1-line-right,
+.nav-tabs>li>a:hover,
+.pricing-box .btn-primary,.pricing-box .btn-primary:hover,
+.join-des .btn-primary:hover,
+.team-icon,
+.team-inner:hover,
+.inner-filters li:hover a, .inner-filters li.active a,
+.inner-filters li,
+.client:hover,
+.create .btn-primary:hover{
+	border-color: #2dabf0
+}
+.feat-icon:after{
+	border: 15px solid #2dabf0
+}
+.counters li,
+.testi-client > ul li{
+	border-left: 3px solid #2dabf0;
+	border-right: 3px solid #2dabf0
+}
+.clients-title:after{
+	border: 10px solid rgba(45, 171, 240, 0.5);
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+}
+.title h1,
+.feat-icon,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.serv-icon,
+.nav-tabs>li>a,
+.inner-filters li a,
+.client{
+	box-shadow: 0px 0px 0px 3px #2dabf0
+}
+.nav-tabs>li>a:hover{
+	box-shadow: 0px 0px 0px 4px #b83d4f,0px 0px 0px 7px #2dabf0
+}

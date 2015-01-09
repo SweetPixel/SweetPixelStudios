@@ -1,0 +1,13 @@
+/* Loading CSS Stylesheet */
+@import url(bootstrap.css);
+@import url(font-awesome.min.css);
+@import url(animate.css);
+@import url(grid.css);
+@import url(prettyPhoto.css);
+@import url(flexslider/flexslider.css);
+@import url(supersized.css);
+@import url(supersized.shutter.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Jockey+One);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans);
+

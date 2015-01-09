@@ -1,0 +1,103 @@
+body,.fancy-header h1{
+	color: #fefdfb
+}
+h2,h3,h4,h5{
+	color: #ecf0f1;
+}
+#about,#work,#gallery,#team,#contact,#price,#services,#landing,
+.progress,
+.counters li,
+.team > ul li,
+.team-social li a:hover,
+.filterable-item figcaption h3:after,
+.look:hover,
+.testi-client > ul li,
+.overlay-home {
+	background: #9f3444
+}
+.title h1,
+.feat-icon,
+.inner-filters li a,
+.serv-icon,
+.look{
+	border-color: #9f3444
+}
+.title h1,
+.feat-icon,
+.serv-icon,
+.pricing-box .btn-primary,
+.team-social li a,
+.progress .bar,
+.inner-filters li a,
+.inner-filters li:hover a, .inner-filters li.active a,
+.filterable-item figcaption,
+.filterable-item figcaption h3,
+.look,
+.btn-block, .btn-block:hover,
+.map-holder,
+.create .btn-primary:hover,
+.second .btn-primary:hover,
+.join-des .btn-primary:hover,
+.social ul li:hover a span,
+.social ul li.active a span{
+	color: #9f3444;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
+.app,
+.process,
+.skills,
+.build,
+.clients,
+.pricing-box li.price-row,.pricing-box li.btn-row{
+	background: #b83d4f
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
+#services .title h1,
+.skills .title h1,
+#team,
+.join-des span:hover,
+.team-inner,
+.client,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.nav-tabs>li>a,.nav-tabs>li>a:hover{
+	border-color: #b83d4f
+}
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a{
+	color: #b83d4f;
+}
+#contact #submit:hover{
+	background: #b0495a
+}
+.pricing-5-col,.pricing-box ul,.pricing-box li,.pricing-box li,#contact #submit:hover{
+	border-color: #b0495a
+}
+
+.navbar, .copyright {
+	background: #b0495a;
+}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
+.navbar .nav>li>a:hover{
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.join-des span{
+	border-color: #2ecc71;
+}
+.nav-tabs>li>a:hover{
+	border-color: #00D8CC;
+	box-shadow: 0px 0px 0px 4px #b83d4f,0px 0px 0px 7px #00D8CC;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus{ 
+	border-color: #272727;
+	-webkit-box-shadow: inset 0 1px 1px #272727;
+	-moz-box-shadow: inset 0 1px 1px #272727;
+	box-shadow: inset 0 1px 1px #272727;
+}
+@media (max-width: 480px) {
+.join-des span,.join-des span:hover{ padding: 0; background: transparent; border: 0; box-shadow: none}
+}

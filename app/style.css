@@ -900,7 +900,8 @@ border-radius: 50%;
 	position: relative;
 }
 .dot-build,.dot-build-2,.dot-build-3,
-.dot-build-4 {
+.dot-build-4, .dot-build-5, .dot-build-6,
+.dot-build-7 {
 	position: absolute;
 	top: 35%;
 	left: 10%;
@@ -923,10 +924,26 @@ border-radius: 50%;
 .dot-build-4{
 	top: 75%;
 }
+.dot-build-5{
+	top: 70%;
+	left: 43.3%;
+}
+.dot-build-6{
+	left: auto;
+	right: 10%;
+	top: 78%;
+}
+.dot-build-7{
+	top: 110%;
+	left: 43.3%;
+}
 .dot-build .icon,
 .dot-build-2 .icon,
 .dot-build-3 .icon,
-.dot-build-4 .icon {
+.dot-build-4 .icon,
+.dot-build-5 .icon,
+.dot-build-6 .icon,
+.dot-build-7 .icon {
 	margin: 0 auto;
 	display: block;
 	background: #00D8CC;

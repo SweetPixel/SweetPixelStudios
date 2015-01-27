@@ -1759,3 +1759,15 @@ opacity: 0;
 -moz-animation: none;
 animation: none;
 }
+
+/*Bootstrap settings*/
+.modal-header{
+	min-height: 16.4286px;
+	padding: 15px;
+	border-bottom: 0px;
+}
+.modal-body{
+	border-left:1px solid #000;
+	height:16.4286px;
+	margin-left: 33%;
+}

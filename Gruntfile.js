@@ -24,6 +24,13 @@ module.exports = function (grunt) {
     // Define the configuration for all the tasks
     grunt.initConfig({
 
+        githooks: {
+          all: {
+            // Will run the jshint and test:unit tasks at every commit
+            'pre-commit': 'jshint',
+        }
+      },
+
         // Project settings
         config: config,
 
@@ -131,11 +138,21 @@ module.exports = function (grunt) {
                 reporter: require('jshint-stylish')
             },
             all: [
-                'Gruntfile.js',
+                // 'Gruntfile.js',
                 '<%= config.app %>/indie-gaming-pakistan-scripts/{,*/}*.js',
-                '!<%= config.app %>/scripts/vendor/*',
-                'test/spec/{,*/}*.js'
+                '!<%= config.app %>/scripts/vendor/*'
             ]
+        },
+
+        csslint: {
+          strict: {
+            options: {
+              import: 2
+            },
+            src: [
+                  '<%= config.app %>/*.css'
+            ]
+          }
         },
 
         // Mocha testing framework configuration options
@@ -533,6 +550,10 @@ module.exports = function (grunt) {
             'mocha'
         ]);
     });
+
+    grunt.registerTask('dev', [
+      'githooks'
+    ])
 
     grunt.registerTask('build', [
         'clean:dist',

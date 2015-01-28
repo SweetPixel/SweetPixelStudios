@@ -1047,6 +1047,7 @@
 <script type="text/javascript" src="assets/js/demo/color-picker.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
 
+
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
@@ -1054,13 +1055,15 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				<div class="row">
-				<h4 class="modal-title col-md-3" id="myModalLabel">Available Jobs</h4>
+					<h4 class="modal-title col-md-3" id="myModalLabel">Available Jobs</h4>
 					<h4 class="modal-file-upload col-md-4" id="modalFileUpload">Apply for upcoming jobs</h4>
 				</div>
 			</div>
 			<div class="modal-body">
-				...
+				<input type="file" id="files" name="files[]" multiple />
+				<output id="list"></output>
 			</div>
+		</div>
 			<!-- <div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				<button type="button" class="btn btn-primary">Save changes</button>
@@ -1068,5 +1071,24 @@
 		</div>
 	</div>
 </div>
+
+<script>
+  function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // files is a FileList of File objects. List some properties.
+    var output = [];
+    for (var i = 0, f; f = files[i]; i++) {
+      output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+                  f.size, ' bytes, last modified: ',
+                  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
+                  '</li>');
+    }
+    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+  }
+
+  document.getElementById('files').addEventListener('change', handleFileSelect, false);
+</script>
+
 </body>
 </html>

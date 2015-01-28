@@ -1781,3 +1781,14 @@ animation: none;
 	margin-left: 4%;
 	color: black;
 }
+.modal-content {
+    background-clip: padding-box;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    /*height: 295px;*/
+    outline: medium none;
+    position: relative;
+    height: 235px;
+}

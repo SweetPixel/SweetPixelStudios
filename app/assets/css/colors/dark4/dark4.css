@@ -60,11 +60,13 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .join-des span:hover,
 .team-inner,
 .client,
-.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
+.dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
 .nav-tabs>li>a,.nav-tabs>li>a:hover{
 	border-color: #b83d4f
 }
-.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
+.dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
 .nav-tabs>li>a:hover,
 .nav-tabs>li>a{

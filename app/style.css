@@ -4,6 +4,9 @@ html, body,
 .scroll section { 
 	height: 100%; 
 }
+.container-heigth{
+	min-height: 500px;
+}
 body { 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -919,23 +922,23 @@ border-radius: 50%;
 .dot-build-3{
 	left:auto;
 	right: 10%;
-	top: 38%;
+	top: 34%;
 }
 .dot-build-4{
-	top: 75%;
+	top: 390px;
 }
 .dot-build-5{
-	top: 70%;
-	left: 43.3%;
+	top: 345px;
+	left: 43.2%;
 }
 .dot-build-6{
 	left: auto;
 	right: 10%;
-	top: 78%;
+	top: 383px;
 }
 .dot-build-7{
-	top: 110%;
-	left: 43.3%;
+	top: 490px;
+	left: 43%;
 }
 .dot-build .icon,
 .dot-build-2 .icon,

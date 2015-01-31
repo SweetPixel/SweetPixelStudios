@@ -7,6 +7,17 @@ html, body,
 .container-heigth{
 	min-height: 500px;
 }
+.resume-text{
+	color: #767272;
+	margin-left: 18%;
+}
+.sendCV{
+	margin-left: 30%;
+	width: 40%;
+	border-radius: 22px;
+	background-color: #5D5473;
+	border-color: #455575;
+}
 body { 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -1791,8 +1802,9 @@ blockquote h3{
    	outline: medium none;
    	position: relative;
    	height: 235px;
+   	margin-top: 35%;
    }
-   output {
+/*   output {
    	display: block;
    	padding-top: 7px;
    	font-size: 14px;
@@ -1803,8 +1815,8 @@ blockquote h3{
    }
    #files {
    	margin-top: 22%;
-   	/*margin-left: 68%;*/
+   	margin-left: 68%;
    	border-radius: 5px;
    	border-color: red;
    	background-color: beige;
-   }
+   }*/

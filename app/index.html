@@ -1060,8 +1060,10 @@
 				</div>
 			</div>
 			<div class="modal-body">
-				<input type="file" id="files" name="files[]" multiple />
-				<output id="list"></output>
+				<!-- <input type="file" id="files" name="files[]" multiple />
+				<output id="list"></output> -->
+				<h4 class="resume-text">If you want to be part of our Team, <br> click below to send your resume.</h4>
+				<button class="sendCV"><a href="mailto:hello@sweetpixelstudios.com">Send us</a></button>
 			</div>
 		</div>
 			<!-- <div class="modal-footer">
@@ -1071,24 +1073,5 @@
 		</div>
 	</div>
 </div>
-
-<script>
-  function handleFileSelect(evt) {
-    var files = evt.target.files; // FileList object
-
-    // files is a FileList of File objects. List some properties.
-    var output = [];
-    for (var i = 0, f; f = files[i]; i++) {
-      output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
-                  f.size, ' bytes, last modified: ',
-                  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
-                  '</li>');
-    }
-    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
-  }
-
-  document.getElementById('files').addEventListener('change', handleFileSelect, false);
-</script>
-
 </body>
 </html>

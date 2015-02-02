@@ -9,14 +9,17 @@ html, body,
 }
 .resume-text{
 	color: #767272;
-	margin-left: 18%;
+	/*margin-left: 12%;*/
 }
 .sendCV{
-	margin-left: 30%;
-	width: 40%;
+	margin-left: 53%;
+	width: 25%;
 	border-radius: 22px;
-	background-color: #5D5473;
+	background-color: #9f3444;
 	border-color: #455575;
+}
+.available-jobs{
+	color: #767272;
 }
 body { 
 	font-family: 'Open Sans', sans-serif;
@@ -1777,13 +1780,8 @@ blockquote h3{
    	padding: 15px;
    	border-bottom: 0px;
    }
-   .modal-body{
-   	border-left:1px solid #000000;
-   	height:75%;
-   	margin-left: 33%;
-   }
    .modal-file-upload{
-   	margin-left: 22%;
+   	margin-left: 20%;
    	margin-top: 0.5%;
    	color: black;
    }
@@ -1803,6 +1801,18 @@ blockquote h3{
    	position: relative;
    	height: 235px;
    	margin-top: 35%;
+   }
+   .separator{
+   	color: black;
+   	height: 35%;
+   }
+   .row-space{
+   	margin-top: 3%;
+   }
+   .row-space:hover{
+   	background-color: #9f3444;
+   	color: #00D8CC;
+   	border-radius: 4px;
    }
 /*   output {
    	display: block;

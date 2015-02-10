@@ -6,3 +6,4 @@ test
 dploy.yaml
 npm-debug.log
 dist/.rev
+dist

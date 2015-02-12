@@ -128,7 +128,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, 
 .navbar .nav>.active>a:focus {
 	/*color:#ecf0f1;*/
-	color: #326F7E;
+	color: #303030;
 	background:rgba(0, 0, 0, 0.4); 
 	box-shadow:none;
 	-webkit-box-shadow:none; 
@@ -142,7 +142,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	text-decoration: none;
 	font-size: 14px;
 	/*color: #fff;*/
-	color: #326F7E;
+	color: #303030;
 	padding: 29px 22px 26px;
 	text-shadow: none;
 }
@@ -770,8 +770,9 @@ blockquote h3{
 .home-slide .home-slide-content {
 	padding: 55px 10px 30px;	
 	*background: rgba(46, 204, 113, 0.3);
-	color: #fff;
-	text-shadow: 6px 5px 0 rgba(0, 0, 0, 0.2);
+	/*color: #fff;*/
+	color: #303030;
+	/*text-shadow: 6px 5px 0 rgba(0, 0, 0, 0.2);*/
 }
 .second{
 	position: relative;
@@ -787,9 +788,10 @@ blockquote h3{
 	width: 72%;
 	margin: 30px auto 0;
 	text-transform: uppercase;
-	letter-spacing: 1px; 
+	letter-spacing: 1px;
+	color: #303030;
 	font-weight: 600;
-	text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
+	/*text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);*/
 }
 .second .btn-primary{
 	background: transparent;
@@ -797,14 +799,16 @@ blockquote h3{
 	height: auto;
 	z-index: 10;
 	position: relative;
-	color: #fff;
+	/*color: #fff;*/
+	color: #303030;
 	font-size: 14px;
 	text-shadow: none;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 11px 25px 11px;
 	cursor: pointer;
-	border: 2px solid #fff;
+	/*border: 2px solid #fff;*/
+	border: 2px solid #303030;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -976,7 +980,7 @@ blockquote h3{
 	background: #00D8CC;
 	width: 80px;
 	height: 80px;
-	font-size: 30px;
+	font-size: 40px;
 	line-height: 70px;
 	text-align: center;
 	color: #fff;

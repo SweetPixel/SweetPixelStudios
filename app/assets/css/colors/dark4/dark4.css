@@ -1,8 +1,10 @@
 body,.fancy-header h1{
-	color: #fefdfb
+	/*color: #fefdfb*/
+	color: #326F7E;
 }
 h2,h3,h4,h5{
-	color: #ecf0f1;
+	/*color: #ecf0f1;*/
+	color: #326F7E;
 }
 #about,#work,#gallery,#team,#contact,#price,#services,#landing,
 .progress,

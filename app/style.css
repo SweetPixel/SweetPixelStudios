@@ -28,7 +28,7 @@ body {
 	line-height: 25px;
 	color: #333;
 }
-a { color: #00D8CC; text-decoration: none; outline: none; }
+a { color: #3DA4CD; text-decoration: none; outline: none; }
 a:hover { color: #000; text-decoration: none; outline: none; }
 h1{
 	font-size: 38px
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
 { height: 42px; border: 1px solid #ddd; margin-bottom: 30px  }
-.btn-block,.btn-block:hover{ height: 42px; border: none; text-shadow: none; background: #00D8CC; color: #fff; box-shadow: none;}
+.btn-block,.btn-block:hover{ height: 42px; border: none; text-shadow: none; background: #3DA4CD; color: #fff; box-shadow: none;}
 textarea{height: 135px;}
 input[type="text"],input[type="email"],textarea,.btn-block{ border-radius: 0 }
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus {
@@ -257,7 +257,7 @@ blockquote h3{
 	display: block;
 	font-size: 50px;
 	position: relative;
-	color: #00D8CC;
+	color: #3DA4CD;
 	line-height: 120px;
 }
 .parallax .counters .fa{
@@ -269,9 +269,9 @@ blockquote h3{
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #111;
-	border-right: 3px solid #00D8CC;
+	border-right: 3px solid #3DA4CD;
 	border-bottom: 3px solid transparent;
-	border-left: 3px solid #00D8CC;
+	border-left: 3px solid #3DA4CD;
 	border-top: 3px solid transparent;
 	border-radius: 50%;
 	padding: 0;
@@ -409,19 +409,19 @@ blockquote h3{
 }
 .star-line .line-pre {
 	left: 0;
-	background-image: -webkit-gradient(linear, 0% top, 70% top, from(transparent), to(#ffffff));
-	background-image: -webkit-linear-gradient(left, color-stop(transparent 0%), color-stop(#ffffff 70%));
-	background-image: -moz-linear-gradient(left, transparent 0%, #ffffff 70%);
-	background-image: linear-gradient(to right, transparent 0%, #ffffff 70%);
+	background-image: -webkit-gradient(linear, 0% top, 70% top, from(transparent), to(#303030));
+	background-image: -webkit-linear-gradient(left, color-stop(transparent 0%), color-stop(#303030 70%));
+	background-image: -moz-linear-gradient(left, transparent 0%, #303030 70%);
+	background-image: linear-gradient(to right, transparent 0%, #303030 70%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#ffffffff', GradientType=1);
 }
 .star-line .line-after {
 	right: 0;
-	background-image: -webkit-gradient(linear, 30% top, 100% top, from(#ffffff), to(transparent));
-	background-image: -webkit-linear-gradient(left, color-stop(#ffffff 30%), color-stop(transparent 100%));
-	background-image: -moz-linear-gradient(left, #ffffff 30%, transparent 100%);
-	background-image: linear-gradient(to right, #ffffff 30%, transparent 100%);
+	background-image: -webkit-gradient(linear, 30% top, 100% top, from(#303030), to(transparent));
+	background-image: -webkit-linear-gradient(left, color-stop(#303030 30%), color-stop(transparent 100%));
+	background-image: -moz-linear-gradient(left, #303030 30%, transparent 100%);
+	background-image: linear-gradient(to right, #303030 30%, transparent 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#00000000', GradientType=1);
 }
@@ -460,7 +460,8 @@ blockquote h3{
 	margin-top: 2px;
 }
 .star-line .icons .glyphicon {
-	color: #ffffff !important;
+	/*color: #ffffff !important;*/
+	color: #303030 !important;
 	font-size: 18px;
 	display: block;
 	float: left;
@@ -500,9 +501,9 @@ blockquote h3{
 	letter-spacing: 2px;
 }
 .create .btn-primary:hover{
-	background: #00D8CC;
+	background: #3DA4CD;
 	color: #fff;
-	border-color: #00D8CC;
+	border-color: #3DA4CD;
 	box-shadow:none
 }
 #follow {
@@ -523,8 +524,8 @@ blockquote h3{
 	display: inline-block;
 	padding: 10px 10px;
 	border: 4px solid #fff;
-	box-shadow: 0px 0px 0px 3px #00D8CC;
-	background: #00D8CC;
+	box-shadow: 0px 0px 0px 3px #3DA4CD;
+	background: #3DA4CD;
 	color: #fff;
 	position: relative;
 	z-index: 20;
@@ -536,7 +537,7 @@ blockquote h3{
 	left:0px;
 	height: 3px;
 	width:100%;
-	background: #00D8CC;
+	background: #3DA4CD;
 	z-index:1;
 }
 .h1-line-left{
@@ -545,7 +546,7 @@ blockquote h3{
 	top: 40px;
 	left: 0px;
 	height: 35px;
-	border-left: 3px solid #00D8CC;
+	border-left: 3px solid #3DA4CD;
 }
 .h1-line-right{
 	position:absolute;
@@ -553,7 +554,7 @@ blockquote h3{
 	top: 40px;
 	right: 0px;
 	height: 35px;
-	border-right: 3px solid #00D8CC;
+	border-right: 3px solid #3DA4CD;
 }
 .title p{ padding: 0 14%; margin: 0 }
 .fancy-header {
@@ -568,7 +569,10 @@ blockquote h3{
 	padding: 0 14%;
 	margin: 20px 0 0;
 }
-.color{ color: #00D8CC; }
+.color{ 
+	/*color: #00D8CC;*/
+	color: #3DA4CD;
+}
 .feature-box,.feat-icon,.feature-box:hover .feat-icon,.feat-icon:after,.feature-box:hover .feat-icon:after,
 .icon,.dot:hover .icon,
 .serv-icon,.serv:hover .serv-icon,
@@ -800,7 +804,7 @@ blockquote h3{
 	z-index: 10;
 	position: relative;
 	/*color: #fff;*/
-	color: #303030;
+	color: #3DA4CD;
 	font-size: 14px;
 	text-shadow: none;
 	text-transform: uppercase;
@@ -808,16 +812,16 @@ blockquote h3{
 	padding: 11px 25px 11px;
 	cursor: pointer;
 	/*border: 2px solid #fff;*/
-	border: 2px solid #303030;
+	border: 2px solid #3DA4CD;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	letter-spacing: 2px;
 }
 .second .btn-primary:hover{
-	background: #00D8CC;
+	background: #3DA4CD;
 	color: #fff;
-	border-color: #00D8CC;
+	border-color: #3DA4CD;
 	box-shadow:none
 }
 .startarrow {
@@ -881,10 +885,10 @@ blockquote h3{
 	line-height: 38px;
 }
 .feat-icon {
-	background: #00D8CC;
+	background: #3DA4CD;
 	color: #fff;
 	border: 4px solid #fff;
-	box-shadow: 0px 0px 0px 3px #00D8CC;
+	box-shadow: 0px 0px 0px 3px #3DA4CD;
 	width: 100px;
 	height: 80px;
 	line-height: 70px;
@@ -899,7 +903,7 @@ blockquote h3{
 	height: 80px;
 	line-height: 70px;
 	font-size: 40px;
-	background:  #00D8CC;
+	background:  #3DA4CD;
 	border-radius: 50%;
 	-webkit-transform: scale(1.20);
 	-moz-transform: scale(1.20);
@@ -918,7 +922,7 @@ blockquote h3{
 	position: absolute;
 	width: 0;
 	height: 0;
-	border: 15px solid #00D8CC;
+	border: 15px solid #3DA4CD;
 	border-bottom: 0px solid transparent !important;
 	border-right: 20px solid transparent !important;
 	border-left: 20px solid transparent !important;
@@ -977,7 +981,7 @@ blockquote h3{
 .dot-build-7 .icon {
 	margin: 0 auto;
 	display: block;
-	background: #00D8CC;
+	background: #3DA4CD;
 	width: 80px;
 	height: 80px;
 	font-size: 40px;
@@ -987,7 +991,7 @@ blockquote h3{
 	border-radius: 50%;
 	margin-bottom: 10px;
 	border: 4px solid #f5f5f5;
-	box-shadow: 0px 0px 0px 3px #00D8CC;
+	box-shadow: 0px 0px 0px 3px #3DA4CD;
 }
 .icon {
 	width: 60px;
@@ -1407,12 +1411,12 @@ blockquote h3{
 .client{
 	padding: 20px;
 	border: 5px solid #f5f5f5;
-	box-shadow: 0px 0px 0px 3px #00D8CC;
-	background: #00D8CC;
+	box-shadow: 0px 0px 0px 3px #3DA4CD;
+	background: #3DA4CD;
 }
 .client:hover{
-	border-left: 5px solid #00D8CC;
-	border-right: 5px solid #00D8CC;
+	border-left: 5px solid #3DA4CD;
+	border-right: 5px solid #3DA4CD;
 }
 #contact{ 
 	background: #fff;
@@ -1428,7 +1432,7 @@ blockquote h3{
 	color: #fff;
 }
 .map-holder {
-	background-color: #00D8CC;
+	background-color: #3DA4CD;
 	color: #fff;
 	margin: 0 0 60px 0;
 }
@@ -1440,7 +1444,7 @@ blockquote h3{
 #map i {
 	margin: 10px 0;
 	text-shadow:none;
-	color: #00D8CC;
+	color: #3DA4CD;
 	font-size: 20px;
 	line-height: 40px;
 	width: 40px;
@@ -1487,7 +1491,7 @@ blockquote h3{
    	width: 70px;
    	height: 70px;
 
-   	background: #9f3444;
+   	background: #3DA4CD;
    	
    	-webkit-transition: all 400ms ease-out 0s;	
    	-moz-transition: all 400ms ease-out 0s;
@@ -1504,10 +1508,10 @@ blockquote h3{
    .social ul li a span {
    	display: inline-block;
    	margin: 0;
-   	color: #00D8CC;
+   	color: #ecf0f1;
    	font-size: 32px;
    	line-height: 70px;
-   	text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);
+   	/*text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
    	-webkit-transition: all 400ms ease-out 0s;	
    	-moz-transition: all 400ms ease-out 0s;
    	-o-transition: all 400ms ease-out 0s;
@@ -1522,7 +1526,7 @@ blockquote h3{
 
    .social ul li:hover a,
    .social ul li.active a {
-   	background-color: #00D8CC;
+   	background-color: #ECF0F1;
    	box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);
    	-webkit-transform: rotateY(0deg);
    	-moz-transform: rotateY(0deg);
@@ -1659,7 +1663,7 @@ blockquote h3{
    }
    .mapPreLoading span[class*="l-"] {
    	display: inline-block;
-   	background: #9f3444;
+   	background: #3DA4CD;
    	width: 30px;
    	height: 30px;
    	-webkit-border-radius: 100%;

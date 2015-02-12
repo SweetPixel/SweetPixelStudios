@@ -23,7 +23,7 @@ h2,h3,h4,h5{
 .inner-filters li a,
 .serv-icon,
 .look{
-	border-color: #9f3444
+	border-color: #ffffff;
 }
 .title h1,
 .feat-icon,
@@ -43,7 +43,8 @@ h2,h3,h4,h5{
 .join-des .btn-primary:hover,
 .social ul li:hover a span,
 .social ul li.active a span{
-	color: #9f3444;
+	/*color: #9f3444;*/
+	color: #ffffff;
 }
 
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
@@ -67,20 +68,20 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
 .dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
 .nav-tabs>li>a,.nav-tabs>li>a:hover{
-	border-color: #b83d4f
+	border-color: #3DA4CD;
 }
 .dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
 .dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
 .nav-tabs>li>a:hover,
 .nav-tabs>li>a{
-	color: #b83d4f;
+	color: #ffffff;
 }
 #contact #submit:hover{
-	background: #b0495a
+	background: ##00D8CC
 }
 .pricing-5-col,.pricing-box ul,.pricing-box li,.pricing-box li,#contact #submit:hover{
-	border-color: #b0495a
+	border-color: ##00D8CC
 }
 
 .navbar, .copyright {

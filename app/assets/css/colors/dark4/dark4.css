@@ -13,7 +13,8 @@ h2,h3,h4,h5{
 .look:hover,
 .testi-client > ul li,
 .overlay-home {
-	background: #9f3444
+	/*background: #9f3444*/
+	background: #ffffff
 }
 .title h1,
 .feat-icon,
@@ -50,7 +51,8 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .build,
 .clients,
 .pricing-box li.price-row,.pricing-box li.btn-row{
-	background: #b83d4f
+	/*background: #b83d4f*/
+	background: #ffffff
 }
 
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
@@ -80,7 +82,8 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 }
 
 .navbar, .copyright {
-	background: #b0495a;
+	/*background: #b0495a;*/
+	background: #ffffff;
 }
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
 .navbar .nav>li>a:hover{

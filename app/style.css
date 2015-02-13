@@ -374,7 +374,7 @@ blockquote h3{
 	content: "";
 	height: 1px;
 	width: 200px;
-	background-color: #fff;
+	background-color: #000000;
 	margin: 20px auto 20px;
 }
 .clients-title{ 

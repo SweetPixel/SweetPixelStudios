@@ -28,7 +28,10 @@ body {
 	line-height: 25px;
 	color: #333;
 }
-a { color: #3DA4CD; text-decoration: none; outline: none; }
+#startarrow:hover {
+	color: #3DA4CD;
+}
+a { color: #303030; text-decoration: none; outline: none; }
 a:hover { color: #000; text-decoration: none; outline: none; }
 h1{
 	font-size: 38px

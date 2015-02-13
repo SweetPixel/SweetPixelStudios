@@ -1,6 +1,6 @@
 body,.fancy-header h1{
 	/*color: #fefdfb*/
-	color: #303030;
+	color: #3DA4CD;
 }
 h2,h3,h4,h5{
 	/*color: #ecf0f1;*/
@@ -16,7 +16,7 @@ h2,h3,h4,h5{
 .testi-client > ul li,
 .overlay-home {
 	/*background: #9f3444*/
-	background: #ffffff
+	background: #ECF0F1
 }
 .title h1,
 .feat-icon,
@@ -55,7 +55,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .clients,
 .pricing-box li.price-row,.pricing-box li.btn-row{
 	/*background: #b83d4f*/
-	background: #ffffff
+	background: #ECF0F1
 }
 
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
@@ -86,11 +86,11 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 .navbar, .copyright {
 	/*background: #b0495a;*/
-	background: #ffffff;
+	background: #ECF0F1;
 }
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
 .navbar .nav>li>a:hover{
-	background: rgba(0, 0, 0, 0.4);
+	background: #3DA4CD;
 }
 
 .join-des span{

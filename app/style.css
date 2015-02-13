@@ -128,7 +128,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, 
 .navbar .nav>.active>a:focus {
 	/*color:#ecf0f1;*/
-	color: #303030;
+	color: #ECF0F1;
 	background:rgba(0, 0, 0, 0.4); 
 	box-shadow:none;
 	-webkit-box-shadow:none; 
@@ -142,7 +142,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	text-decoration: none;
 	font-size: 14px;
 	/*color: #fff;*/
-	color: #303030;
+	color: #3DA4CD;
 	padding: 29px 22px 26px;
 	text-shadow: none;
 }

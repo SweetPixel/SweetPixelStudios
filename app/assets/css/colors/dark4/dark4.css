@@ -23,7 +23,7 @@ h2,h3,h4,h5{
 .inner-filters li a,
 .serv-icon,
 .look{
-	border-color: #ffffff;
+	border-color: #F5F9FA;
 }
 .title h1,
 .feat-icon,
@@ -44,7 +44,7 @@ h2,h3,h4,h5{
 .social ul li:hover a span,
 .social ul li.active a span{
 	/*color: #9f3444;*/
-	color: #ffffff;
+	color: #F5F9FA;
 }
 
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
@@ -88,7 +88,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 }
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
 .navbar .nav>li>a:hover{
-	background: #3DA4CD;
+	background: #b52244;
 }
 
 .join-des span{

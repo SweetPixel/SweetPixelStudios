@@ -6,7 +6,7 @@ h2,h3,h4,h5{
 	/*color: #ecf0f1;*/
 	color: #303030;
 }
-#about,#work,#gallery,#team,#contact,#price,#services,#landing,
+#work,#gallery,#price,#services,#landing,
 .progress,
 .counters li,
 .team > ul li,
@@ -16,7 +16,7 @@ h2,h3,h4,h5{
 .testi-client > ul li,
 .overlay-home {
 	/*background: #9f3444*/
-	background: #3DA4CD
+	background: #ECF0F1
 }
 .title h1,
 .feat-icon,
@@ -51,7 +51,6 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .app,
 .process,
 .skills,
-.build,
 .clients,
 .pricing-box li.price-row,.pricing-box li.btn-row{
 	/*background: #b83d4f*/
@@ -61,7 +60,6 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
 #services .title h1,
 .skills .title h1,
-#team,
 .join-des span:hover,
 .team-inner,
 .client,
@@ -108,4 +106,15 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 }
 @media (max-width: 480px) {
 .join-des span,.join-des span:hover{ padding: 0; background: transparent; border: 0; box-shadow: none}
+}
+
+/*CUSTOMIZED SETTINGS*/
+#about {
+	background: #F5F9FA;
+}
+.build {
+	background: #ECF0F1;
+}
+#team, #contact {
+	background: #F5F9FA;
 }

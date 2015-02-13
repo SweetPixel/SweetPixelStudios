@@ -260,7 +260,7 @@ blockquote h3{
 	display: block;
 	font-size: 50px;
 	position: relative;
-	color: #ffffff;
+	color: #3DA4CD;
 	line-height: 120px;
 }
 .parallax .counters .fa{
@@ -272,9 +272,9 @@ blockquote h3{
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #111;
-	border-right: 3px solid #ffffff;
+	border-right: 3px solid #3DA4CD;
 	border-bottom: 3px solid transparent;
-	border-left: 3px solid #ffffff;
+	border-left: 3px solid #3DA4CD;
 	border-top: 3px solid transparent;
 	border-radius: 50%;
 	padding: 0;

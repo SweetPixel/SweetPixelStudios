@@ -304,9 +304,9 @@ blockquote h3{
 	background: rgba(255, 255, 255, 0.15);
 	text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);
 }
-.join-des .btn-primary:hover{ border-color: #00D8CC; }
+.join-des .btn-primary:hover{ border-color: #3DA4CD; }
 .join-des .btn-primary:hover{
-	background: #00D8CC;
+	background: #3DA4CD;
 	color: #fff;
 }
 #testiminal{
@@ -319,9 +319,9 @@ blockquote h3{
 }
 .testi-client > ul li {
 	background-color: #111;
-	border-right: 3px solid #00D8CC;
+	border-right: 3px solid #3DA4CD;
 	border-bottom: 3px solid transparent;
-	border-left: 3px solid #00D8CC;
+	border-left: 3px solid #3DA4CD;
 	border-top: 3px solid transparent;
 	border-radius: 50%;
 	padding: 0;
@@ -382,7 +382,8 @@ blockquote h3{
 	color: #fff; 
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	background: rgba(0, 216, 204, 0.5);
+	/*background: rgba(0, 216, 204, 0.5);*/
+	background: #3DA4CD;
 	margin: 0;
 	padding: 1.5%;
 	border-radius: 5px;
@@ -396,7 +397,8 @@ blockquote h3{
 	margin-left: -10px;
 	width: 0;
 	height: 0;
-	border: 10px solid rgba(0, 216, 204, 0.5);
+	/*border: 10px solid rgba(0, 216, 204, 0.5);*/
+	border: 10px solid #3DA4CD;
 	border-left-color: transparent;
 	border-right-color: transparent;
 	border-top-color: transparent;
@@ -1491,7 +1493,7 @@ blockquote h3{
    	width: 70px;
    	height: 70px;
 
-   	background: #3DA4CD;
+   	background: #ecf0f1;
    	
    	-webkit-transition: all 400ms ease-out 0s;	
    	-moz-transition: all 400ms ease-out 0s;
@@ -1508,7 +1510,7 @@ blockquote h3{
    .social ul li a span {
    	display: inline-block;
    	margin: 0;
-   	color: #ecf0f1;
+   	color: #3DA4CD;
    	font-size: 32px;
    	line-height: 70px;
    	/*text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
@@ -1526,7 +1528,7 @@ blockquote h3{
 
    .social ul li:hover a,
    .social ul li.active a {
-   	background-color: #ECF0F1;
+   	background-color: #3DA4CD;
    	box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);
    	-webkit-transform: rotateY(0deg);
    	-moz-transform: rotateY(0deg);
@@ -1550,7 +1552,7 @@ blockquote h3{
    }
    .copyright {
    	padding: 25px 0 20px;
-   	color: #00D8CC;
+   	color: #3DA4CD;
    }
    @media (max-width: 768px) {
    	.copyright {

@@ -187,7 +187,8 @@
 .filterable-item figcaption {
 	position: absolute;
 	top: -8px;
-	background: rgba(0, 216, 204, 0.8);
+	/*background: rgba(0, 216, 204, 0.8);*/
+	background: #3DA4CD;
 	color: #fff;
 }
 .filterable-item figcaption h3:after {

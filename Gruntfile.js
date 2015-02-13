@@ -481,60 +481,60 @@ module.exports = function (grunt) {
         grunt.task.run([target ? ('serve:' + target) : 'serve']);
     });
 
-    grunt.registerTask('copySVG', function (target) {
-      grunt.file.copy('app/sweet-pixel-studios-images/Social-Media-Icons.svg',
-      'dist/sweet-pixel-studios-images/Social-Media-Icons.svg');
-    });
+    // grunt.registerTask('copySVG', function (target) {
+    //   grunt.file.copy('app/sweet-pixel-studios-images/Social-Media-Icons.svg',
+    //   'dist/sweet-pixel-studios-images/Social-Media-Icons.svg');
+    // });
 
-    grunt.registerTask('copyAndroidStoreSVG', function (target) {
-      grunt.file.copy('app/sweet-pixel-studios-images/Android_Store.svg',
-      'dist/sweet-pixel-studios-images/Android_Store.svg');
-    });
+    // grunt.registerTask('copyAndroidStoreSVG', function (target) {
+    //   grunt.file.copy('app/sweet-pixel-studios-images/Android_Store.svg',
+    //   'dist/sweet-pixel-studios-images/Android_Store.svg');
+    // });
 
-    grunt.registerTask('copyBeBackSoonSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/be_back_soon.svg',
-            'dist/sweet-pixel-studios-images/be_back_soon.svg');
-    });
+    // grunt.registerTask('copyBeBackSoonSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/be_back_soon.svg',
+    //         'dist/sweet-pixel-studios-images/be_back_soon.svg');
+    // });
 
-    grunt.registerTask('copyFacebookSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/facebook.svg',
-            'dist/sweet-pixel-studios-images/facebook.svg');
-    });
+    // grunt.registerTask('copyFacebookSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/facebook.svg',
+    //         'dist/sweet-pixel-studios-images/facebook.svg');
+    // });
 
-    grunt.registerTask('copyFollowusSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/Follow_us_on.svg',
-            'dist/sweet-pixel-studios-images/Follow_us_on.svg');
-    });
+    // grunt.registerTask('copyFollowusSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/Follow_us_on.svg',
+    //         'dist/sweet-pixel-studios-images/Follow_us_on.svg');
+    // });
 
-    grunt.registerTask('copyGPlusSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/G+.svg',
-            'dist/sweet-pixel-studios-images/G+.svg');
-    });
+    // grunt.registerTask('copyGPlusSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/G+.svg',
+    //         'dist/sweet-pixel-studios-images/G+.svg');
+    // });
 
-    grunt.registerTask('copyiOSStoreSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/iOS_Store.svg',
-            'dist/sweet-pixel-studios-images/iOS_Store.svg');
-    });
+    // grunt.registerTask('copyiOSStoreSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/iOS_Store.svg',
+    //         'dist/sweet-pixel-studios-images/iOS_Store.svg');
+    // });
 
-    grunt.registerTask('copyPlayThisOutSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/play_this_out.svg',
-            'dist/sweet-pixel-studios-images/play_this_out.svg');
-    });
+    // grunt.registerTask('copyPlayThisOutSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/play_this_out.svg',
+    //         'dist/sweet-pixel-studios-images/play_this_out.svg');
+    // });
 
-    grunt.registerTask('copyRobotWebSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/Robot_Web.svg',
-            'dist/sweet-pixel-studios-images/Robot_Web.svg');
-    });
+    // grunt.registerTask('copyRobotWebSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/Robot_Web.svg',
+    //         'dist/sweet-pixel-studios-images/Robot_Web.svg');
+    // });
 
-    grunt.registerTask('copyTwitterSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/twitter.svg',
-            'dist/sweet-pixel-studios-images/twitter.svg');
-    });
+    // grunt.registerTask('copyTwitterSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/twitter.svg',
+    //         'dist/sweet-pixel-studios-images/twitter.svg');
+    // });
 
-    grunt.registerTask('copyRobotMobileSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/Robot_Mobile.svg',
-            'dist/sweet-pixel-studios-images/Robot_Mobile.svg');
-    });
+    // grunt.registerTask('copyRobotMobileSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/Robot_Mobile.svg',
+    //         'dist/sweet-pixel-studios-images/Robot_Mobile.svg');
+    // });
 
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {

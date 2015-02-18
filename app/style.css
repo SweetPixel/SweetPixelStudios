@@ -22,8 +22,8 @@ html, body,
 	color: #767272;
 }
 body { 
-	/*font-family: 'Open Sans', sans-serif;*/
-	font-family: 'Rokkitt', serif;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Rokkitt', serif;*/
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 25px;

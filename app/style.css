@@ -188,7 +188,8 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	position: relative;
 }
 .overlay,.overlay-home {
-	background: rgba(0, 0, 0, 0.6) url(assets/img/overlay/05.png);
+	/*background: rgba(0, 0, 0, 0.6) url(assets/img/overlay/05.png);*/
+	background: #ffffff;
 	width: 100%;
 	position: absolute;
 	overflow:hidden;

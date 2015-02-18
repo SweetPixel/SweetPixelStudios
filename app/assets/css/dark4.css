@@ -84,7 +84,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 .navbar, .copyright {
 	/*background: #b0495a;*/
-	background: #ECF0F1;
+	background: #b52244;
 }
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
 .navbar .nav>li>a:hover{

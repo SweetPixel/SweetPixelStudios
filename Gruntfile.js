@@ -187,7 +187,8 @@ module.exports = function (grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    // cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    cwd: '<%= config.app %>/assets/css',
                     src: '{,*/}*.less',
                     dest: '.tmp/styles',
                     ext: '.css'
@@ -201,7 +202,8 @@ module.exports = function (grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    // cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    cwd: '<%= config.app %>/assets/css',
                     src: '{,*/}*.less',
                     dest: '.tmp/styles',
                     ext: '.css'

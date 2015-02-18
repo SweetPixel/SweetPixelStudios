@@ -6,7 +6,7 @@ h2,h3,h4,h5{
 	/*color: #ecf0f1;*/
 	color: #303030;
 }
-#work,#gallery,#price,#services,#landing,
+#gallery,#price,#services,#landing,
 .progress,
 .counters li,
 .team > ul li,
@@ -54,7 +54,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .clients,
 .pricing-box li.price-row,.pricing-box li.btn-row{
 	/*background: #b83d4f*/
-	background: #ECF0F1
+	background: #ffffff
 }
 
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
@@ -66,7 +66,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
 .dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
 .nav-tabs>li>a,.nav-tabs>li>a:hover{
-	border-color: #ffffff;
+	/*border-color: #ffffff;*/
 }
 .dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
 .dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
@@ -82,9 +82,12 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 	border-color: ##00D8CC
 }
 
-.navbar, .copyright {
+.navbar {
 	/*background: #b0495a;*/
 	background: #b52244;
+}
+.copyright {
+	background: #ffffff;
 }
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
 .navbar .nav>li>a:hover{
@@ -109,12 +112,12 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 }
 
 /*CUSTOMIZED SETTINGS*/
-#about {
-	background: #F5F9FA;
+#about,#work {
+	background: #ffffff;
 }
 .build {
 	background: #ECF0F1;
 }
 #team, #contact {
-	background: #F5F9FA;
+	background: #ffffff;
 }

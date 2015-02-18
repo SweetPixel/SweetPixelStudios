@@ -22,7 +22,8 @@ html, body,
 	color: #767272;
 }
 body { 
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Rokkitt', serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 25px;
@@ -1424,13 +1425,13 @@ blockquote h3{
 }
 .client{
 	padding: 20px;
-	border: 5px solid #f5f5f5;
-	box-shadow: 0px 0px 0px 3px #3DA4CD;
-	background: #3DA4CD;
+	/*border: 5px solid #f5f5f5;*/
+	/*box-shadow: 0px 0px 0px 3px #3DA4CD;*/
+	/*background: #3DA4CD;*/
 }
 .client:hover{
-	border-left: 5px solid #3DA4CD;
-	border-right: 5px solid #3DA4CD;
+	/*border-left: 5px solid #3DA4CD;
+	border-right: 5px solid #3DA4CD;*/
 }
 #contact{ 
 	background: #fff;

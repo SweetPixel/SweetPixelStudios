@@ -59,7 +59,8 @@ module.exports = function (grunt) {
                 tasks: ['less:server', 'autoprefixer']
             },
             styles: {
-                files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
+                // files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
+            files: ['<%= config.app %>/assets/css/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
             },
             livereload: {
@@ -68,7 +69,8 @@ module.exports = function (grunt) {
                 },
                 files: [
                     '<%= config.app %>/{,*/}*.html',
-                    '.tmp/mobile-games-ios-android-styles/{,*/}*.css',
+                    '<%= config.app %>/{,*/}*.css',  // Added this line to check the liverreload working for style.css file
+                    '.tmp/css/{,*/}*.css',
                     '<%= config.app %>/images/{,*/}*'
                 ]
             }
@@ -139,7 +141,15 @@ module.exports = function (grunt) {
             },
             all: [
                 // 'Gruntfile.js',
-                '<%= config.app %>/indie-gaming-pakistan-scripts/{,*/}*.js',
+                // '<%= config.app %>/indie-gaming-pakistan-scripts/{,*/}*.js',
+            '<%= config.app %>/assets/js/demo/{,*/}*.js',
+            '<%= config.app %>/assets/js/filterable/{,*/}*.js',
+            '<%= config.app %>/assets/js/flexslider/{,*/}*.js',
+            '<%= config.app %>/assets/js/gmap/{,*/}*.js',
+            '<%= config.app %>/assets/js/nav/{,*/}*.js',
+            '<%= config.app %>/assets/js/parallax/{,*/}*.js',
+            '<%= config.app %>/assets/js/supersized/{,*/}*.js',
+            '<%= config.app %>/assets/js/{,*/}*.js',
                 '!<%= config.app %>/scripts/vendor/*'
             ]
         },

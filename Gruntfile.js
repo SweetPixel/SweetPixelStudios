@@ -236,7 +236,8 @@ module.exports = function (grunt) {
                 exclude: ['bower_components/bootstrap/dist/js/bootstrap.js']
             },
             less: {
-                src: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.less'],
+                // src: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.less'],
+                src: ['<%= config.app %>/assets/css/{,*/}*.less'],
                 ignorePath: '<%= config.app %>/bower_components/'
             }
         },

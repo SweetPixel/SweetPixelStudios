@@ -154,7 +154,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	text-decoration: none;
 	font-size: 14px;
 	/*color: #fff;*/
-	color: #b52244;
+	color: #ecf0f1;
 	padding: 29px 22px 26px;
 	text-shadow: none;
 }

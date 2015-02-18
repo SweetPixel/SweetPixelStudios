@@ -219,9 +219,11 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '.tmp/mobile-games-ios-android-styles/',
+                    // cwd: '.tmp/mobile-games-ios-android-styles/',
+                    cwd: '.tmp/assets/css',
                     src: '{,*/}*.css',
-                    dest: '.tmp/mobile-games-ios-android-styles/'
+                    // dest: '.tmp/mobile-games-ios-android-styles/'
+                    dest: '.tmp/assets/css'
                 }]
             }
         },

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="130px" viewBox="0 0 200 130" enable-background="new 0 0 200 130" xml:space="preserve">
+<g id="Layer_1">
+	<g>
+		<g>
+			<path fill="#B52245" d="M186.145,16.74c1.335,0,2.42,1.087,2.42,2.422v99.526c0,1.336-1.085,2.423-2.42,2.423H13.274
+				c-1.335,0-2.422-1.087-2.422-2.423V19.162c0-1.335,1.086-2.422,2.422-2.422H186.145 M186.145,15.561H13.274
+				c-1.98,0-3.602,1.62-3.602,3.602v99.526c0,1.979,1.622,3.603,3.602,3.603h172.87c1.98,0,3.601-1.623,3.601-3.603V19.162
+				C189.745,17.181,188.125,15.561,186.145,15.561L186.145,15.561z"/>
+		</g>
+		<path fill="#B52245" d="M186.145,10.158H13.274c-1.98,0-3.602,1.62-3.602,3.603v14.404v1.803v3.602h3.602h172.87h3.601v-3.602
+			v-1.803V13.761C189.745,11.778,188.125,10.158,186.145,10.158z"/>
+		<g>
+			<rect x="18.732" y="16.474" fill="none" width="133.13" height="14.796"/>
+			<text transform="matrix(1 0 0 1 18.7314 24.1719)" fill="#FFFFFF" font-family="'Rokkitt-Bold'" font-size="12.98">UI/UX</text>
+		</g>
+		<g>
+			<rect x="18.732" y="49.76" fill="none" width="85.054" height="62.867"/>
+			<text transform="matrix(1 0 0 1 18.7314 56.415)"><tspan x="0" y="0" fill="#606161" font-family="'Rokkitt'" font-size="11.8">Photoshop</tspan><tspan x="0" y="14.16" fill="#606161" font-family="'Rokkitt'" font-size="11.8">Illustrator</tspan><tspan x="0" y="28.32" fill="#606161" font-family="'Rokkitt'" font-size="11.8">After Effects</tspan></text>
+		</g>
+		<g>
+			<circle fill="#B52245" cx="148.163" cy="80.27" r="30.509"/>
+			<g>
+				<defs>
+					<path id="XMLID_4_" d="M166.463,96.455c0,1.169-0.946,2.116-2.114,2.116h-32.372c-1.168,0-2.114-0.947-2.114-2.116V64.084
+						c0-1.169,0.946-2.116,2.114-2.116h32.372c1.168,0,2.114,0.947,2.114,2.116V96.455z"/>
+				</defs>
+				<clipPath id="XMLID_6_">
+					<use xlink:href="#XMLID_4_"  overflow="visible"/>
+				</clipPath>
+				<g opacity="0.7" clip-path="url(#XMLID_6_)">
+					
+						<rect x="129.862" y="61.971" fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" width="36.601" height="36.601"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="129.862" y1="92.468" x2="166.463" y2="92.468"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="129.862" y1="86.372" x2="166.463" y2="86.372"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="129.862" y1="80.27" x2="166.463" y2="80.27"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="129.862" y1="74.167" x2="166.463" y2="74.167"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="129.862" y1="68.073" x2="166.463" y2="68.073"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="160.36" y1="61.971" x2="160.36" y2="98.571"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="154.266" y1="61.971" x2="154.266" y2="98.571"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="148.162" y1="61.971" x2="148.162" y2="98.571"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="142.059" y1="61.971" x2="142.059" y2="98.571"/>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="0.295" stroke-miterlimit="10" x1="135.965" y1="61.971" x2="135.965" y2="98.571"/>
+				</g>
+				<use xlink:href="#XMLID_4_"  overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="1.057" stroke-miterlimit="10"/>
+			</g>
+			<g>
+				<g>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="1.18" stroke-miterlimit="10" x1="134.489" y1="93.942" x2="161.836" y2="66.597"/>
+					<g>
+						<polygon fill="#FFFFFF" points="136.64,95.12 132.094,96.338 133.312,91.792 						"/>
+					</g>
+					<g>
+						<polygon fill="#FFFFFF" points="163.014,68.747 164.231,64.201 159.685,65.419 						"/>
+					</g>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<line fill="none" stroke="#FFFFFF" stroke-width="1.18" stroke-miterlimit="10" x1="134.489" y1="66.597" x2="161.836" y2="93.942"/>
+					<g>
+						<polygon fill="#FFFFFF" points="133.312,68.747 132.094,64.201 136.64,65.419 						"/>
+					</g>
+					<g>
+						<polygon fill="#FFFFFF" points="159.685,95.12 164.231,96.338 163.014,91.792 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>

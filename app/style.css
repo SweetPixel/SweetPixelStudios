@@ -271,21 +271,21 @@ blockquote h3{
 	display: block;
 	font-size: 50px;
 	position: relative;
-	color: #3DA4CD;
+	color: #b52244;
 	line-height: 120px;
 }
 .parallax .counters .fa{
 	margin: 0 0 20px 0;
 }	
 .counters li {
-	color: #fff;
+	color: #b52244;
 	font-size: 16px;
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #111;
-	border-right: 3px solid #3DA4CD;
+	border-right: 3px solid #ecf0f1;
 	border-bottom: 3px solid transparent;
-	border-left: 3px solid #3DA4CD;
+	border-left: 3px solid #ECF0F1;
 	border-top: 3px solid transparent;
 	border-radius: 50%;
 	padding: 0;
@@ -498,7 +498,7 @@ blockquote h3{
 	text-align: center;
 }
 .create h1{
-	color: #fff;
+	color: #b52244;
 	text-transform: uppercase;
 }
 .create .btn-primary{
@@ -507,14 +507,14 @@ blockquote h3{
 	height: auto;
 	z-index: 10;
 	position: relative;
-	color: #fff;
+	color: #b52244;
 	font-size: 14px;
 	text-shadow: none;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 11px 25px 11px;
 	cursor: pointer;
-	border: 2px solid #fff;
+	border: 2px solid #b52244;
 	box-shadow: none;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -522,9 +522,9 @@ blockquote h3{
 	letter-spacing: 2px;
 }
 .create .btn-primary:hover{
-	background: #3DA4CD;
+	background: #b52244;
 	color: #fff;
-	border-color: #3DA4CD;
+	border-color: #b52244;
 	box-shadow:none
 }
 #follow {

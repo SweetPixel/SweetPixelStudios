@@ -300,7 +300,7 @@ blockquote h3{
 }
 .join-des h3 { color: #fff; margin: 0}
 .join-des .btn-primary{
-	border: 2px solid #fff;
+	border: 2px solid #b52244;
 	background: transparent;
 	box-shadow: none;
 	text-transform: uppercase;
@@ -310,9 +310,14 @@ blockquote h3{
 	border-radius: 0px;
 	text-shadow: none;
 }
+.btn-primary {
+	color: #b52244;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
 .content h1{
 	font-weight: 800;
-	color: #303030;
+	color: #b52244;
 	line-height: 70px;
 	margin: 30px 0 30px 0;
 	background: rgba(95, 48, 48, 0.15);

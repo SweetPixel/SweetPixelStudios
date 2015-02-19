@@ -344,6 +344,7 @@ module.exports = function (grunt) {
                 scheme: 'sftp',
                 privateKey: '~/.ssh/id_rsa',
                 publicKey: '~/.ssh/id_rsa.pub',
+                passphrase: 'sayyam',
                 path: {
                     local: 'dist/',               // The local folder that you want to upload
                     remote: '/var/www/stagingsps'          // Where the files from the local file will be uploaded at in your remote server

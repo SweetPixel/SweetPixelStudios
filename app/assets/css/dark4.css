@@ -7,6 +7,8 @@ h2,h3,h4,h5{
 	color: #303030;
 }
 
+
+/*Removing default border color of input fields of bootstrap*/
 textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus, 
 input[type="password"]:focus, input[type="datetime"]:focus, 
 input[type="datetime-local"]:focus, input[type="date"]:focus, 

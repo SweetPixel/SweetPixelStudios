@@ -1529,7 +1529,7 @@ blockquote h3{
    .social ul li a span {
    	display: inline-block;
    	margin: 0;
-   	color: #3DA4CD;
+   	color: #b52244;
    	font-size: 32px;
    	line-height: 70px;
    	/*text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
@@ -1547,7 +1547,7 @@ blockquote h3{
 
    .social ul li:hover a,
    .social ul li.active a {
-   	background-color: #3DA4CD;
+   	background-color: #b52244;
    	box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);
    	-webkit-transform: rotateY(0deg);
    	-moz-transform: rotateY(0deg);
@@ -1571,7 +1571,7 @@ blockquote h3{
    }
    .copyright {
    	padding: 25px 0 20px;
-   	color: #3DA4CD;
+   	color: #b52244;
    }
    @media (max-width: 768px) {
    	.copyright {

@@ -1442,7 +1442,8 @@ blockquote h3{
 #contact{ 
 	background: #fff;
 	height: auto;
-	padding: 0;
+	/*padding: 0;*/
+	padding: 80px 0 0;
 }
 #contact form{
 	margin: 0 0 70px 0;

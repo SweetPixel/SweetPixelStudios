@@ -348,6 +348,8 @@ blockquote h3{
 	border-radius: 50%;
 	padding: 0;
 	margin: 10px 20px;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
 }
 .testi-client > ul li > img {
 	opacity: 0.4;

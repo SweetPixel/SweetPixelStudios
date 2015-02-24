@@ -1556,7 +1556,7 @@ blockquote h3{
    .social ul li:hover a,
    .social ul li.active a {
    	background-color: #b52244;
-   	box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);
+   	/*box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
    	-webkit-transform: rotateY(0deg);
    	-moz-transform: rotateY(0deg);
    	-ms-transform: rotateY(0deg);

@@ -1537,6 +1537,11 @@ blockquote h3{
    	-ms-transform: rotateY(180deg);
    	-o-transform: rotateY(180deg);
    	transform: rotateY(180deg);
+
+   	border-right: 1px solid #b52244;
+   	border-left: 1px solid #b52244;
+   	border-top: 1px solid #b52244;
+   	border-bottom: 1px solid #b52244;
    }
 
    .social ul li a span {

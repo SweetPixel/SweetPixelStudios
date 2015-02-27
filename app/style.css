@@ -33,7 +33,7 @@ body {
 #startarrow:hover {
 	color: #b52244;
 }
-a { color: #303030; text-decoration: none; outline: none; }
+a { color: #606060; text-decoration: none; outline: none; }
 a:hover { color: #000; text-decoration: none; outline: none; }
 h1{
 	font-size: 38px
@@ -443,19 +443,19 @@ blockquote h3{
 }
 .star-line .line-pre {
 	left: 0;
-	background-image: -webkit-gradient(linear, 0% top, 70% top, from(transparent), to(#303030));
-	background-image: -webkit-linear-gradient(left, color-stop(transparent 0%), color-stop(#303030 70%));
-	background-image: -moz-linear-gradient(left, transparent 0%, #303030 70%);
-	background-image: linear-gradient(to right, transparent 0%, #303030 70%);
+	background-image: -webkit-gradient(linear, 0% top, 70% top, from(transparent), to(#606060));
+	background-image: -webkit-linear-gradient(left, color-stop(transparent 0%), color-stop(#606060 70%));
+	background-image: -moz-linear-gradient(left, transparent 0%, #606060 70%);
+	background-image: linear-gradient(to right, transparent 0%, #606060 70%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#ffffffff', GradientType=1);
 }
 .star-line .line-after {
 	right: 0;
-	background-image: -webkit-gradient(linear, 30% top, 100% top, from(#303030), to(transparent));
-	background-image: -webkit-linear-gradient(left, color-stop(#303030 30%), color-stop(transparent 100%));
-	background-image: -moz-linear-gradient(left, #303030 30%, transparent 100%);
-	background-image: linear-gradient(to right, #303030 30%, transparent 100%);
+	background-image: -webkit-gradient(linear, 30% top, 100% top, from(#606060), to(transparent));
+	background-image: -webkit-linear-gradient(left, color-stop(#606060 30%), color-stop(transparent 100%));
+	background-image: -moz-linear-gradient(left, #606060 30%, transparent 100%);
+	background-image: linear-gradient(to right, #606060 30%, transparent 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#00000000', GradientType=1);
 }
@@ -495,7 +495,7 @@ blockquote h3{
 }
 .star-line .icons .glyphicon {
 	/*color: #ffffff !important;*/
-	color: #303030 !important;
+	color: #606060 !important;
 	font-size: 18px;
 	display: block;
 	float: left;
@@ -827,7 +827,7 @@ blockquote h3{
 	margin: 30px auto 0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #303030;
+	color: #606060;
 	font-weight: 600;
 	/*text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);*/
 }

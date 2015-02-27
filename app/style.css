@@ -5,7 +5,8 @@ html, body,
 	height: 100%; 
 }
 .container-heigth{
-	min-height: 500px;
+	/*min-height: 500px;*/
+	min-height: 83px;
 }
 .resume-text{
 	color: #767272;

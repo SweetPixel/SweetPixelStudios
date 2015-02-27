@@ -1,10 +1,10 @@
 body,.fancy-header h1{
 	/*color: #fefdfb*/
-	color: #303030;
+	color: #606060;
 }
 h2,h3,h4,h5{
 	/*color: #ecf0f1;*/
-	color: #303030;
+	color: #606060;
 }
 
 
@@ -90,22 +90,23 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 	color: #ffffff;
 }
 #contact #submit:hover{
-	background: ##00D8CC
+	background: #00D8CC
 }
 .pricing-5-col,.pricing-box ul,.pricing-box li,.pricing-box li,#contact #submit:hover{
-	border-color: ##00D8CC
+	border-color: #00D8CC
 }
 
 .navbar {
 	/*background: #b0495a;*/
-	background: #b52244;
+	background: #2AA876;
 }
 .copyright {
 	background: #ffffff;
 }
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
 .navbar .nav>li>a:hover{
-	background: #741a2f;
+	background: #ECF0F1;
+	color: #2AA876;
 }
 
 .join-des span{

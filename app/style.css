@@ -4,6 +4,12 @@ html, body,
 .scroll section { 
 	height: 100%; 
 }
+.about-second-color {
+	color: #CE4D45;
+}
+.team-parallax-color {
+	color: #663399;
+}
 .container-heigth{
 	/*min-height: 500px;*/
 	min-height: 83px;
@@ -31,7 +37,7 @@ body {
 	color: #333;
 }
 #startarrow:hover {
-	color: #b52244;
+	color: #0A7B83;
 }
 a { color: #606060; text-decoration: none; outline: none; }
 a:hover { color: #000; text-decoration: none; outline: none; }
@@ -239,7 +245,7 @@ blockquote h3{
 }
 .parallax p:after,.parallax p:before {
 	bottom: 15px;
-	color: #303030;
+	color: #606060;
 	content: ",,";
 	font-family: open sans;
 	font-size: 30px;
@@ -259,7 +265,7 @@ blockquote h3{
 }
 /*  Counters  */
 .counters {
-	margin: 0px 0;
+	margin: 30px 0;
 }
 .counters ul {
 	text-align:center;
@@ -303,7 +309,7 @@ blockquote h3{
 }
 .join-des h3 { color: #fff; margin: 0}
 .join-des .btn-primary{
-	border: 2px solid #b52244;
+	border: 2px solid #663399;
 	background: transparent;
 	box-shadow: none;
 	text-transform: uppercase;
@@ -315,21 +321,21 @@ blockquote h3{
 	margin-top: 20px;
 }
 .btn-primary {
-	color: #b52244;
+	color: #663399;
 	background-color: #428bca;
 	border-color: #357ebd;
 }
 .content h1{
 	font-weight: 800;
-	color: #b52244;
+	color: #663399;
 	line-height: 70px;
 	margin: 30px 0 30px 0;
 	background: rgba(95, 48, 48, 0.15);
 	/*text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
 }
-.join-des .btn-primary:hover{ border-color: #b52244; }
+.join-des .btn-primary:hover{ border-color: #663399; }
 .join-des .btn-primary:hover{
-	background: #b52244;
+	background: #663399;
 	color: #fff;
 }
 #testiminal{
@@ -558,8 +564,8 @@ blockquote h3{
 	display: inline-block;
 	padding: 10px 10px;
 	border: 4px solid #fff;
-	box-shadow: 0px 0px 0px 3px #b52244;
-	background: #b52244;
+	box-shadow: 0px 0px 0px 3px #2AA876;
+	background: #2AA876;
 	color: #fff;
 	position: relative;
 	z-index: 20;
@@ -571,7 +577,7 @@ blockquote h3{
 	left:0px;
 	height: 3px;
 	width:100%;
-	background: #b52244;
+	background: #2AA876;
 	z-index:1;
 }
 .h1-line-left{
@@ -580,7 +586,7 @@ blockquote h3{
 	top: 40px;
 	left: 0px;
 	height: 35px;
-	border-left: 3px solid #b52244;
+	border-left: 3px solid #2AA876;
 }
 .h1-line-right{
 	position:absolute;
@@ -588,7 +594,85 @@ blockquote h3{
 	top: 40px;
 	right: 0px;
 	height: 35px;
-	border-right: 3px solid #b52244;
+	border-right: 3px solid #2AA876;
+}
+.title-color h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 12px;
+	display: inline-block;
+	padding: 10px 10px;
+	border: 4px solid #fff;
+	box-shadow: 0px 0px 0px 3px #2882A5;
+	background: #2882A5;
+	color: #fff;
+	position: relative;
+	z-index: 20;
+	overflow: hidden;
+}
+.h1-line-color{
+	position:absolute;
+	top: 55px;
+	left:0px;
+	height: 3px;
+	width:100%;
+	background: #2882A5;
+	z-index:1;
+}
+.h1-line-left-color{
+	position:absolute;
+	display:block;
+	top: 40px;
+	left: 0px;
+	height: 35px;
+	border-left: 3px solid #2882A5;
+}
+.h1-line-right-color{
+	position:absolute;
+	display:block;
+	top: 40px;
+	right: 0px;
+	height: 35px;
+	border-right: 3px solid #2882A5;
+}
+.title-client-color h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 12px;
+	display: inline-block;
+	padding: 10px 10px;
+	border: 4px solid #fff;
+	box-shadow: 0px 0px 0px 3px #858585;
+	background: #858585;
+	color: #fff;
+	position: relative;
+	z-index: 20;
+	overflow: hidden;
+}
+.h1-line-client-color{
+	position:absolute;
+	top: 55px;
+	left:0px;
+	height: 3px;
+	width:100%;
+	background: #858585;
+	z-index:1;
+}
+.h1-line-left-client-color{
+	position:absolute;
+	display:block;
+	top: 40px;
+	left: 0px;
+	height: 35px;
+	border-left: 3px solid #858585;
+}
+.h1-line-right-client-color{
+	position:absolute;
+	display:block;
+	top: 40px;
+	right: 0px;
+	height: 35px;
+	border-right: 3px solid #858585;
 }
 .title p{ padding: 0 14%; margin: 0 }
 .fancy-header {
@@ -605,7 +689,7 @@ blockquote h3{
 }
 .color{ 
 	/*color: #00D8CC;*/
-	color: #b52244;
+	color: #0A7B83;
 }
 .feature-box,.feat-icon,.feature-box:hover .feat-icon,.feat-icon:after,.feature-box:hover .feat-icon:after,
 .icon,.dot:hover .icon,
@@ -838,7 +922,7 @@ blockquote h3{
 	z-index: 10;
 	position: relative;
 	/*color: #fff;*/
-	color: #b52244;
+	color: #0A7B83;
 	font-size: 14px;
 	text-shadow: none;
 	text-transform: uppercase;
@@ -846,16 +930,16 @@ blockquote h3{
 	padding: 11px 25px 11px;
 	cursor: pointer;
 	/*border: 2px solid #fff;*/
-	border: 2px solid #b52244;
+	border: 2px solid #0A7B83;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	letter-spacing: 2px;
 }
 .second .btn-primary:hover{
-	background: #b52244;
+	background: #0A7B83;
 	color: #fff;
-	border-color: #b52244;
+	border-color: #0A7B83;
 	box-shadow:none
 }
 .startarrow {
@@ -872,6 +956,9 @@ blockquote h3{
 	-moz-animation-duration: 1.5s;
 	-moz-animation-delay: 1.5s;
 	-moz-animation-iteration-count: infinite;
+}
+.from-top-distance{
+	top: 30px;
 }
 .from-top {
 	top: -50px;
@@ -919,10 +1006,10 @@ blockquote h3{
 	line-height: 38px;
 }
 .feat-icon {
-	background: #b52244;
+	background: #2AA876;
 	color: #fff;
 	border: 4px solid #fff;
-	box-shadow: 0px 0px 0px 3px #b52244;
+	box-shadow: 0px 0px 0px 3px #2AA876;
 	width: 100px;
 	height: 80px;
 	line-height: 70px;
@@ -937,7 +1024,7 @@ blockquote h3{
 	height: 80px;
 	line-height: 70px;
 	font-size: 40px;
-	background:  #b52244;
+	background:  #2AA876;
 	border-radius: 50%;
 	-webkit-transform: scale(1.20);
 	-moz-transform: scale(1.20);
@@ -956,7 +1043,7 @@ blockquote h3{
 	position: absolute;
 	width: 0;
 	height: 0;
-	border: 15px solid #b52244;
+	border: 15px solid #2AA876;
 	border-bottom: 0px solid transparent !important;
 	border-right: 20px solid transparent !important;
 	border-left: 20px solid transparent !important;
@@ -1015,7 +1102,7 @@ blockquote h3{
 .dot-build-7 .icon {
 	margin: 0 auto;
 	display: block;
-	background: #b52244;
+	background: #CE4D45;
 	width: 80px;
 	height: 80px;
 	font-size: 40px;
@@ -1025,7 +1112,7 @@ blockquote h3{
 	border-radius: 50%;
 	margin-bottom: 10px;
 	border: 4px solid #f5f5f5;
-	box-shadow: 0px 0px 0px 3px #b52244;
+	box-shadow: 0px 0px 0px 3px #CE4D45;
 }
 .icon {
 	width: 60px;
@@ -1703,7 +1790,7 @@ blockquote h3{
    }
    .mapPreLoading span[class*="l-"] {
    	display: inline-block;
-   	background: #b52244;
+   	background: #0A7B83;
    	width: 30px;
    	height: 30px;
    	-webkit-border-radius: 100%;

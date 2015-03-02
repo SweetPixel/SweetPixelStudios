@@ -378,7 +378,7 @@ blockquote h3{
 	filter: grayscale(100%);*/
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-	color: #b52244;
+	color: #663399;
 }
 .testi-client > ul li > img {
 	opacity: 0.4;

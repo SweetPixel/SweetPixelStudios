@@ -39,7 +39,7 @@ html, body,
 body { 
 	font-family: 'Open Sans', sans-serif;
 	/*font-family: 'Rokkitt', serif;*/
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
 	line-height: 25px;
 	color: #333;
@@ -176,7 +176,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	font-weight: 800;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 20px;
 	/*color: #fff;*/
 	color: #ecf0f1;
 	padding: 29px 22px 26px;
@@ -256,7 +256,7 @@ blockquote h3{
 	padding: 0 5%;
 }
 .parallax p{ 
-	font-size: 20px;
+	font-size: 21px;
 	line-height:35px;
 }
 .parallax p:after,.parallax p:before {
@@ -961,7 +961,7 @@ blockquote h3{
 	margin: 30px auto 40px;
 }
 .second-title {
-	font-size: 16px;
+	font-size: 19px;
 	width: 72%;
 	margin: 30px auto 0;
 	text-transform: uppercase;

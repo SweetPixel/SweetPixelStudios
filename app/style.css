@@ -6,7 +6,7 @@ html, body,
 }
 .follow-us-color {
 	font-weight: 800;
-	color: #8e3557;
+	color: #31A8AC;
 	line-height: 70px;
 	margin: 30px 0 30px 0;
 	/*background: rgba(95, 48, 48, 0.15);*/
@@ -1681,16 +1681,16 @@ blockquote h3{
    	-o-transform: rotateY(180deg);
    	transform: rotateY(180deg);
 
-   	border-right: 1px solid #8e3557;
-   	border-left: 1px solid #8e3557;
-   	border-top: 1px solid #8e3557;
-   	border-bottom: 1px solid #8e3557;
+   	border-right: 1px solid #31A8AC;
+   	border-left: 1px solid #31A8AC;
+   	border-top: 1px solid #31A8AC;
+   	border-bottom: 1px solid #31A8AC;
    }
 
    .social ul li a span {
    	display: inline-block;
    	margin: 0;
-   	color: #8e3557;
+   	color: #31A8AC;
    	font-size: 32px;
    	line-height: 70px;
    	/*text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
@@ -1708,7 +1708,7 @@ blockquote h3{
 
    .social ul li:hover a,
    .social ul li.active a {
-   	background-color: #8e3557;
+   	background-color: #31A8AC;
    	/*box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
    	-webkit-transform: rotateY(0deg);
    	-moz-transform: rotateY(0deg);

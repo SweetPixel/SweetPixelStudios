@@ -294,24 +294,24 @@ blockquote h3{
 	display: block;
 	font-size: 50px;
 	position: relative;
-	color: #336E7B;
+	color: #21BFCC;
 	line-height: 120px;
 }
 .parallax .counters .fa{
 	margin: 0 0 20px 0;
 }	
 .counters li {
-	color: #336E7B;
+	color: #21BFCC;
 	font-size: 16px;
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #111;
-	border-right: 1px solid #336E7B;
+	border-right: 1px solid #21BFCC;
 	/*border-bottom: 3px solid transparent;*/
-	border-bottom: 1px solid #336E7B;
-	border-left: 1px solid #336E7B;
+	border-bottom: 1px solid #21BFCC;
+	border-left: 1px solid #21BFCC;
 	/*border-top: 3px solid transparent;*/
-	border-top: 1px solid #336E7B;
+	border-top: 1px solid #21BFCC;
 	border-radius: 50%;
 	padding: 0;
 	margin: 10px auto 20px;
@@ -533,7 +533,7 @@ blockquote h3{
 	text-align: center;
 }
 .create h1{
-	color: #336E7B;
+	color: #21BFCC;
 	text-transform: uppercase;
 }
 .create .btn-primary{
@@ -542,14 +542,14 @@ blockquote h3{
 	height: auto;
 	z-index: 10;
 	position: relative;
-	color: #336E7B;
+	color: #21BFCC;
 	font-size: 14px;
 	text-shadow: none;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 11px 25px 11px;
 	cursor: pointer;
-	border: 2px solid #336E7B;
+	border: 2px solid #21BFCC;
 	box-shadow: none;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -557,9 +557,9 @@ blockquote h3{
 	letter-spacing: 2px;
 }
 .create .btn-primary:hover{
-	background: #336E7B;
+	background: #21BFCC;
 	color: #fff;
-	border-color: #336E7B;
+	border-color: #21BFCC;
 	box-shadow:none
 }
 #follow {

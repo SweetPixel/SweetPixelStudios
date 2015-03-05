@@ -2015,59 +2015,15 @@ blockquote h3{
    	animation: none;
    }
 
-   /*Modal Bootstrap settings*/
-   .modal-header{
-   	min-height: 16.4286px;
-   	padding: 15px;
-   	border-bottom: 0px;
+   /*Bootstrap*/
+   @media (min-width: 992px){
+   	.job-title{
+   		margin-left: 0px;
+   	}
    }
-   .modal-file-upload{
-   	margin-left: 20%;
-   	margin-top: 0.5%;
-   	color: black;
+
+   @media (min-width: 320px){
+   	.job-title{
+   		margin-left: 40px;
+   	}
    }
-   #myModalLabel{
-   	line-height: 1.5;
-   	margin-left: 4%;
-   	color: black;
-   }
-   .modal-content {
-   	background-clip: padding-box;
-   	background-color: #ffffff;
-   	border: 1px solid rgba(0, 0, 0, 0.2);
-   	border-radius: 20px;
-   	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-   	/*height: 295px;*/
-   	outline: medium none;
-   	position: relative;
-   	height: 235px;
-   	margin-top: 35%;
-   }
-   .separator{
-   	color: black;
-   	height: 35%;
-   }
-   .row-space{
-   	margin-top: 3%;
-   }
-   .row-space:hover{
-   	background-color: #9f3444;
-   	color: #00D8CC;
-   	border-radius: 4px;
-   }
-/*   output {
-   	display: block;
-   	padding-top: 7px;
-   	font-size: 14px;
-   	line-height: 1.428571429;
-   	color: #555555;
-   	vertical-align: middle;
-   	margin-top: -32%;
-   }
-   #files {
-   	margin-top: 22%;
-   	margin-left: 68%;
-   	border-radius: 5px;
-   	border-color: red;
-   	background-color: beige;
-   	}*/

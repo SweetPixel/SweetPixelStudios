@@ -4,6 +4,46 @@ html, body,
 .scroll section { 
 	height: 100%; 
 }
+.second-title-job-page{
+	font-size: 40px;
+	width: 72%;
+	margin: 30px auto 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #606060;
+	font-weight: 600;
+	/* text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2); */
+}
+.btn-apply-job{
+	border: 2px solid #663399;
+	background: transparent;
+	box-shadow: none;
+	text-transform: uppercase;
+	padding: 5px 5px 5px 5px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	text-shadow: none;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.btn-apply-job:hover {
+	background: #663399;
+	color: #ffffff;
+}
+.btn-apply-job:active, .btn-apply-job:focus {
+	color: #2a6496;
+	text-decoration: underline;
+}
+.job-title{
+	padding-left: 0px;
+	padding-right: 0px;
+	/*margin-top: 25px;*/
+	float: left;
+}
+.jobs{
+	margin-top: 50px;
+}
 .follow-us-color {
 	font-weight: 800;
 	color: #31A8AC;
@@ -2030,4 +2070,4 @@ blockquote h3{
    	border-radius: 5px;
    	border-color: red;
    	background-color: beige;
-   }*/
+   	}*/

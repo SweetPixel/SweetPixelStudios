@@ -41,7 +41,7 @@ module.exports = function (grunt) {
                 tasks: ['bowerInstall']
             },
             js: {
-                files: ['<%= config.app %>/scripts/{,*/}*.js'],
+                files: ['<%= config.app %>/assets/scripts/{,*/}*.js'],
                 tasks: ['jshint'],
                 options: {
                     livereload: true
@@ -570,7 +570,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('dev', [
       'githooks'
-    ])
+    ]);
 
     grunt.registerTask('build', [
         'clean:dist',

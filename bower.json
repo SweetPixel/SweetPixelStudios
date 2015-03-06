@@ -2,7 +2,7 @@
   "name": "SweetPixelStudios",
   "version": "0.0.1",
   "dependencies": {
-    "jquery": "*",
+    "jquery": "2.1.3",
   	"bootstrap": "*",
     "modernizr": "*",
     "animate.css": "*",

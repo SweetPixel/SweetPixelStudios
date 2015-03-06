@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+	<circle fill="#303030" cx="102" cy="100.5" r="95.576"/>
+	<g>
+		<path fill="#FFFFFF" d="M112.757,88.061h-6.146v14.214c0,3.659-1.5,6.568-5.911,6.568c-4.363,0.047-5.629-2.956-5.629-6.756
+			V88.061h-6.146v15.575c0,4.504,1.595,10.93,10.039,10.978c4.645,0.046,6.943-2.206,8.022-4.223v3.425h5.77V88.061z"/>
+		<path fill="#FFFFFF" d="M115.201,113.815h6.145V99.602c0-3.613,1.501-6.521,5.865-6.568c4.315,0,5.582,2.955,5.582,6.802v13.98
+			h6.146V98.287c0-4.551-1.595-10.978-9.993-11.024c-4.598-0.046-6.896,2.205-8.021,4.222c0.046-1.219,0.046-2.298,0.046-3.424
+			h-5.77V113.815z"/>
+		<path fill="#FFFFFF" d="M141.288,84.589h6.145V79.1h-6.145V84.589z M141.288,113.815h6.145V88.061h-6.145V113.815z"/>
+		<path fill="#FFFFFF" d="M153.868,113.815h6.146V92.799h4.409l-1.824-4.738h-2.585V79.1h-6.146v8.961h-4.269v4.738h4.269V113.815z"
+			/>
+		<path fill="#FFFFFF" d="M170.351,122.822h6.568l13.557-34.762h-6.567l-6.192,17.123l-6.286-17.123h-6.567l9.71,24.77
+			L170.351,122.822z"/>
+		<path fill="#FFFFFF" d="M76.995,94.12l-6.844-25.46l-25.543,6.823l-3.781,6.648l-7.673-0.056l-18.696,18.638l18.696,18.633h0
+			l7.669-0.058l3.787,6.648l25.54,6.822l6.844-25.455l-3.886-6.593L76.995,94.12z M60.98,78.194L49.765,97.563H27.329l14.116-14.361
+			L60.98,78.194z M49.765,103.857l11.219,19.367l-19.539-5.006l-14.116-14.361H49.765z M55.232,100.712l11.217-19.37l5.421,19.37
+			l-5.421,19.365L55.232,100.712z"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="XMLID_7_" cx="102" cy="100.5" r="95.576"/>
+		</defs>
+		<radialGradient id="XMLID_10_" cx="102" cy="100.501" r="95.5757" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+			<stop  offset="0.8587" style="stop-color:#000000;stop-opacity:0.4036"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0.47"/>
+		</radialGradient>
+		<use xlink:href="#XMLID_7_"  overflow="visible" fill="url(#XMLID_10_)"/>
+		<clipPath id="XMLID_11_">
+			<use xlink:href="#XMLID_7_"  overflow="visible"/>
+		</clipPath>
+	</g>
+</g>
+</svg>

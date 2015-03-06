@@ -24,7 +24,7 @@ html, body,
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	text-shadow: none;
-	margin-top: 20px;
+	margin-top: 0px;
 	font-size: 15px;
 }
 .btn-apply-job:hover {
@@ -35,7 +35,9 @@ html, body,
 	color: #2a6496;
 	text-decoration: underline;
 }
-.job-title{
+.seniorUnity-job-title, .junioUnity-job-title,
+.seniorGameArtist-job-title, .webDeveloper-job-title,
+.marketing-job-title{
 	padding-left: 0px;
 	padding-right: 0px;
 	/*margin-top: 25px;*/
@@ -2017,19 +2019,25 @@ blockquote h3{
 
    /*Bootstrap*/
    @media (min-width: 992px){
-   	.job-title{
+   	.seniorUnity-job-title, .junioUnity-job-title,
+   	.seniorGameArtist-job-title, .webDeveloper-job-title,
+   	.marketing-job-title{
    		margin-left: 0px;
    	}
    }
 
    @media (min-width: 320px){
-   	.job-title{
+   	.seniorUnity-job-title, .junioUnity-job-title,
+   	.seniorGameArtist-job-title, .webDeveloper-job-title,
+   	.marketing-job-title{
    		margin-left: 40px;
    	}
    }
 
    @media (min-width: 1200px){
-   	.job-title{
+   	.seniorUnity-job-title, .junioUnity-job-title,
+   	.seniorGameArtist-job-title, .webDeveloper-job-title,
+   	.marketing-job-title{
    		margin-left: 0px;
    	}
    }

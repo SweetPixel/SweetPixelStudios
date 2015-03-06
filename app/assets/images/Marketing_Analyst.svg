@@ -11,10 +11,10 @@
 			<circle id="XMLID_5_" cx="-132" cy="100.5" r="95.576"/>
 		</defs>
 		<use xlink:href="#XMLID_5_"  overflow="visible" fill="#303030"/>
-		<clipPath id="XMLID_10_">
+		<clipPath id="XMLID_13_">
 			<use xlink:href="#XMLID_5_"  overflow="visible"/>
 		</clipPath>
-		<path clip-path="url(#XMLID_10_)" fill="#2AA876" d="M-200.448,186.388c0.036,0.151,0.072,0.3,0.107,0.45
+		<path clip-path="url(#XMLID_13_)" fill="#2AA876" d="M-200.448,186.388c0.036,0.151,0.072,0.3,0.107,0.45
 			C-200.361,186.699-200.399,186.552-200.448,186.388z M7.024,187.929c0.446,0.444,0.981,1.012,1.699,1.844
 			c0.563,0.553,1.076,1.112,1.489,1.598l0.595-0.057C10.201,190.936,9.177,190.087,7.024,187.929z M-125.82,146.341l-3.17-3.305
 			l1.228,1.347L-125.82,146.341z M-165.85,151.611l0.913,0.406C-165.649,151.621-165.895,151.519-165.85,151.611z M-109.36,160.754
@@ -696,5 +696,11 @@
 			</g>
 		</g>
 	</g>
+	<radialGradient id="SVGID_1_" cx="102" cy="100.501" r="95.5757" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+		<stop  offset="0.8587" style="stop-color:#000000;stop-opacity:0.5581"/>
+		<stop  offset="1" style="stop-color:#000000;stop-opacity:0.65"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_1_)" cx="102" cy="100.5" r="95.576"/>
 </g>
 </svg>

@@ -27,13 +27,13 @@
 		<defs>
 			<circle id="XMLID_7_" cx="102" cy="100.5" r="95.576"/>
 		</defs>
-		<radialGradient id="XMLID_10_" cx="102" cy="100.501" r="95.5757" gradientUnits="userSpaceOnUse">
+		<radialGradient id="XMLID_13_" cx="102" cy="100.501" r="95.5757" gradientUnits="userSpaceOnUse">
 			<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
-			<stop  offset="0.8587" style="stop-color:#000000;stop-opacity:0.4036"/>
-			<stop  offset="1" style="stop-color:#000000;stop-opacity:0.47"/>
+			<stop  offset="0.8587" style="stop-color:#000000;stop-opacity:0.5581"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0.65"/>
 		</radialGradient>
-		<use xlink:href="#XMLID_7_"  overflow="visible" fill="url(#XMLID_10_)"/>
-		<clipPath id="XMLID_11_">
+		<use xlink:href="#XMLID_7_"  overflow="visible" fill="url(#XMLID_13_)"/>
+		<clipPath id="XMLID_14_">
 			<use xlink:href="#XMLID_7_"  overflow="visible"/>
 		</clipPath>
 	</g>

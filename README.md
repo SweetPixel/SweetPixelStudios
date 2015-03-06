@@ -4,7 +4,7 @@ SweetPixel Studios Official Website
 
 * [Ali Raza](https://github.com/aliirz)
 * [Mubassir Hayat](https://github.com/mubassirhayat)
-* [Sayyam](https://github.com/mmsayyam)
+* [Muhammad Sayyam](https://github.com/mmsayyam)
 
 The website is based on [Yeoman][yo].
 

@@ -2020,20 +2020,23 @@ blockquote h3{
    /*Bootstrap*/
    @media (min-width: 992px){
    	.seniorUnity-job-title, .junioUnity-job-title,
-   	.seniorGameArtist-job-title, .webDeveloper-job-title,
-   	.marketing-job-title{
+   	.seniorGameArtist-job-title, .webDeveloper-job-title{
    		margin-left: 0px;
    	}
    }
 
    @media (min-width: 320px){
-   	.seniorUnity-job-title, .junioUnity-job-title,
-   	.webDeveloper-job-title,
-   	.marketing-job-title{
-   		margin-left: 40px;
+   	.seniorUnity-job-title, .junioUnity-job-title{
+   		margin-left: 50px;
    	}
    	.seniorGameArtist-job-title{
    		margin-left: 60px;
+   	}
+   	.webDeveloper-job-title{
+   		margin-left: 80px;
+   	}
+   	.marketing-job-title{
+   		margin-left: 75px;
    	}
    }
 

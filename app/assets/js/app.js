@@ -18,8 +18,8 @@ $('#contactUs').click( function (e) {
 					'from_email': 'ali@sweetpixelstudios.com',
 					'to': [
 						{
-							'email': 'usman@sweetpixelstudios.com',
-							'name': 'Usman SPS',
+							'email': 'hello@sweetpixelstudios.com',
+							'name': 'SPS',
 							'type': 'to'
 						}
 					],

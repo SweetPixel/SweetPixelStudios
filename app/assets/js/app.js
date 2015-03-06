@@ -1,51 +1,39 @@
-$(function() {
+'use strict';
 
-	// Get the form.
-	var form = $('#form');
-
-	// Get the messages div.
-	var formMessages = $('#form-messages');
-
-	// Set up an event listener for the contact form.
-	$(form).submit(function(e) {
-		// Stop the browser from submitting the form.
-		e.preventDefault();
-
-		// Serialize the form data.
-		var formData = $(form).serialize();
-
-		// Submit the form using AJAX.
+$('#contactUs').click( function (e) {
+	e.preventDefault();
+	var name = $('#name').val(),
+	email = $('#email').val(),
+	message = $('#message').val();
+	if (name === '' || email === '' || message === '') {
+		sweetAlert("Oops...", "You must fill all fields!", "error");
+	}
+	else {
 		$.ajax({
 			type: 'POST',
-			url: $(form).attr('action'),
-			data: formData
-		})
-		.done(function(response) {
-			// Make sure that the formMessages div has the 'success' class.
-			$(formMessages).removeClass('error');
-			$(formMessages).addClass('success');
-
-			// Set the message text.
-			$(formMessages).text(response);
-
-			// Clear the form.
-			$('#name').val('');
-			$('#email').val('');
-			$('#message').val('');
-		})
-		.fail(function(data) {
-			// Make sure that the formMessages div has the 'error' class.
-			$(formMessages).removeClass('success');
-			$(formMessages).addClass('error');
-
-			// Set the message text.
-			if (data.responseText !== '') {
-				$(formMessages).text(data.responseText);
-			} else {
-				$(formMessages).text('Oops! An error occured and your message could not be sent.');
+			url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+			data: {
+				'key': '7MI_ClfWxAxYrHzeomxkEA',
+				'message': {
+					'from_email': 'ali@sweetpixelstudios.com',
+					'to': [
+						{
+							'email': 'usman@sweetpixelstudios.com',
+							'name': 'Usman SPS',
+							'type': 'to'
+						}
+					],
+					'autotext': 'true',
+					'subject': 'New Feedback from SPS Website!',
+					'html': '<strong>From: </strong>' + name + '<br />' +
+					'<strong>Email: </strong>' + email + '<br />' +
+					'<strong>Message: </strong>' + message
+				}
 			}
+		}).done(function() {
+			// console.log(response); // if you're into that sorta th
+			$('#contactForm').hide();
+			$('#sentConfirmation').show();
 		});
-
-	});
-
+	}
 });

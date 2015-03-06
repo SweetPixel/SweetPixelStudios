@@ -1,0 +1,4 @@
+app/assets/js/
+app/modules
+bower_components
+.git

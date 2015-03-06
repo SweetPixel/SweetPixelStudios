@@ -15,12 +15,15 @@
 	<link rel="stylesheet" type="text/css" href="style.css" title="ori"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/dark4.css"/>
 	<!-- Color -->
-	<link rel="stylesheet" type="text/css" href="assets/css/color-picker.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/color-picker.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/blue.css" title="blue"/>
-	<link rel="stylesheet" type="text/css" href="assets/css/yellow.css" title="yellow"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/yellow.css" title="yellow"/> -->
 
 	<!-- Google Rokkitt fonts	 -->
 	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+	<!-- Sweet Alert CSS -->
+	<link href="bower_components/sweetalert/lib/sweet-alert.css" rel='stylesheet'/>
 </head>
 
 <body data-spy="scroll" data-offset='90'>
@@ -1180,7 +1183,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non justo volutpat ante rhoncus vehicula malesuada eget augue. Nam convallis lorem non sollicitudin faucibus. Ut dapibus neque lacus, vel molestie diam consequat vitae.</p> -->
 					</div>
 
-					<form id="contactForm" class="contact from-bottom" action="phpmailer/PHPMailerAutoload.php" method="post" name="contactform">
+					<form id="contactForm" class="contact from-bottom" method="post" name="contactform">
 						<div class="row">
 							<div class="col-md-6">
 								<input type="text" id='name' name="name" value="" size="40" placeholder="Your Name" class="form-input">
@@ -1197,6 +1200,13 @@
 							</div>
 						</div>
 					</form>
+					<div class='well' id='sentConfirmation' style='display: none; text-align:center;'>
+						<div class='row'>
+							<h1>Thanks for getting in touch. One of our trusty robots will get back to momentarily.</h1>
+						</div>
+						<div class='row'>
+							<img class="img img-circle" src="holder.js/200x200"/>
+					</div>
 				</div>
 
 				<div class="map-holder from-bottom">
@@ -1238,9 +1248,11 @@
 			</div>
 		</div>
 	</div>
-
-	<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+</div>
+	<!-- // <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script> -->
+	<!-- // <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script> -->
+	<!-- // <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script> -->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="assets/js/scroll.js"></script>
@@ -1257,16 +1269,9 @@
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="assets/js/demo/styleswitcher.js"></script>
 	<script type="text/javascript" src="assets/js/demo/color-picker.js"></script>
+	<script type="text/javascript" src="bower_components/holderjs/holder.js"></script>
+	<script type="text/javascript" src="bower_components/sweetalert/lib/sweet-alert.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
-
-			<!-- <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			</div> -->
-		</div>
-	</div>
-</div>
 </body>
 </html>

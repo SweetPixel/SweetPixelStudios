@@ -5,7 +5,9 @@
     "jquery": "*",
   	"bootstrap": "*",
     "modernizr": "*",
-    "animate.css": "*"
+    "animate.css": "*",
+    "holderjs": "2.5.2",
+    "sweetalert": "*"
   },
   "devDependencies": {}
 }

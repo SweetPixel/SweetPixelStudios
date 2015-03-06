@@ -2028,9 +2028,12 @@ blockquote h3{
 
    @media (min-width: 320px){
    	.seniorUnity-job-title, .junioUnity-job-title,
-   	.seniorGameArtist-job-title, .webDeveloper-job-title,
+   	.webDeveloper-job-title,
    	.marketing-job-title{
    		margin-left: 40px;
+   	}
+   	.seniorGameArtist-job-title{
+   		margin-left: 60px;
    	}
    }
 

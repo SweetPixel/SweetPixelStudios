@@ -2018,25 +2018,105 @@ blockquote h3{
    }
 
    /*Bootstrap settings*/
+   
+
+   @media (min-width: 320px){
+   	.seniorUnity-job-title, .junioUnity-job-title{
+   		margin-left: 23%;
+   	}
+   	.seniorGameArtist-job-title{
+   		margin-left: 25%;
+   	}
+   	.webDeveloper-job-title{
+   		margin-left: 30%;
+   	}
+   	.marketing-job-title{
+   		margin-left: 29%;
+   	}
+   	.btn-apply-job{
+   		margin-left: 0px;
+   	}
+   }
+
+   @media (min-width: 470px){
+   	.seniorUnity-job-title, .junioUnity-job-title{
+   		margin-left: 30%;
+   	}
+   	.seniorGameArtist-job-title{
+   		margin-left: 32%;
+   	}
+   	.webDeveloper-job-title{
+   		margin-left: 35%;
+   	}
+   	.marketing-job-title{
+   		margin-left: 35%;
+   	}
+   	.btn-apply-job{
+   		margin-left: 0px;
+   	}
+   }
+
+   @media (min-width: 570px){
+   	.seniorUnity-job-title, .junioUnity-job-title{
+   		margin-left: 36%;
+   	}
+   	.seniorGameArtist-job-title{
+   		margin-left: 37%;
+   	}
+   	.webDeveloper-job-title{
+   		margin-left: 39%;
+   	}
+   	.marketing-job-title{
+   		margin-left: 40%;
+   	}
+   	.btn-apply-job{
+   		margin-left: 0px;
+   	}
+   }
+
+   @media (min-width: 670px){
+   	.seniorUnity-job-title, .junioUnity-job-title{
+   		margin-left: 36%;
+   	}
+   	.seniorGameArtist-job-title{
+   		margin-left: 37%;
+   	}
+   	.webDeveloper-job-title{
+   		margin-left: 39%;
+   	}
+   	.marketing-job-title{
+   		margin-left: 40%;
+   	}
+   	.btn-apply-job{
+   		margin-left: 0px;
+   	}
+   }
+
+   @media (min-width: 768px){
+   	.seniorUnity-job-title, .junioUnity-job-title{
+   		margin-left: 38%;
+   	}
+   	.seniorGameArtist-job-title{
+   		margin-left: 40%;
+   	}
+   	.webDeveloper-job-title{
+   		margin-left: 41%;
+   	}
+   	.marketing-job-title{
+   		margin-left: 40%;
+   	}
+   	.btn-apply-job{
+   		margin-left: 320px;
+   	}
+   }
+
    @media (min-width: 992px){
    	.seniorUnity-job-title, .junioUnity-job-title,
    	.seniorGameArtist-job-title, .webDeveloper-job-title{
    		margin-left: 0px;
    	}
-   }
-
-   @media (min-width: 320px){
-   	.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 50px;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 60px;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 80px;
-   	}
-   	.marketing-job-title{
-   		margin-left: 75px;
+   	.btn-apply-job{
+   		margin-left: 0px;
    	}
    }
 
@@ -2044,6 +2124,9 @@ blockquote h3{
    	.seniorUnity-job-title, .junioUnity-job-title,
    	.seniorGameArtist-job-title, .webDeveloper-job-title,
    	.marketing-job-title{
-   		margin-left: 0px;
+   		margin-left: 0%;
+   	}
+   	.btn-apply-job{
+   		margin-left: 0%
    	}
    }

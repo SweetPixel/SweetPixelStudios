@@ -2027,3 +2027,9 @@ blockquote h3{
    		margin-left: 40px;
    	}
    }
+
+   @media (min-width: 1200px){
+   	.job-title{
+   		margin-left: 0px;
+   	}
+   }

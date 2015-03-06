@@ -2017,7 +2017,7 @@ blockquote h3{
    	animation: none;
    }
 
-   /*Bootstrap*/
+   /*Bootstrap settings*/
    @media (min-width: 992px){
    	.seniorUnity-job-title, .junioUnity-job-title,
    	.seniorGameArtist-job-title, .webDeveloper-job-title{

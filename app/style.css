@@ -4,6 +4,18 @@ html, body,
 .scroll section { 
 	height: 100%; 
 }
+.jobs-copyright{
+	padding: 8px 0 20px;
+  	color: #606060;
+}
+.notification-text-color {
+	color: #606060;
+	font-size: 20px;
+}
+.confirm{
+	background: transparent;
+	color: #334d5c;
+}
 .second-title-job-page{
 	font-size: 40px;
 	width: 72%;
@@ -15,7 +27,8 @@ html, body,
 	/* text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2); */
 }
 .btn-apply-job{
-	border: 2px solid #663399;
+	border: 2px solid #2AA876;
+	color: #2AA876;
 	background: transparent;
 	box-shadow: none;
 	text-transform: uppercase;
@@ -28,12 +41,13 @@ html, body,
 	font-size: 15px;
 }
 .btn-apply-job:hover {
-	background: #663399;
+	background: #2AA876;
 	color: #ffffff;
 }
 .btn-apply-job:active, .btn-apply-job:focus {
-	color: #2a6496;
-	text-decoration: underline;
+	background: #663399;
+	color: #ffffff;
+	text-decoration: none;
 }
 .seniorUnity-job-title, .junioUnity-job-title,
 .seniorGameArtist-job-title, .webDeveloper-job-title,
@@ -44,7 +58,7 @@ html, body,
 	float: left;
 }
 .jobs{
-	margin-top: 50px;
+	margin-top: 7%;
 }
 .follow-us-color {
 	font-weight: 800;
@@ -527,7 +541,7 @@ blockquote h3{
 	display: block;
 	height: 1px;
 	position: absolute;
-	width: 42%;
+	width: 35%;
 	top: 9px;
 }
 .star-line .icons {
@@ -2040,7 +2054,7 @@ blockquote h3{
    		margin-left: 27%;
    	}
    	.btn-apply-job{
-   		margin-left: 0px;
+   		margin-left: 33%;
    	}
    }
 
@@ -2058,7 +2072,7 @@ blockquote h3{
    		margin-left: 35%;
    	}
    	.btn-apply-job{
-   		margin-left: 0px;
+   		margin-left: 40%;
    	}
    }
 
@@ -2076,7 +2090,7 @@ blockquote h3{
    		margin-left: 40%;
    	}
    	.btn-apply-job{
-   		margin-left: 0px;
+   		margin-left: 41%;
    	}
    }
 
@@ -2094,7 +2108,7 @@ blockquote h3{
    		margin-left: 40%;
    	}
    	.btn-apply-job{
-   		margin-left: 0px;
+   		margin-left: 43%;
    	}
    }
 
@@ -2112,7 +2126,7 @@ blockquote h3{
    		margin-left: 40%;
    	}
    	.btn-apply-job{
-   		margin-left: 2%;
+   		margin-left: 44%;
    	}
    }
 

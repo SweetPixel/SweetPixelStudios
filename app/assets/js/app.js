@@ -6,7 +6,12 @@ $('#contactUs').click( function (e) {
 	email = $('#email').val(),
 	message = $('#message').val();
 	if (name === '' || email === '' || message === '') {
-		sweetAlert("Oops...", "You must fill all fields!", "error");
+		sweetAlert({
+			title: "Oops...", 
+			text: "You must fill all fields!", 
+			type: "error",
+			confirmButtonColor: "#334d5c"
+		});
 	}
 	else {
 		$.ajax({

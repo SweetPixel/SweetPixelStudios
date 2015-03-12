@@ -218,7 +218,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	font-weight: 800;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
 	/*color: #fff;*/
 	color: #ecf0f1;
 	padding: 29px 22px 26px;
@@ -1801,11 +1801,17 @@ blockquote h3{
    	.social ul li a { width: 50px;	height: 50px;}
    	.social ul li a span {	font-size: 24px; line-height: 50px;}
    	.dot-build-2{
-   		-webkit-animation: none;
+   		-webkit-animation: dotAnim 10s infinite ease both;
+   		-moz-animation: dotAnim 10s infinite ease both;
+   		-ms-animation: dotAnim 10s infinite ease both;
+   		-o-animation: dotAnim 10s infinite ease both;
+   		animation: dotAnim 10s infinite ease both;
+   		
+   		/*-webkit-animation: none;
    		-moz-animation: none;
    		-ms-animation: none;
    		-o-animation: none;
-   		animation: none;
+   		animation: none;*/
    		left: 37.5%;
    		top: 40%;
    	}

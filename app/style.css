@@ -1156,7 +1156,7 @@ blockquote h3{
 .dot-build-4, .dot-build-5, .dot-build-6,
 .dot-build-7 {
 	position: absolute;
-	top: 35%;
+	top: 37%;
 	left: 12%;
 	z-index: 9;
 	-webkit-animation: dotAnim 10s infinite ease both;
@@ -1166,13 +1166,13 @@ blockquote h3{
 	animation: dotAnim 10s infinite ease both;
 }
 .dot-build-2{
-	top: 28%;
-	left: 44.5%;
+	top: 32%;
+	left: 47.5%;
 }
 .dot-build-3{
 	left:auto;
 	right: 10%;
-	top: 34%;
+	top: 37%;
 }
 .dot-build-4{
 	top: 390px;
@@ -1806,13 +1806,13 @@ blockquote h3{
    		-ms-animation: dotAnim 10s infinite ease both;
    		-o-animation: dotAnim 10s infinite ease both;
    		animation: dotAnim 10s infinite ease both;
-   		
+
    		/*-webkit-animation: none;
    		-moz-animation: none;
    		-ms-animation: none;
    		-o-animation: none;
    		animation: none;*/
-   		left: 37.5%;
+   		left: 44.5%;
    		top: 40%;
    	}
    	.about-icon{ line-height: 40px; width: 40px; height: 40px; font-size: 25px;}
@@ -2123,6 +2123,26 @@ blockquote h3{
    	}
    	.btn-apply-job{
    		margin-left: 0px;
+   	}
+   	.web-skill-set{
+   		width: 20%;
+  		margin-left: 9%;
+   	}
+   	.game-skill-set{
+   		width: 20%;
+  		margin-left: 11%;
+   	}
+   	.mobile-skill-set{
+   		width: 20%;
+  		margin-left: 11.2%;
+   	}
+   	.game-dev-skill-set{
+   		width: 20%;
+  		margin-left: 23%;
+   	}
+   	.UI-skill-set{
+   		width: 20%;
+  		margin-left: 11%;
    	}
    }
 

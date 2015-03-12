@@ -189,8 +189,18 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	border: none;
 	padding: 0;
 }
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #2AA876;
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #ffffff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #ecf0f1;
+}
 .navbar-toggle {
-	background-color: #1b1f24;
+	background-color: #ffffff;
 	border: none;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -232,7 +242,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	font-weight: 800;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 	/*color: #fff;*/
 	color: #ecf0f1;
 	padding: 29px 22px 26px;

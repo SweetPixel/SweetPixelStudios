@@ -6,7 +6,7 @@ html, body,
 }
 .jobs-copyright{
 	padding: 8px 0 20px;
-  	color: #606060;
+	color: #606060;
 }
 .notification-text-color {
 	color: #606060;
@@ -190,14 +190,14 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	padding: 0;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #2AA876;
+	background-color: #2AA876;
 }
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-  background-color: #ffffff;
+	background-color: #ffffff;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: #ecf0f1;
+	border-color: #ecf0f1;
 }
 .navbar-toggle {
 	background-color: #ffffff;
@@ -2066,6 +2066,51 @@ blockquote h3{
    	.btn-apply-job{
    		margin-left: 33%;
    	}
+   	.biggest-tile{
+   		width: 100%;
+   		background: url('assets/images/003.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		background-position: center;
+   		height: 370px;
+   		margin-top: 4%;
+   	}
+   	.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.medium-tile{
+   		background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 58%;
+   	}
+   	.medium-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.small-tile{
+   		background: url('assets/images/3 - Animation.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 40%;
+   		margin-left: 2%;
+   	}
+   	.small-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
    }
 
    @media (min-width: 470px){
@@ -2083,6 +2128,51 @@ blockquote h3{
    	}
    	.btn-apply-job{
    		margin-left: 40%;
+   	}
+   	.biggest-tile{
+   		width: 100%;
+   		background: url('assets/images/003.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		background-position: center;
+   		height: 370px;
+   		margin-top: 20%;
+   	}
+   	.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.medium-tile{
+   		background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 58%;
+   	}
+   	.medium-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.small-tile{
+   		background: url('assets/images/3 - Animation.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 40%;
+   		margin-left: 2%;
+   	}
+   	.small-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
    	}
    }
 
@@ -2102,6 +2192,51 @@ blockquote h3{
    	.btn-apply-job{
    		margin-left: 41%;
    	}
+   	.biggest-tile{
+   		width: 100%;
+   		background: url('assets/images/003.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		background-position: center;
+   		height: 370px;
+   		margin-top: 18%;
+   	}
+   	.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.medium-tile{
+   		background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 58%;
+   	}
+   	.medium-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.small-tile{
+   		background: url('assets/images/3 - Animation.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 40%;
+   		margin-left: 2%;
+   	}
+   	.small-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
    }
 
    @media (min-width: 670px){
@@ -2119,6 +2254,51 @@ blockquote h3{
    	}
    	.btn-apply-job{
    		margin-left: 43%;
+   	}
+   	.biggest-tile{
+   		width: 100%;
+   		background: url('assets/images/003.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		background-position: center;
+   		height: 370px;
+   		margin-top: 15%;
+   	}
+   	.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.medium-tile{
+   		background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 58%;
+   	}
+   	.medium-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.small-tile{
+   		background: url('assets/images/3 - Animation.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 40%;
+   		margin-left: 2%;
+   	}
+   	.small-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
    	}
    }
 
@@ -2138,6 +2318,51 @@ blockquote h3{
    	.btn-apply-job{
    		margin-left: 44%;
    	}
+   	.biggest-tile{
+   		width: 100%;
+   		background: url('assets/images/003.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		background-position: center;
+   		height: 370px;
+   		margin-top: 11%;
+   	}
+   	.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.medium-tile{
+   		background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 58%;
+   	}
+   	.medium-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.small-tile{
+   		background: url('assets/images/3 - Animation.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 40%;
+   		margin-left: 2%;
+   	}
+   	.small-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
    }
 
    @media (min-width: 992px){
@@ -2150,23 +2375,68 @@ blockquote h3{
    	}
    	.web-skill-set{
    		width: 20%;
-  		margin-left: 9%;
+   		margin-left: 9%;
    	}
    	.game-skill-set{
    		width: 20%;
-  		margin-left: 11%;
+   		margin-left: 11%;
    	}
    	.mobile-skill-set{
    		width: 20%;
-  		margin-left: 11.2%;
+   		margin-left: 11.2%;
    	}
    	.game-dev-skill-set{
    		width: 20%;
-  		margin-left: 23%;
+   		margin-left: 23%;
    	}
    	.UI-skill-set{
    		width: 20%;
-  		margin-left: 11%;
+   		margin-left: 11%;
+   	}
+   	.biggest-tile{
+   		width: 100%;
+   		background: url('assets/images/003.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		background-position: center;
+   		height: 370px;
+   		margin-top: 0%;
+   	}
+   	.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.medium-tile{
+   		background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 58%;
+   	}
+   	.medium-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.small-tile{
+   		background: url('assets/images/3 - Animation.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 40%;
+   		margin-left: 2%;
+   	}
+   	.small-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
    	}
    }
 
@@ -2178,5 +2448,49 @@ blockquote h3{
    	}
    	.btn-apply-job{
    		margin-left: 0%
+   	}
+   	.biggest-tile{
+   		width: 100%;
+   		background: url('assets/images/003.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		background-position: center;
+   		height: 370px;
+   	}
+   	.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.medium-tile{
+   		background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 58%;
+   	}
+   	.medium-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
+   	}
+   	.small-tile{
+   		background: url('assets/images/3 - Animation.jpg') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 40%;
+   		margin-left: 2%;
+   	}
+   	.small-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		opacity: 0.7;
    	}
    }

@@ -55,16 +55,16 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 biggest-tile this-container">
+				<div class="col-md-12 col-sm-12 col-xs-12 biggest-tile this-container">
 					<!-- <img src="assets/images/003.jpg" class="biggest-tile"> -->
 				</div>
 			</div>
 			<br>
 			<div class="row">
-				<div class="col-md-8 medium-tile this-container">
+				<div class="col-md-8 col-sm-8 col-xs-8 medium-tile this-container">
 					<!-- <img src="assets/images/003.jpg" class="medium-tile"> -->
 				</div>
-				<div class="col-md-4 small-tile this-container">
+				<div class="col-md-4 col-sm-4 col-xs-4 small-tile this-container">
 					<!-- <img src="assets/images/003.jpg" class="small-tile"> -->
 				</div>
 			</div>
@@ -79,18 +79,18 @@
 			</div>
 		</div>
 
-		<script>
-		var velocity = 0.7;
+		 <script>
+		// var velocity = 0.7;
 
-			function update(){ 
-			    var pos = $(window).scrollTop(); 
-			    $('.this-container').each(function() { 
-			        var $element = $(this);
-			        // subtract some from the height b/c of the padding
-			        var height = $element.height()-18;
-			        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
-			    }); 
-			};
-		</script>
+		// 	function update(){ 
+		// 	    var pos = $(window).scrollTop(); 
+		// 	    $('.this-container').each(function() { 
+		// 	        var $element = $(this);
+		// 	        // subtract some from the height b/c of the padding
+		// 	        var height = $element.height()-18;
+		// 	        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
+		// 	    }); 
+		// 	};
+		// </script>
 	</body>
 	</html>

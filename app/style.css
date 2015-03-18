@@ -269,6 +269,9 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focu
 	z-index:2;
 	display: table;
 	overflow:hidden;
+	background: url('assets/images/17.jpg');
+	/*background-attachment: fixed;*/
+	background-size: cover;
 }
 .parallax-content {
 	vertical-align: middle;

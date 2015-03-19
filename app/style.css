@@ -2077,6 +2077,8 @@ blockquote h3{
    		height: 370px;
    		margin-top: 4%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.biggest-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2092,6 +2094,8 @@ blockquote h3{
    		height: 370px;
    		width: 58%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.medium-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2108,6 +2112,8 @@ blockquote h3{
    		width: 40%;
    		margin-left: 2%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.small-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2142,6 +2148,8 @@ blockquote h3{
    		height: 370px;
    		margin-top: 20%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.biggest-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2157,6 +2165,8 @@ blockquote h3{
    		height: 370px;
    		width: 58%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.medium-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2173,6 +2183,8 @@ blockquote h3{
    		width: 40%;
    		margin-left: 2%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.small-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2207,6 +2219,8 @@ blockquote h3{
    		height: 370px;
    		margin-top: 18%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.biggest-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2222,6 +2236,8 @@ blockquote h3{
    		height: 370px;
    		width: 58%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.medium-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2238,6 +2254,8 @@ blockquote h3{
    		width: 40%;
    		margin-left: 2%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.small-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2272,6 +2290,8 @@ blockquote h3{
    		height: 370px;
    		margin-top: 15%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.biggest-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2287,6 +2307,8 @@ blockquote h3{
    		height: 370px;
    		width: 58%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.medium-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2303,6 +2325,8 @@ blockquote h3{
    		width: 40%;
    		margin-left: 2%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.small-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2337,6 +2361,8 @@ blockquote h3{
    		height: 370px;
    		margin-top: 11%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.biggest-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2352,6 +2378,8 @@ blockquote h3{
    		height: 370px;
    		width: 58%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.medium-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2368,6 +2396,8 @@ blockquote h3{
    		width: 40%;
    		margin-left: 2%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.small-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2414,6 +2444,8 @@ blockquote h3{
    		height: 370px;
    		margin-top: 0%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.biggest-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2429,6 +2461,8 @@ blockquote h3{
    		height: 370px;
    		width: 58%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.medium-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2445,6 +2479,8 @@ blockquote h3{
    		width: 40%;
    		margin-left: 2%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.small-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2471,6 +2507,8 @@ blockquote h3{
    		background-size: cover;
    		height: 370px;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.biggest-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2486,6 +2524,8 @@ blockquote h3{
    		height: 370px;
    		width: 58%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.medium-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/
@@ -2502,6 +2542,8 @@ blockquote h3{
    		width: 40%;
    		margin-left: 2%;
    		border: 1px solid #303030;
+   		background: #ffffff;
+   		opacity: 0.5;
    	}
    	.small-tile:hover{
    		/*box-shadow: 1px 1px 2px 2px #888888;*/

@@ -2071,7 +2071,10 @@ blockquote h3{
    		margin-left: 33%;
    	}
    	.killed-text{
-   		margin-top: 10%;
+   		margin-top: 5%;
+   		margin-left: 30%;
+   		font-size: 40px;
+   		color: #ffffff;
    	}
    	#hammer-image{
    		width: 23%;
@@ -2155,8 +2158,10 @@ blockquote h3{
    			margin-left: 42%;
    		}
    		.killed-text {
-   			margin-top: 6%;
-   			margin-left: 39%;
+   			margin-top: 5%;
+   			margin-left: 36%;
+   			font-size: 40px;
+   			color: #ffffff;
    		}
    		.biggest-tile{
    			width: 100%;
@@ -2235,8 +2240,10 @@ blockquote h3{
    			margin-left: 45%;
    		}
    		.killed-text {
-   			margin-top: 6%;
-   			margin-left: 42%;
+   			margin-top: 5%;
+   			margin-left: 40%;
+   			font-size: 40px;
+   			color: #ffffff;
    		}
    		.biggest-tile{
    			width: 100%;
@@ -2315,8 +2322,10 @@ blockquote h3{
    			margin-left: 44%;
    		}
    		.killed-text {
-   			margin-top: 4%;
-   			margin-left: 42%;
+   			margin-top: 5%;
+   			margin-left: 40%;
+   			font-size: 40px;
+   			color: #ffffff;
    		}
    		.biggest-tile{
    			width: 100%;
@@ -2395,8 +2404,10 @@ blockquote h3{
    			margin-left: 44%;
    		}
    		.killed-text {
-   			margin-top: 4%;
-   			margin-left: 43%;
+   			margin-top: 2%;
+   			margin-left: 45%;
+   			font-size: 40px;
+   			color: #ffffff;
    		}
    		.biggest-tile{
    			width: 100%;
@@ -2488,7 +2499,9 @@ blockquote h3{
    		}
    		.killed-text {
    			margin-top: 2%;
-   			margin-left: 45.5%;
+   			margin-left: 45%;
+   			font-size: 40px;
+   			color: #ffffff;
    		}
    		.biggest-tile{
    			width: 100%;
@@ -2561,7 +2574,9 @@ blockquote h3{
    		}
    		.killed-text {
    			margin-top: 2%;
-   			margin-left: 46%;
+   			margin-left: 45%;
+   			font-size: 40px;
+   			color: #ffffff;
    		}
    		.biggest-tile{
    			width: 100%;

@@ -2136,6 +2136,88 @@ blockquote h3{
    		}
    	}
 
+   	@media (min-width: 350px){
+   		.seniorUnity-job-title, .junioUnity-job-title{
+   		margin-left: 20%;
+   	}
+   	.seniorGameArtist-job-title{
+   		margin-left: 23%;
+   	}
+   	.webDeveloper-job-title{
+   		margin-left: 28%;
+   	}
+   	.marketing-job-title{
+   		margin-left: 27%;
+   	}
+   	.btn-apply-job{
+   		margin-left: 33%;
+   	}
+   	.killed-text{
+   		margin-top: 5%;
+   		margin-left: 31%;
+   		font-size: 40px;
+   		color: #ffffff;
+   	}
+   	#hammer-image{
+   		width: 23%;
+   		margin-top: 37%;
+   		margin-left: 39%;
+   	}
+   	.biggest-tile{
+   		width: 100%;
+   		/*background: url('assets/images/003.jpg') no-repeat center center;*/
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		margin-top: 4%;
+   		border: 1px solid #303030;
+   		/*background: #ffffff;
+   		opacity: 0.5;*/
+   	}
+   	/*.biggest-tile:hover{
+   		box-shadow: 1px 1px 2px 2px #888888;
+   		opacity: 0.7;
+   		}*/
+   		.medium-tile{
+   			/*background: url('assets/images/5 - Mobile Games.jpg') no-repeat center center;*/
+   			/*background-position: center;*/
+   			-webkit-background-size: cover;
+   			-moz-background-size: cover;
+   			-o-background-size: cover;
+   			background-size: cover;
+   			height: 370px;
+   			width: 58%;
+   			border: 1px solid #303030;
+   			/*background: #ffffff;
+   			opacity: 0.5;*/
+   		}
+   		.medium-tile:hover{
+   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   			opacity: 0.7;
+   		}
+   		.small-tile{
+   			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
+   			/*background-position: center;*/
+   			-webkit-background-size: cover;
+   			-moz-background-size: cover;
+   			-o-background-size: cover;
+   			background-size: cover;
+   			height: 370px;
+   			width: 40%;
+   			margin-left: 2%;
+   			border: 1px solid #303030;
+   			/*background: #ffffff;
+   			opacity: 0.5;*/
+   		}
+   		.small-tile:hover{
+   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   			opacity: 0.7;
+   		}
+   	}
+
    	@media (min-width: 470px){
    		.seniorUnity-job-title, .junioUnity-job-title{
    			margin-left: 30%;
@@ -2405,7 +2487,7 @@ blockquote h3{
    		}
    		.killed-text {
    			margin-top: 2%;
-   			margin-left: 45%;
+   			margin-left: 42%;
    			font-size: 40px;
    			color: #ffffff;
    		}

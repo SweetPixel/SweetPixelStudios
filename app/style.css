@@ -4,6 +4,11 @@ html, body,
 .scroll section { 
 	height: 100%; 
 }
+.gamesPage-footer{
+	padding: 4px 0 4px;
+  color: #0A7B83;
+  background: #ffffff;
+}
 .killed-tile{
 	background: #303030;
 	opacity: 0.3;
@@ -2112,10 +2117,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.medium-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.medium-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
    			/*background-position: center;*/
@@ -2130,10 +2135,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.small-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.small-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    	}
 
    	@media (min-width: 350px){
@@ -2194,10 +2199,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.medium-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.medium-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
    			/*background-position: center;*/
@@ -2212,10 +2217,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.small-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.small-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    	}
 
    	@media (min-width: 470px){
@@ -2276,10 +2281,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.medium-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.medium-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
    			/*background-position: center;*/
@@ -2294,10 +2299,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.small-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.small-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    	}
 
    	@media (min-width: 570px){
@@ -2358,10 +2363,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.medium-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.medium-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
    			/*background-position: center;*/
@@ -2376,10 +2381,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.small-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.small-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    	}
 
    	@media (min-width: 670px){
@@ -2440,10 +2445,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.medium-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.medium-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
    			/*background-position: center;*/
@@ -2458,10 +2463,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.small-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.small-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    	}
 
    	@media (min-width: 768px){
@@ -2522,10 +2527,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.medium-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.medium-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
    			/*background-position: center;*/
@@ -2540,10 +2545,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.small-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.small-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    	}
 
    	@media (min-width: 992px){
@@ -2616,10 +2621,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.medium-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.medium-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
    			/*background-position: center;*/
@@ -2634,10 +2639,10 @@ blockquote h3{
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}
-   		.small-tile:hover{
-   			/*box-shadow: 1px 1px 2px 2px #888888;*/
+   		/*.small-tile:hover{
+   			box-shadow: 1px 1px 2px 2px #888888;
    			opacity: 0.7;
-   		}
+   		}*/
    	}
 
    	@media (min-width: 1200px){
@@ -2699,10 +2704,20 @@ blockquote h3{
    		/*border: 1px solid #303030;*/
    			/*background: #ffffff;
    			opacity: 0.5;*/
+
+   			-webkit-transition: all .6s ease-in-out;
+   			-moz-transition: all .6s ease-in-out;
+   			-o-transition: all .6s ease-in-out;
+   			-ms-transition: all .6s ease-in-out;
    		}
    		.medium-tile:hover{
    			/*box-shadow: 1px 1px 2px 2px #888888;*/
-   			opacity: 0.7;
+   			/*opacity: 0.7;*/
+   			-webkit-transform:scale(1.06); /* Safari and Chrome */
+   			-moz-transform:scale(1.06); /* Firefox */
+   			-ms-transform:scale(1.06); /* IE 9 */
+   			-o-transform:scale(1.06); /* Opera */
+   			transform:scale(1.06);
    		}
    		.small-tile{
    			/*background: url('assets/images/3 - Animation.jpg') no-repeat center center;*/
@@ -2717,9 +2732,19 @@ blockquote h3{
    			/*border: 1px solid #303030;*/
    			/*background: #ffffff;
    			opacity: 0.5;*/
+
+   			-webkit-transition: all .6s ease-in-out;
+   			-moz-transition: all .6s ease-in-out;
+   			-o-transition: all .6s ease-in-out;
+   			-ms-transition: all .6s ease-in-out;
    		}
    		.small-tile:hover{
    			/*box-shadow: 1px 1px 2px 2px #888888;*/
-   			opacity: 0.7;
+   			/*opacity: 0.7;*/
+   			-webkit-transform:scale(1.06); /* Safari and Chrome */
+   			-moz-transform:scale(1.06); /* Firefox */
+   			-ms-transform:scale(1.06); /* IE 9 */
+   			-o-transform:scale(1.06); /* Opera */
+   			transform:scale(1.06);
    		}
    	}

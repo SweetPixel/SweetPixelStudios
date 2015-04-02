@@ -2138,42 +2138,42 @@ blockquote h3{
 
    	@media (min-width: 350px){
    		.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 20%;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 23%;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 28%;
-   	}
-   	.marketing-job-title{
-   		margin-left: 27%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 33%;
-   	}
-   	.killed-text{
-   		margin-top: 5%;
-   		margin-left: 31%;
-   		font-size: 40px;
-   		color: #ffffff;
-   	}
-   	#hammer-image{
-   		width: 23%;
-   		margin-top: 37%;
-   		margin-left: 39%;
-   	}
-   	.biggest-tile{
-   		width: 100%;
-   		background: url('assets/images/johnny-ace-website-image.png') no-repeat center center;
-   		/*background-position: center;*/
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		height: 370px;
-   		margin-top: 4%;
-   		/*border: 1px solid #303030;*/
+   			margin-left: 20%;
+   		}
+   		.seniorGameArtist-job-title{
+   			margin-left: 23%;
+   		}
+   		.webDeveloper-job-title{
+   			margin-left: 28%;
+   		}
+   		.marketing-job-title{
+   			margin-left: 27%;
+   		}
+   		.btn-apply-job{
+   			margin-left: 33%;
+   		}
+   		.killed-text{
+   			margin-top: 5%;
+   			margin-left: 31%;
+   			font-size: 40px;
+   			color: #ffffff;
+   		}
+   		#hammer-image{
+   			width: 23%;
+   			margin-top: 37%;
+   			margin-left: 39%;
+   		}
+   		.biggest-tile{
+   			width: 100%;
+   			background: url('assets/images/johnny-ace-website-image.png') no-repeat center center;
+   			/*background-position: center;*/
+   			-webkit-background-size: cover;
+   			-moz-background-size: cover;
+   			-o-background-size: cover;
+   			background-size: cover;
+   			height: 370px;
+   			margin-top: 4%;
+   			/*border: 1px solid #303030;*/
    		/*background: #ffffff;
    		opacity: 0.5;*/
    	}
@@ -2672,21 +2672,31 @@ blockquote h3{
    			/*border: 1px solid #303030;*/
    			/*background: #ffffff;
    			opacity: 0.5;*/
+
+   			-webkit-transition: all .6s ease-in-out;
+   			-moz-transition: all .6s ease-in-out;
+   			-o-transition: all .6s ease-in-out;
+   			-ms-transition: all .6s ease-in-out;
    		}
-   	/*.biggest-tile:hover{
-   		box-shadow: 1px 1px 2px 2px #888888;
-   		opacity: 0.7;
-   		}*/
-   		.medium-tile{
-   			background: url('assets/images/pixel-fall-website-image.png') no-repeat center center;
-   			/*background-position: center;*/
-   			-webkit-background-size: cover;
-   			-moz-background-size: cover;
-   			-o-background-size: cover;
-   			background-size: cover;
-   			height: 370px;
-   			width: 50%;
-   			/*border: 1px solid #303030;*/
+   		.biggest-tile:hover{
+   		/*box-shadow: 1px 1px 2px 2px #888888;
+   		opacity: 0.7;*/
+   		-webkit-transform:scale(1.06); /* Safari and Chrome */
+   		-moz-transform:scale(1.06); /* Firefox */
+   		-ms-transform:scale(1.06); /* IE 9 */
+   		-o-transform:scale(1.06); /* Opera */
+   		transform:scale(1.06);
+   	}
+   	.medium-tile{
+   		background: url('assets/images/pixel-fall-website-image.png') no-repeat center center;
+   		/*background-position: center;*/
+   		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+   		-o-background-size: cover;
+   		background-size: cover;
+   		height: 370px;
+   		width: 50%;
+   		/*border: 1px solid #303030;*/
    			/*background: #ffffff;
    			opacity: 0.5;*/
    		}

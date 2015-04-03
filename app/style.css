@@ -2385,7 +2385,7 @@ blockquote h3{
    		
    	}
    	.biggest-tile{
-   		
+   		position: no-repeat center center fixed;
    	}
    	.biggest-tile:hover{
    		

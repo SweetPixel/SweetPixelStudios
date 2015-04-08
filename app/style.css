@@ -2556,7 +2556,7 @@ blockquote h3{
    		-o-background-size: cover;
    		background-size: cover;
    	}
-   	#pixelfall-tile {
+   	.pixelfall-tile {
    		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;

@@ -2128,14 +2128,14 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;
    		background-size: cover;
    		width: 100%;
    		height: 500px;
-   		padding: 0px 0px;
+   		padding: 0px;
    	}
    }
 
@@ -2198,14 +2198,14 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;
    		background-size: cover;
    		width: 100%;
    		height: 500px;
-   		padding: 0px 0px;
+   		padding: 0px;
    	}
    }
 
@@ -2268,14 +2268,14 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;
    		background-size: cover;
    		width: 100%;
    		height: 500px;
-   		padding: 0px 0px;
+   		padding: 0px;
    	}
    }
 
@@ -2338,14 +2338,14 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;
    		background-size: cover;
    		width: 100%;
    		height: 500px;
-   		padding: 0px 0px;
+   		padding: 0px;
    	}
    }
 
@@ -2408,14 +2408,14 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;
    		background-size: cover;
    		width: 100%;
    		height: 500px;
-   		padding: 0px 0px;
+   		padding: 0px;
    	}
    }
 
@@ -2478,14 +2478,14 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;
    		background-size: cover;
    		width: 100%;
    		height: 500px;
-   		padding: 0px 0px;
+   		padding: 0px;
    	}
    }
 
@@ -2560,14 +2560,14 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;
    		background-size: cover;
    		width: 100%;
    		height: 500px;
-   		padding: 0px 0px;
+   		padding: 0px;
    	}
    }
 
@@ -2627,7 +2627,7 @@ blockquote h3{
    		background-size: cover;
    	}
    	.pixelfall-tile {
-   		background: url("assets/images/pixel-fall-website-image.png") no-repeat scroll center top;
+   		background: url(assets/images/pixel-fall-website-image.png) no-repeat scroll center top;
    		-webkit-background-size: cover;
    		-moz-background-size: cover;
    		-o-background-size: cover;

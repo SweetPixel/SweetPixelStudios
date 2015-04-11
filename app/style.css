@@ -1736,743 +1736,743 @@ blockquote h3{
    ================================================== */
 
    .social ul {
-   	margin: 0;
-   	padding: 0;
-   	list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
    }
 
    .social ul li {
-   	display: inline-block;
-   	margin: 0 15px;
-   	list-style: none;
-   	cursor: pointer;
+	display: inline-block;
+	margin: 0 15px;
+	list-style: none;
+	cursor: pointer;
    }
 
    .social ul li a {
-   	display: block;
-   	width: 70px;
-   	height: 70px;
+	display: block;
+	width: 70px;
+	height: 70px;
 
-   	background: #ecf0f1;
-   	
-   	-webkit-transition: all 400ms ease-out 0s;	
-   	-moz-transition: all 400ms ease-out 0s;
-   	-o-transition: all 400ms ease-out 0s;
-   	transition: all 400ms ease-out 0s;
-   	
-   	-webkit-transform: rotateY(180deg);
-   	-moz-transform: rotateY(180deg);
-   	-ms-transform: rotateY(180deg);
-   	-o-transform: rotateY(180deg);
-   	transform: rotateY(180deg);
+	background: #ecf0f1;
+	
+	-webkit-transition: all 400ms ease-out 0s;	
+	-moz-transition: all 400ms ease-out 0s;
+	-o-transition: all 400ms ease-out 0s;
+	transition: all 400ms ease-out 0s;
+	
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
 
-   	border-right: 1px solid #31A8AC;
-   	border-left: 1px solid #31A8AC;
-   	border-top: 1px solid #31A8AC;
-   	border-bottom: 1px solid #31A8AC;
+	border-right: 1px solid #31A8AC;
+	border-left: 1px solid #31A8AC;
+	border-top: 1px solid #31A8AC;
+	border-bottom: 1px solid #31A8AC;
    }
 
    .social ul li a span {
-   	display: inline-block;
-   	margin: 0;
-   	color: #31A8AC;
-   	font-size: 32px;
-   	line-height: 70px;
-   	/*text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
-   	-webkit-transition: all 400ms ease-out 0s;	
-   	-moz-transition: all 400ms ease-out 0s;
-   	-o-transition: all 400ms ease-out 0s;
-   	transition: all 400ms ease-out 0s;
-   	
-   	-webkit-transform: rotateY(180deg);
-   	-moz-transform: rotateY(180deg);
-   	-ms-transform: rotateY(180deg);
-   	-o-transform: rotateY(180deg);
-   	transform: rotateY(180deg);
+	display: inline-block;
+	margin: 0;
+	color: #31A8AC;
+	font-size: 32px;
+	line-height: 70px;
+	/*text-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
+	-webkit-transition: all 400ms ease-out 0s;	
+	-moz-transition: all 400ms ease-out 0s;
+	-o-transition: all 400ms ease-out 0s;
+	transition: all 400ms ease-out 0s;
+	
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
    }
 
    .social ul li:hover a,
    .social ul li.active a {
-   	background-color: #31A8AC;
-   	/*box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
-   	-webkit-transform: rotateY(0deg);
-   	-moz-transform: rotateY(0deg);
-   	-ms-transform: rotateY(0deg);
-   	-o-transform: rotateY(0deg);
-   	transform: rotateY(0deg);
+	background-color: #31A8AC;
+	/*box-shadow: 5px 4px 0 rgba(0, 0, 0, 0.2);*/
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
    }
 
    .social ul li:hover a span,
    .social ul li.active a span {
-   	color: #fff;
-   	text-shadow: none;
-   	opacity: 1;
-   	filter: alpha(opacity=100);
-   	
-   	-webkit-transform: rotateY(0deg);
-   	-moz-transform: rotateY(0deg);
-   	-ms-transform: rotateY(0deg);
-   	-o-transform: rotateY(0deg);
-   	transform: rotateY(0deg);
+	color: #fff;
+	text-shadow: none;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
    }
    .copyright {
-   	padding: 25px 0 20px;
-   	color: #0A7B83;
+	padding: 25px 0 20px;
+	color: #0A7B83;
    }
    @media (max-width: 768px) {
-   	.copyright {
-   		text-align: center;
-   	}
-   	.copyright span {
-   		float: none;
-   		display: block;
-   	}
+	.copyright {
+		text-align: center;
+	}
+	.copyright span {
+		float: none;
+		display: block;
+	}
    }
 
 
    @media (max-width:979px) {
-   	.navbar-fixed-top, .navbar-fixed-bottom {position:fixed;}
-   	.navbar-fixed-top .navbar-inner{padding:0}
-   	.serv-icon{display: none}
+	.navbar-fixed-top, .navbar-fixed-bottom {position:fixed;}
+	.navbar-fixed-top .navbar-inner{padding:0}
+	.serv-icon{display: none}
    }
    @media (max-width: 979px) and (min-width: 768px){
-   	#about{margin-top: -75px;}
-   	.team-icon{ display:none; }
-   	.team-inner:hover .team-social ul {top: 45%;}
-   	.carousel-indicators{display: none;}
-   	.social ul li {margin-left: 15px;}
-   	.social ul li a { width: 50px;	height: 50px;}
-   	.social ul li a span {	font-size: 24px; line-height: 50px;}
-   	.dot-build-2{
-   		-webkit-animation: dotAnim 10s infinite ease both;
-   		-moz-animation: dotAnim 10s infinite ease both;
-   		-ms-animation: dotAnim 10s infinite ease both;
-   		-o-animation: dotAnim 10s infinite ease both;
-   		animation: dotAnim 10s infinite ease both;
+	#about{margin-top: -75px;}
+	.team-icon{ display:none; }
+	.team-inner:hover .team-social ul {top: 45%;}
+	.carousel-indicators{display: none;}
+	.social ul li {margin-left: 15px;}
+	.social ul li a { width: 50px;	height: 50px;}
+	.social ul li a span {	font-size: 24px; line-height: 50px;}
+	.dot-build-2{
+		-webkit-animation: dotAnim 10s infinite ease both;
+		-moz-animation: dotAnim 10s infinite ease both;
+		-ms-animation: dotAnim 10s infinite ease both;
+		-o-animation: dotAnim 10s infinite ease both;
+		animation: dotAnim 10s infinite ease both;
 
-   		/*-webkit-animation: none;
-   		-moz-animation: none;
-   		-ms-animation: none;
-   		-o-animation: none;
-   		animation: none;*/
-   		left: 44.5%;
-   		top: 40%;
-   	}
-   	.about-icon{ line-height: 40px; width: 40px; height: 40px; font-size: 25px;}
-   	.nav-tabs>li>a{padding: 5px 20px; font-size: 18px;}
-   	.inner-filters li{margin: 10px 0;}
-   	.serv-icon{display: none}
-   	.pricing-box .btn-primary{ padding: 5px 10px 5px 10px; }
+		/*-webkit-animation: none;
+		-moz-animation: none;
+		-ms-animation: none;
+		-o-animation: none;
+		animation: none;*/
+		left: 44.5%;
+		top: 40%;
+	}
+	.about-icon{ line-height: 40px; width: 40px; height: 40px; font-size: 25px;}
+	.nav-tabs>li>a{padding: 5px 20px; font-size: 18px;}
+	.inner-filters li{margin: 10px 0;}
+	.serv-icon{display: none}
+	.pricing-box .btn-primary{ padding: 5px 10px 5px 10px; }
    }
    @media (min-width: 768px) {
-   	.navbar > .container .navbar-brand {
-   		margin-left: -42px;
-   	}
+	.navbar > .container .navbar-brand {
+		margin-left: -42px;
+	}
    }
    @media (max-width: 767px){
-   	.serv-icon{display: none}
-   	.navbar ul {
-   		width: 100%!important;
-   		float: right!important;
-   		margin: 0 auto!important;
-   	}
-   	body {padding-right:0; padding-left:0;}
-   	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {margin:0}
-   	.container {margin-right: 15px;margin-left: 15px;}
-   	#about{margin-top: -75px;}
-   	.pricing-5-col .pricing-box { width: 100%;}
-   	.carousel-indicators{display: none;}
-   	#work .join-des span {padding: 12px 12px;font-size: 33px;}
-   	.social ul li {margin-left: 15px;}
-   	.social ul li a { width: 50px;	height: 50px;}
-   	.social ul li a span {	font-size: 24px; line-height: 50px;}
-   	.social ul li {margin: 15px;}
-   	.dot-build-2{
-   		-webkit-animation: none;
-   		-moz-animation: none;
-   		-ms-animation: none;
-   		-o-animation: none;
-   		animation: none;
-   	}
-   	.about-icon{ line-height: 40px; width: 40px; height: 40px; font-size: 25px;}
-   	.dot{display: none}
-   	#home{ height: auto}
-   	.fancy-header p,.title p,.build{padding: 0}
-   	.second-title{width: 100%;}
-   	.filterable-item figcaption h3{margin-top: 5px;}
-   	.navbar .nav>li>a{padding: 22px;}
-   	.serv h3,
-   	.text-right,.text-left{float: none; text-align: center;}
-   	.nav-tabs>li>a{padding: 5px 20px; font-size: 14px; font-weight: 400}
-   	.inner-filters li{margin: 10px 0;}
-   	.carousel-inner > .item img{ width: 100% }
-   	#home .flexslider{ padding-top: 60px; }
-   	.container > .navbar-header, .container > .navbar-collapse{ padding: 5px 0 }
-   	.project {padding: 0;}
-   	.look{margin-top: 20px;}
-   	.copyright .pull-right{ display: none; }
+	.serv-icon{display: none}
+	.navbar ul {
+		width: 100%!important;
+		float: right!important;
+		margin: 0 auto!important;
+	}
+	body {padding-right:0; padding-left:0;}
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {margin:0}
+	.container {margin-right: 15px;margin-left: 15px;}
+	#about{margin-top: -75px;}
+	.pricing-5-col .pricing-box { width: 100%;}
+	.carousel-indicators{display: none;}
+	#work .join-des span {padding: 12px 12px;font-size: 33px;}
+	.social ul li {margin-left: 15px;}
+	.social ul li a { width: 50px;	height: 50px;}
+	.social ul li a span {	font-size: 24px; line-height: 50px;}
+	.social ul li {margin: 15px;}
+	.dot-build-2{
+		-webkit-animation: none;
+		-moz-animation: none;
+		-ms-animation: none;
+		-o-animation: none;
+		animation: none;
+	}
+	.about-icon{ line-height: 40px; width: 40px; height: 40px; font-size: 25px;}
+	.dot{display: none}
+	#home{ height: auto}
+	.fancy-header p,.title p,.build{padding: 0}
+	.second-title{width: 100%;}
+	.filterable-item figcaption h3{margin-top: 5px;}
+	.navbar .nav>li>a{padding: 22px;}
+	.serv h3,
+	.text-right,.text-left{float: none; text-align: center;}
+	.nav-tabs>li>a{padding: 5px 20px; font-size: 14px; font-weight: 400}
+	.inner-filters li{margin: 10px 0;}
+	.carousel-inner > .item img{ width: 100% }
+	#home .flexslider{ padding-top: 60px; }
+	.container > .navbar-header, .container > .navbar-collapse{ padding: 5px 0 }
+	.project {padding: 0;}
+	.look{margin-top: 20px;}
+	.copyright .pull-right{ display: none; }
    }
    @media (max-width: 480px) {
-   	.navbar-fixed-top{ display: none; }
-   	.join-des span,.join-des span:hover{ padding: 0; background: transparent; border: 0;}
-   	.create .btn-primary{ margin: 10px auto 0; }
-   	.filterable-item figcaption h3{ margin-top: 30px }
+	.navbar-fixed-top{ display: none; }
+	.join-des span,.join-des span:hover{ padding: 0; background: transparent; border: 0;}
+	.create .btn-primary{ margin: 10px auto 0; }
+	.filterable-item figcaption h3{ margin-top: 30px }
    }
    .doc-loader { background-color: #fff; position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999; }
    .mapPreLoading {
-   	position: relative;
-   	margin: auto;
-   	text-align: center;
+	position: relative;
+	margin: auto;
+	text-align: center;
    }
    .mapPreLoading h4{
-   	font-size: 48px;
-   	font-weight: 400;
-   	text-transform: uppercase;
-   	color: #333;
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #333;
    }
    .mapPreLoading span {
-   	display: block;
-   	margin: 0 auto;
+	display: block;
+	margin: 0 auto;
    }
    .mapPreLoading span[class*="l-"] {
-   	display: inline-block;
-   	background: #0A7B83;
-   	width: 30px;
-   	height: 30px;
-   	-webkit-border-radius: 100%;
-   	-moz-border-radius: 100%;
-   	border-radius: 100%;
-   	margin: 12px 2px;
-   	position: relative;
-   	-webkit-animation: loader 4s infinite;
-   	-webkit-animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
-   	-webkit-animation-fill-mode: both;
-   	-moz-animation: loader 4s infinite;
-   	-moz-animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
-   	-moz-animation-fill-mode: both;
-   	-ms-animation: loader 4s infinite;
-   	-ms-animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
-   	-ms-animation-fill-mode: both;
-   	animation: loader 4s infinite;
-   	animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
-   	animation-fill-mode: both;
+	display: inline-block;
+	background: #0A7B83;
+	width: 30px;
+	height: 30px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	margin: 12px 2px;
+	position: relative;
+	-webkit-animation: loader 4s infinite;
+	-webkit-animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
+	-webkit-animation-fill-mode: both;
+	-moz-animation: loader 4s infinite;
+	-moz-animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
+	-moz-animation-fill-mode: both;
+	-ms-animation: loader 4s infinite;
+	-ms-animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
+	-ms-animation-fill-mode: both;
+	animation: loader 4s infinite;
+	animation-timing-function: cubic-bezier(0.030, 0.615, 0.995, 0.415);
+	animation-fill-mode: both;
    }
    .mapPreLoading span.l-1 {
-   	-webkit-animation-delay: 1s;
-   	-moz-animation-delay: 1s;
-   	-ms-animation-delay: 1s;
-   	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	animation-delay: 1s;
    }
    .mapPreLoading span.l-2 {
-   	-webkit-animation-delay: 0.8s;
-   	-moz-animation-delay: 0.8s;
-   	-ms-animation-delay: 0.8s;
-   	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
+	-moz-animation-delay: 0.8s;
+	-ms-animation-delay: 0.8s;
+	animation-delay: 0.8s;
    }
    .mapPreLoading span.l-3 {
-   	-webkit-animation-delay: 0.6s;
-   	-moz-animation-delay: 0.6s;
-   	-ms-animation-delay: 0.6s;
-   	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+	-moz-animation-delay: 0.6s;
+	-ms-animation-delay: 0.6s;
+	animation-delay: 0.6s;
    }
    .mapPreLoading span.l-4 {
-   	-webkit-animation-delay: 0.4s;
-   	-moz-animation-delay: 0.4s;
-   	-ms-animation-delay: 0.4s;
-   	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+	-ms-animation-delay: 0.4s;
+	animation-delay: 0.4s;
    }
    .mapPreLoading span.l-5 {
-   	-webkit-animation-delay: 0.2s;
-   	-moz-animation-delay: 0.2s;
-   	-ms-animation-delay: 0.2s;
-   	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;
+	-ms-animation-delay: 0.2s;
+	animation-delay: 0.2s;
    }
    .mapPreLoading span.l-6 {
-   	-webkit-animation-delay: 0s;
-   	-moz-animation-delay: 0s;
-   	-ms-animation-delay: 0s;
-   	animation-delay: 0s;
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	animation-delay: 0s;
    }
 
    @-webkit-keyframes loader {
-   	0% {
-   		-webkit-transform: translateX(-30px);
-   		opacity: 0;
-   	}
-   	25% {
-   		opacity: 1;
-   	}
-   	50% {
-   		-webkit-transform: translateX(30px);
-   		opacity: 0;
-   	}
-   	100% {
-   		opacity: 0;
-   	}
+	0% {
+		-webkit-transform: translateX(-30px);
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		-webkit-transform: translateX(30px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
    }
    @-moz-keyframes loader {
-   	0% {
-   		-moz-transform: translateX(-30px);
-   		opacity: 0;
-   	}
-   	25% {
-   		opacity: 1;
-   	}
-   	50% {
-   		-moz-transform: translateX(30px);
-   		opacity: 0;
-   	}
-   	100% {
-   		opacity: 0;
-   	}
+	0% {
+		-moz-transform: translateX(-30px);
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		-moz-transform: translateX(30px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
    }
    @-ms-keyframes loader {
-   	0% {
-   		-ms-transform: translateX(-30px);
-   		opacity: 0;
-   	}
-   	25% {
-   		opacity: 1;
-   	}
-   	50% {
-   		-ms-transform: translateX(30px);
-   		opacity: 0;
-   	}
-   	100% {
-   		opacity: 0;
-   	}
+	0% {
+		-ms-transform: translateX(-30px);
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		-ms-transform: translateX(30px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
    }
    @keyframes loader {
-   	0% {
-   		transform: translateX(-30px);
-   		opacity: 0;
-   	}
-   	25% {
-   		opacity: 1;
-   	}
-   	50% {
-   		transform: translateX(30px);
-   		opacity: 0;
-   	}
-   	100% {
-   		opacity: 0;
-   	}
+	0% {
+		transform: translateX(-30px);
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		transform: translateX(30px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
    }
 
    /* edit  */
    .second-title span.highlighted {
-   	-webkit-animation: none;
-   	-moz-animation: none;
-   	animation: none;
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
    }
 
    /*Bootstrap settings*/
    
 
    @media (min-width: 320px){
-   	.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 20%;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 23%;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 28%;
-   	}
-   	.marketing-job-title{
-   		margin-left: 27%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 33%;
-   	}
-   	.killed-text{
-   		margin-top: 5%;
-   		margin-left: 30%;
-   		font-size: 40px;
-   		color: #ffffff;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title{
+		margin-left: 20%;
+	}
+	.seniorGameArtist-job-title{
+		margin-left: 23%;
+	}
+	.webDeveloper-job-title{
+		margin-left: 28%;
+	}
+	.marketing-job-title{
+		margin-left: 27%;
+	}
+	.btn-apply-job{
+		margin-left: 33%;
+	}
+	.killed-text{
+		margin-top: 5%;
+		margin-left: 30%;
+		font-size: 40px;
+		color: #ffffff;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }
 
    @media (min-width: 350px){
-   	.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 20%;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 23%;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 28%;
-   	}
-   	.marketing-job-title{
-   		margin-left: 27%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 33%;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title{
+		margin-left: 20%;
+	}
+	.seniorGameArtist-job-title{
+		margin-left: 23%;
+	}
+	.webDeveloper-job-title{
+		margin-left: 28%;
+	}
+	.marketing-job-title{
+		margin-left: 27%;
+	}
+	.btn-apply-job{
+		margin-left: 33%;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }
 
    @media (min-width: 470px){
-   	.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 30%;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 32%;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 35%;
-   	}
-   	.marketing-job-title{
-   		margin-left: 35%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 40%;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title{
+		margin-left: 30%;
+	}
+	.seniorGameArtist-job-title{
+		margin-left: 32%;
+	}
+	.webDeveloper-job-title{
+		margin-left: 35%;
+	}
+	.marketing-job-title{
+		margin-left: 35%;
+	}
+	.btn-apply-job{
+		margin-left: 40%;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }
 
    @media (min-width: 570px){
-   	.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 36%;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 37%;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 39%;
-   	}
-   	.marketing-job-title{
-   		margin-left: 40%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 41%;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title{
+		margin-left: 36%;
+	}
+	.seniorGameArtist-job-title{
+		margin-left: 37%;
+	}
+	.webDeveloper-job-title{
+		margin-left: 39%;
+	}
+	.marketing-job-title{
+		margin-left: 40%;
+	}
+	.btn-apply-job{
+		margin-left: 41%;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }
 
    @media (min-width: 670px){
-   	.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 36%;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 37%;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 39%;
-   	}
-   	.marketing-job-title{
-   		margin-left: 40%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 43%;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title{
+		margin-left: 36%;
+	}
+	.seniorGameArtist-job-title{
+		margin-left: 37%;
+	}
+	.webDeveloper-job-title{
+		margin-left: 39%;
+	}
+	.marketing-job-title{
+		margin-left: 40%;
+	}
+	.btn-apply-job{
+		margin-left: 43%;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }
 
    @media (min-width: 768px){
-   	.seniorUnity-job-title, .junioUnity-job-title{
-   		margin-left: 38%;
-   	}
-   	.seniorGameArtist-job-title{
-   		margin-left: 40%;
-   	}
-   	.webDeveloper-job-title{
-   		margin-left: 41%;
-   	}
-   	.marketing-job-title{
-   		margin-left: 40%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 44%;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title{
+		margin-left: 38%;
+	}
+	.seniorGameArtist-job-title{
+		margin-left: 40%;
+	}
+	.webDeveloper-job-title{
+		margin-left: 41%;
+	}
+	.marketing-job-title{
+		margin-left: 40%;
+	}
+	.btn-apply-job{
+		margin-left: 44%;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }
 
    @media (min-width: 992px){
-   	.seniorUnity-job-title, .junioUnity-job-title,
-   	.seniorGameArtist-job-title, .webDeveloper-job-title{
-   		margin-left: 0px;
-   	}
-   	.btn-apply-job{
-   		margin-left: 0px;
-   	}
-   	.web-skill-set{
-   		width: 20%;
-   		margin-left: 9%;
-   	}
-   	.game-skill-set{
-   		width: 20%;
-   		margin-left: 11%;
-   	}
-   	.mobile-skill-set{
-   		width: 20%;
-   		margin-left: 11.2%;
-   	}
-   	.game-dev-skill-set{
-   		width: 20%;
-   		margin-left: 23%;
-   	}
-   	.UI-skill-set{
-   		width: 20%;
-   		margin-left: 11%;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title,
+	.seniorGameArtist-job-title, .webDeveloper-job-title{
+		margin-left: 0px;
+	}
+	.btn-apply-job{
+		margin-left: 0px;
+	}
+	.web-skill-set{
+		width: 20%;
+		margin-left: 9%;
+	}
+	.game-skill-set{
+		width: 20%;
+		margin-left: 11%;
+	}
+	.mobile-skill-set{
+		width: 20%;
+		margin-left: 11.2%;
+	}
+	.game-dev-skill-set{
+		width: 20%;
+		margin-left: 23%;
+	}
+	.UI-skill-set{
+		width: 20%;
+		margin-left: 11%;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }
 
    @media (min-width: 1200px){
-   	.seniorUnity-job-title, .junioUnity-job-title,
-   	.seniorGameArtist-job-title, .webDeveloper-job-title,
-   	.marketing-job-title{
-   		margin-left: 0%;
-   	}
-   	.btn-apply-job{
-   		margin-left: 0%
-   	}
-   	.games-navbar {
-   		margin-bottom: 0px;
-   		
-   	}
-   	#pixel-fall-tile {
-   		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center fixed;
-   		width: 100%;
-   		height: 500px;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   	}
-   	#johnny-ace-tile {
-   		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center fixed;
-   		-webkit-background-size: cover;
-   		-moz-background-size: cover;
-   		-o-background-size: cover;
-   		background-size: cover;
-   		width:100%;
-   		height:500px;
-   	}
-   	.mg-image img {
-   		-webkit-transition: all 1s ease; /* Safari and Chrome */
-   		-moz-transition: all 1s ease; /* Firefox */
-   		-o-transition: all 1s ease; /* IE 9 */
-   		-ms-transition: all 1s ease; /* Opera */
-   		transition: all 1s ease;
-   		max-width: 100%;
-   	}
-   	.mg-image:hover img {
-   		-webkit-transform:scale(1.25); /* Safari and Chrome */
-   		-moz-transform:scale(1.25); /* Firefox */
-   		-ms-transform:scale(1.25); /* IE 9 */
-   		-o-transform:scale(1.25); /* Opera */
-   		transform:scale(1.25);
-   	}
-   	/* just apply some height and width to the wrapper.*/
-   	.mg-image {
-   		width:100%;
-   		height:500px;
-   		overflow: auto;
-   	}
+	.seniorUnity-job-title, .junioUnity-job-title,
+	.seniorGameArtist-job-title, .webDeveloper-job-title,
+	.marketing-job-title{
+		margin-left: 0%;
+	}
+	.btn-apply-job{
+		margin-left: 0%
+	}
+	.games-navbar {
+		margin-bottom: 0px;
+		
+	}
+	#pixel-fall-tile {
+		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
+		width: 100%;
+		height: 500px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#johnny-ace-tile {
+		background:url(assets/images/johnny-ace-website-image.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		height:500px;
+	}
+	.mg-image img {
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-o-transition: all 1s ease; /* IE 9 */
+		-ms-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		max-width: 100%;
+	}
+	.mg-image:hover img {
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	/* just apply some height and width to the wrapper.*/
+	.mg-image {
+		width:100%;
+		height:500px;
+		overflow: auto;
+	}
    }

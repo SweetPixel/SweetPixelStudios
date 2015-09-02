@@ -2590,6 +2590,9 @@ blockquote h3{
 		margin-top: 10%;
 		margin-left: 45%;
 	}
+	#shooter-man-tile {
+		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center;
+	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
 		width: 100%;

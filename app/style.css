@@ -2105,6 +2105,16 @@ blockquote h3{
 		margin-top: 25%;
 		margin-left: 39%;
 	}
+	#shooter-man-tile {
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
+	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
 		width: 100%;
@@ -2172,6 +2182,16 @@ blockquote h3{
 		width: 20%;
 		margin-top: 25%;
 		margin-left: 40%;
+	}
+	#shooter-man-tile {
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
 	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
@@ -2241,6 +2261,16 @@ blockquote h3{
 		margin-top: 12%;
 		margin-left: 42%;
 	}
+	#shooter-man-tile {
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
+	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
 		width: 100%;
@@ -2308,6 +2338,16 @@ blockquote h3{
 		width: 20%;
 		margin-top: 12%;
 		margin-left: 42%;
+	}
+	#shooter-man-tile {
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
 	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
@@ -2377,6 +2417,16 @@ blockquote h3{
 		margin-top: 12%;
 		margin-left: 41%;
 	}
+	#shooter-man-tile {
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
+	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
 		width: 100%;
@@ -2444,6 +2494,16 @@ blockquote h3{
 		font-size: 45px;
 		margin-top: 2%;
 		color: #FFF;
+	}
+	#shooter-man-tile {
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
 	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
@@ -2525,6 +2585,16 @@ blockquote h3{
 		margin-top: 12%;
 		margin-left: 43.5%;
 	}
+	#shooter-man-tile {
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
+	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;
 		width: 100%;
@@ -2591,7 +2661,14 @@ blockquote h3{
 		margin-left: 45%;
 	}
 	#shooter-man-tile {
-		background: url(assets/images/pixel-fall-website-image.png) no-repeat center center;
+		background: url(assets/images/shootman-runner-sps_720.png) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width:100%;
+		background-size:100%;
+		height:500px;
 	}
 	#pixel-fall-tile {
 		background:url(assets/images/pixel-fall-website-image.png) no-repeat center center;

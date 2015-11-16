@@ -2571,9 +2571,9 @@ blockquote h3{
 	#click-me-text {
 		border-radius: 0px;
 		font-family: Arial;
-		color: #2AA876;
+		color: transparent;
 		font-size: 20px;
-		border: 1px solid #2AA876;
+		border: 1px solid transparent;
 		text-decoration: none;
 		margin-top: 15%;
 		width: 48%;
@@ -2581,16 +2581,16 @@ blockquote h3{
 		text-align: center;
 	}
 	#click-me-text:hover {
-		background: #208a60;
+		background: transparent;
 		text-decoration: none;
-		color: #fff;
+		color: transparent;
 	}
 	#click-me-text-johnnyace {
 		border-radius: 0px;
 		font-family: Arial;
-		color: #2AA876;
+		color: transparent;
 		font-size: 20px;
-		border: 1px solid #2AA876;
+		border: 1px solid transparent;
 		text-decoration: none;
 		margin-top: 15%;
 		width: 48%;
@@ -2598,9 +2598,9 @@ blockquote h3{
 		text-align: center;
 	}
 	#click-me-text-johnnyace:hover {
-		background: #208a60;
+		background: transparent;
 		text-decoration: none;
-		color: #fff;
+		color: transparent;
 	}
 	div.wrap {
 		height: 600px;
@@ -2693,9 +2693,9 @@ blockquote h3{
 	#click-me-text {
 		border-radius: 0px;
 		font-family: Arial;
-		color: #2AA876;
+		color: transparent;
 		font-size: 20px;
-		border: 1px solid #2AA876;
+		border: 1px solid transparent;
 		text-decoration: none;
 		margin-top: 14%;
 		width: 25%;
@@ -2703,16 +2703,16 @@ blockquote h3{
 		text-align: center;
 	}
 	#click-me-text:hover {
-		background: #208a60;
+		background: transparent;
 		text-decoration: none;
-		color: #fff;
+		color: transparent;
 	}
 	#click-me-text-johnnyace {
 		border-radius: 0px;
 		font-family: Arial;
-		color: #2AA876;
+		color: transparent;
 		font-size: 20px;
-		border: 1px solid #2AA876;
+		border: 1px solid transparent;
 		text-decoration: none;
 		margin-top: 10%;
 		width: 25%;
@@ -2720,9 +2720,9 @@ blockquote h3{
 		text-align: center;
 	}
 	#click-me-text-johnnyace:hover {
-		background: #208a60;
+		background: transparent;
 		text-decoration: none;
-		color: #fff;
+		color: transparent;
 	}
 	div.wrap {
 		height: 600px;
@@ -2800,9 +2800,9 @@ blockquote h3{
 	#click-me-text {
 		border-radius: 0px;
 		font-family: Arial;
-		color: #2AA876;
+		color: transparent;
 		font-size: 20px;
-		border: 1px solid #2AA876;
+		border: 1px solid transparent;
 		text-decoration: none;
 		margin-top: 14%;
 		width: 25%;
@@ -2810,16 +2810,16 @@ blockquote h3{
 		text-align: center;
 	}
 	#click-me-text:hover {
-		background: #208a60;
+		background: transparent;
 		text-decoration: none;
-		color: #fff;
+		color: transparent;
 	}
 	#click-me-text-johnnyace {
 		border-radius: 0px;
 		font-family: Arial;
-		color: #2AA876;
+		color: transparent;
 		font-size: 20px;
-		border: 1px solid #2AA876;
+		border: 1px solid transparent;
 		text-decoration: none;
 		margin-top: 10%;
 		width: 25%;
@@ -2827,9 +2827,9 @@ blockquote h3{
 		text-align: center;
 	}
 	#click-me-text-johnnyace:hover {
-		background: #208a60;
+		background: transparent;
 		text-decoration: none;
-		color: #fff;
+		color: transparent;
 	}
 	div.wrap {
 		height: 600px;

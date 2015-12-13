@@ -1,0 +1,146 @@
+body,.fancy-header h1{
+	/*color: #fefdfb*/
+	color: #606060;
+}
+h2,h3,h4,h5{
+	/*color: #ecf0f1;*/
+	color: #606060;
+}
+
+/*Removing default border color of input fields of bootstrap*/
+textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus, 
+input[type="password"]:focus, input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, input[type="date"]:focus, 
+input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, 
+input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, 
+input[type="search"]:focus, input[type="tel"]:focus,  input[type="color"]:focus, .uneditable-input:focus, .form-control:focus {  
+	border-color: none;
+	box-shadow: none;
+	outline: none;
+}
+
+#gallery,#price,#services,#landing,
+.progress,
+.counters li,
+.team > ul li,
+.team-social li a:hover,
+.filterable-item figcaption h3:after,
+.look:hover,
+.testi-client > ul li,
+.overlay-home {
+	/*background: #9f3444*/
+	background: #ECF0F1
+}
+.title h1,
+.feat-icon,
+.inner-filters li a,
+.serv-icon,
+.look{
+	border-color: #F5F9FA;
+}
+.title h1,
+.feat-icon,
+.serv-icon,
+.pricing-box .btn-primary,
+.team-social li a,
+.progress .bar,
+.inner-filters li a,
+.inner-filters li:hover a, .inner-filters li.active a,
+.filterable-item figcaption,
+.filterable-item figcaption h3,
+.look,
+/*.btn-block, .btn-block:hover,*/
+.map-holder,
+.create .btn-primary:hover,
+.second .btn-primary:hover,
+.join-des .btn-primary:hover,
+.social ul li:hover a span,
+.social ul li.active a span{
+	/*color: #9f3444;*/
+	color: #F5F9FA;
+}
+.btn-block {
+	background-color: transparent;
+	border: 2px solid #334d5c;
+	color: #334d5c;
+}
+.btn-block:hover, .btn-block:active {
+	background-color: #334d5c;
+	color: #ffffff;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
+.app,
+.process,
+.skills,
+.clients,
+.pricing-box li.price-row,.pricing-box li.btn-row{
+	/*background: #b83d4f*/
+	background: #ffffff
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
+#services .title h1,
+.skills .title h1,
+.join-des span:hover,
+.team-inner,
+.client,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
+.dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
+.nav-tabs>li>a,.nav-tabs>li>a:hover{
+	/*border-color: #ffffff;*/
+}
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon, .dot-build-4 .icon,
+.dot-build-5 .icon, .dot-build-6 .icon, .dot-build-7 .icon,
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a{
+	color: #ffffff;
+}
+#contact #submit:hover{
+	background: #334d5c;
+}
+.pricing-5-col,.pricing-box ul,.pricing-box li,.pricing-box li,#contact #submit:hover{
+	border-color: #334d5c;
+}
+
+.navbar {
+	/*background: #b0495a;*/
+	background: #2AA876;
+}
+.copyright {
+	background: #ffffff;
+}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus,
+.navbar .nav>li>a:hover{
+	background: #ECF0F1;
+	color: #2AA876;
+}
+
+.join-des span{
+	border-color: #2ecc71;
+}
+.nav-tabs>li>a:hover{
+	border-color: #00D8CC;
+	box-shadow: 0px 0px 0px 4px #b83d4f,0px 0px 0px 7px #00D8CC;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus{ 
+	border-color: #334d5c;
+	/*-webkit-box-shadow: inset 0 1px 1px #b52244;
+	-moz-box-shadow: inset 0 1px 1px #b52244;
+	box-shadow: inset 0 1px 1px #b52244;*/
+}
+@media (max-width: 480px) {
+.join-des span,.join-des span:hover{ padding: 0; background: transparent; border: 0; box-shadow: none}
+}
+
+/*CUSTOMIZED SETTINGS*/
+#about,#work {
+	background: #ffffff;
+}
+.build {
+	background: #ECF0F1;
+}
+#team, #contact {
+	background: #ffffff;
+}

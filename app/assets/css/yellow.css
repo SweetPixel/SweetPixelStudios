@@ -1,0 +1,82 @@
+
+.title h1,
+.second .btn-primary:hover,
+.pricing-box .btn-primary,
+.join-des .btn-primary:hover,
+.h1-line,
+.feat-icon,
+.feature-box:hover .feat-icon,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.serv-icon,
+.nav-tabs>li>a,.nav-tabs>li>a:hover,
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.team-social li a,
+.progress .bar,
+.inner-filters li a,
+.inner-filters li:hover a, .inner-filters li.active a,
+.client,
+.create .btn-primary:hover,
+.map-holder,
+.btn-block, .btn-block:hover,
+.social ul li:hover a,
+.social ul li.active a{
+	background: #f6f46d;
+}
+.clients-title{
+	background: rgba(246, 244, 109, 0.5)
+}
+.filterable-item figcaption{
+	background: rgba(246, 244, 109, 0.8)
+}
+a,
+.color,
+.counters i,
+.pricing-box li h1,
+.pricing-box .btn-primary:hover,
+.team-icon,.team-social li a:hover,
+.look:hover,
+.social ul li a span,
+.copyright,
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus{
+	color: #f6f46d;
+}
+.second .btn-primary:hover,
+.h1-line-left,
+.h1-line-right,
+.nav-tabs>li>a:hover,
+.pricing-box .btn-primary,.pricing-box .btn-primary:hover,
+.join-des .btn-primary:hover,
+.team-icon,
+.team-inner:hover,
+.inner-filters li:hover a, .inner-filters li.active a,
+.inner-filters li,
+.client:hover,
+.create .btn-primary:hover{
+	border-color: #f6f46d
+}
+.feat-icon:after{
+	border: 15px solid #f6f46d
+}
+.counters li,
+.testi-client > ul li{
+	border-left: 3px solid #f6f46d;
+	border-right: 3px solid #f6f46d
+}
+.clients-title:after{
+	border: 10px solid rgba(246, 244, 109, 0.5);
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+}
+.title h1,
+.feat-icon,
+.dot-build .icon, .dot-build-2 .icon, .dot-build-3 .icon,
+.serv-icon,
+.nav-tabs>li>a,
+.inner-filters li a,
+.client{
+	box-shadow: 0px 0px 0px 3px #f6f46d
+}
+.nav-tabs>li>a:hover{
+	box-shadow: 0px 0px 0px 4px #b83d4f,0px 0px 0px 7px #f6f46d
+}

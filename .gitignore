@@ -1,8 +1,8 @@
 node_modules
 .tmp
-bower_components
 test/bower_components
 test
 dploy.yaml
 npm-debug.log
 dist/.rev
+dist

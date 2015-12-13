@@ -24,6 +24,13 @@ module.exports = function (grunt) {
     // Define the configuration for all the tasks
     grunt.initConfig({
 
+        githooks: {
+          all: {
+            // Will run the jshint and test:unit tasks at every commit
+            'pre-commit': 'jshint',
+        }
+      },
+
         // Project settings
         config: config,
 
@@ -34,7 +41,7 @@ module.exports = function (grunt) {
                 tasks: ['bowerInstall']
             },
             js: {
-                files: ['<%= config.app %>/scripts/{,*/}*.js'],
+                files: ['<%= config.app %>/assets/scripts/{,*/}*.js'],
                 tasks: ['jshint'],
                 options: {
                     livereload: true
@@ -52,7 +59,8 @@ module.exports = function (grunt) {
                 tasks: ['less:server', 'autoprefixer']
             },
             styles: {
-                files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
+                // files: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.css'],
+            files: ['<%= config.app %>/assets/css/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
             },
             livereload: {
@@ -61,7 +69,8 @@ module.exports = function (grunt) {
                 },
                 files: [
                     '<%= config.app %>/{,*/}*.html',
-                    '.tmp/mobile-games-ios-android-styles/{,*/}*.css',
+                    '<%= config.app %>/{,*/}*.css',  // Added this line to check the liverreload working for style.css file
+                    '.tmp/css/{,*/}*.css',
                     '<%= config.app %>/images/{,*/}*'
                 ]
             }
@@ -131,11 +140,29 @@ module.exports = function (grunt) {
                 reporter: require('jshint-stylish')
             },
             all: [
-                'Gruntfile.js',
-                '<%= config.app %>/indie-gaming-pakistan-scripts/{,*/}*.js',
-                '!<%= config.app %>/scripts/vendor/*',
-                'test/spec/{,*/}*.js'
+                // 'Gruntfile.js',
+                // '<%= config.app %>/indie-gaming-pakistan-scripts/{,*/}*.js',
+            '<%= config.app %>/assets/js/demo/{,*/}*.js',
+            '<%= config.app %>/assets/js/filterable/{,*/}*.js',
+            '<%= config.app %>/assets/js/flexslider/{,*/}*.js',
+            '<%= config.app %>/assets/js/gmap/{,*/}*.js',
+            '<%= config.app %>/assets/js/nav/{,*/}*.js',
+            '<%= config.app %>/assets/js/parallax/{,*/}*.js',
+            '<%= config.app %>/assets/js/supersized/{,*/}*.js',
+            '<%= config.app %>/assets/js/{,*/}*.js',
+                '!<%= config.app %>/scripts/vendor/*'
             ]
+        },
+
+        csslint: {
+          strict: {
+            options: {
+              import: 2
+            },
+            src: [
+                  '<%= config.app %>/*.css'
+            ]
+          }
         },
 
         // Mocha testing framework configuration options
@@ -160,7 +187,8 @@ module.exports = function (grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    // cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    cwd: '<%= config.app %>/assets/css',
                     src: '{,*/}*.less',
                     dest: '.tmp/styles',
                     ext: '.css'
@@ -174,7 +202,8 @@ module.exports = function (grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    // cwd: '<%= config.app %>/mobile-games-ios-android-styles',
+                    cwd: '<%= config.app %>/assets/css',
                     src: '{,*/}*.less',
                     dest: '.tmp/styles',
                     ext: '.css'
@@ -190,9 +219,11 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '.tmp/mobile-games-ios-android-styles/',
+                    // cwd: '.tmp/mobile-games-ios-android-styles/',
+                    cwd: '.tmp/assets/css',
                     src: '{,*/}*.css',
-                    dest: '.tmp/mobile-games-ios-android-styles/'
+                    // dest: '.tmp/mobile-games-ios-android-styles/'
+                    dest: '.tmp/assets/css'
                 }]
             }
         },
@@ -205,7 +236,8 @@ module.exports = function (grunt) {
                 exclude: ['bower_components/bootstrap/dist/js/bootstrap.js']
             },
             less: {
-                src: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.less'],
+                // src: ['<%= config.app %>/mobile-games-ios-android-styles/{,*/}*.less'],
+                src: ['<%= config.app %>/assets/css/{,*/}*.less'],
                 ignorePath: '<%= config.app %>/bower_components/'
             }
         },
@@ -249,7 +281,8 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '<%= config.app %>/sweet-pixel-studios-images',
+                    // cwd: '<%= config.app %>/sweet-pixel-studios-images',
+                    cwd: '<%= config.app %>/assets/images',
                     src: '{,*/}*.{gif,jpeg,jpg,png}',
                     dest: '<%= config.dist %>/sweet-pixel-studios-images'
                 }]
@@ -311,6 +344,7 @@ module.exports = function (grunt) {
                 scheme: 'sftp',
                 privateKey: '~/.ssh/id_rsa',
                 publicKey: '~/.ssh/id_rsa.pub',
+                passphrase: 'sayyam',
                 path: {
                     local: 'dist/',               // The local folder that you want to upload
                     remote: '/var/www/stagingsps'          // Where the files from the local file will be uploaded at in your remote server
@@ -464,60 +498,60 @@ module.exports = function (grunt) {
         grunt.task.run([target ? ('serve:' + target) : 'serve']);
     });
 
-    grunt.registerTask('copySVG', function (target) {
-      grunt.file.copy('app/sweet-pixel-studios-images/Social-Media-Icons.svg',
-      'dist/sweet-pixel-studios-images/Social-Media-Icons.svg');
-    });
+    // grunt.registerTask('copySVG', function (target) {
+    //   grunt.file.copy('app/sweet-pixel-studios-images/Social-Media-Icons.svg',
+    //   'dist/sweet-pixel-studios-images/Social-Media-Icons.svg');
+    // });
 
-    grunt.registerTask('copyAndroidStoreSVG', function (target) {
-      grunt.file.copy('app/sweet-pixel-studios-images/Android_Store.svg',
-      'dist/sweet-pixel-studios-images/Android_Store.svg');
-    });
+    // grunt.registerTask('copyAndroidStoreSVG', function (target) {
+    //   grunt.file.copy('app/sweet-pixel-studios-images/Android_Store.svg',
+    //   'dist/sweet-pixel-studios-images/Android_Store.svg');
+    // });
 
-    grunt.registerTask('copyBeBackSoonSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/be_back_soon.svg',
-            'dist/sweet-pixel-studios-images/be_back_soon.svg');
-    });
+    // grunt.registerTask('copyBeBackSoonSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/be_back_soon.svg',
+    //         'dist/sweet-pixel-studios-images/be_back_soon.svg');
+    // });
 
-    grunt.registerTask('copyFacebookSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/facebook.svg',
-            'dist/sweet-pixel-studios-images/facebook.svg');
-    });
+    // grunt.registerTask('copyFacebookSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/facebook.svg',
+    //         'dist/sweet-pixel-studios-images/facebook.svg');
+    // });
 
-    grunt.registerTask('copyFollowusSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/Follow_us_on.svg',
-            'dist/sweet-pixel-studios-images/Follow_us_on.svg');
-    });
+    // grunt.registerTask('copyFollowusSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/Follow_us_on.svg',
+    //         'dist/sweet-pixel-studios-images/Follow_us_on.svg');
+    // });
 
-    grunt.registerTask('copyGPlusSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/G+.svg',
-            'dist/sweet-pixel-studios-images/G+.svg');
-    });
+    // grunt.registerTask('copyGPlusSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/G+.svg',
+    //         'dist/sweet-pixel-studios-images/G+.svg');
+    // });
 
-    grunt.registerTask('copyiOSStoreSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/iOS_Store.svg',
-            'dist/sweet-pixel-studios-images/iOS_Store.svg');
-    });
+    // grunt.registerTask('copyiOSStoreSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/iOS_Store.svg',
+    //         'dist/sweet-pixel-studios-images/iOS_Store.svg');
+    // });
 
-    grunt.registerTask('copyPlayThisOutSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/play_this_out.svg',
-            'dist/sweet-pixel-studios-images/play_this_out.svg');
-    });
+    // grunt.registerTask('copyPlayThisOutSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/play_this_out.svg',
+    //         'dist/sweet-pixel-studios-images/play_this_out.svg');
+    // });
 
-    grunt.registerTask('copyRobotWebSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/Robot_Web.svg',
-            'dist/sweet-pixel-studios-images/Robot_Web.svg');
-    });
+    // grunt.registerTask('copyRobotWebSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/Robot_Web.svg',
+    //         'dist/sweet-pixel-studios-images/Robot_Web.svg');
+    // });
 
-    grunt.registerTask('copyTwitterSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/twitter.svg',
-            'dist/sweet-pixel-studios-images/twitter.svg');
-    });
+    // grunt.registerTask('copyTwitterSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/twitter.svg',
+    //         'dist/sweet-pixel-studios-images/twitter.svg');
+    // });
 
-    grunt.registerTask('copyRobotMobileSVG', function (target) {
-        grunt.file.copy('app/sweet-pixel-studios-images/Robot_Mobile.svg',
-            'dist/sweet-pixel-studios-images/Robot_Mobile.svg');
-    });
+    // grunt.registerTask('copyRobotMobileSVG', function (target) {
+    //     grunt.file.copy('app/sweet-pixel-studios-images/Robot_Mobile.svg',
+    //         'dist/sweet-pixel-studios-images/Robot_Mobile.svg');
+    // });
 
     grunt.registerTask('test', function (target) {
         if (target !== 'watch') {
@@ -534,6 +568,10 @@ module.exports = function (grunt) {
         ]);
     });
 
+    grunt.registerTask('dev', [
+      'githooks'
+    ]);
+
     grunt.registerTask('build', [
         'clean:dist',
         'useminPrepare',
@@ -547,17 +585,17 @@ module.exports = function (grunt) {
         'rev',
         'usemin',
         'htmlmin',
-        'copySVG',
-        'copyAndroidStoreSVG',
-        'copyBeBackSoonSVG',
-        'copyFacebookSVG',
-        'copyFollowusSVG',
-        'copyGPlusSVG',
-        'copyiOSStoreSVG',
-        'copyPlayThisOutSVG',
-        'copyRobotWebSVG',
-        'copyTwitterSVG',
-        'copyRobotMobileSVG',
+        // 'copySVG',
+        // 'copyAndroidStoreSVG',
+        // 'copyBeBackSoonSVG',
+        // 'copyFacebookSVG',
+        // 'copyFollowusSVG',
+        // 'copyGPlusSVG',
+        // 'copyiOSStoreSVG',
+        // 'copyPlayThisOutSVG',
+        // 'copyRobotWebSVG',
+        // 'copyTwitterSVG',
+        // 'copyRobotMobileSVG',
         'sitemap'
     ]);
 

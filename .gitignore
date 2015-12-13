@@ -1,6 +1,6 @@
 node_modules
 .tmp
-test/bower_components
+bower_components
 test
 dploy.yaml
 npm-debug.log
